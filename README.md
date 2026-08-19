@@ -20,6 +20,7 @@
 | **统一工作流** | Step1-5 每步明确调用哪些规则层 |
 | 素材库分离 | 短语库独立为 phrase-library.md，SKILL.md 更精炼 |
 | 模板库完整 | 18种文体框架从蒸馏笔记提取到 templates.md |
+| **新增格式规范层** | 按 GB/T 9704-2012 国标校验版面、字体字号、结构层次序数及版头/主体/版记要素 |
 | 测试框架 | 6个单元测试 + 6个对抗性测试 + 3个端到端测试 |
 
 ---
@@ -32,7 +33,8 @@ super-official-writer/
 ├── README.md                         # 本文件（执行指令）
 ├── references/
 │   ├── phrase-library.md             # 素材库（三~六字短语 + 按·拿·推搭配 + 概念封装示例）
-│   └── templates.md                  # 18种文体框架模板速查
+│   ├── templates.md                  # 18种文体框架模板速查
+│   └── format-spec.md                # GB/T 9704-2012 公文格式规范层（新增）
 └── tests/
     └── test-cases.md                 # 测试用例集 v0.1（待跑通后填充结果）
 ```
