@@ -21,6 +21,8 @@
 | 素材库分离 | 短语库独立为 phrase-library.md，SKILL.md 更精炼 |
 | 模板库完整 | 18种文体框架从蒸馏笔记提取到 templates.md |
 | **新增格式规范层** | 按 GB/T 9704-2012 国标校验版面、字体字号、结构层次序数及版头/主体/版记要素 |
+| **新增蒸馏知识库** | corpus-lingyun.md：凌云笔杆子177条+惠水组工20条视频蒸馏，35类190个实战知识单元（标题公式/即兴发言/汇报方法/金句等） |
+| **新增排版执行层** | scripts/render_docx.js：结构化JSON一键生成国标格式docx（含--demo自测） |
 | 测试框架 | 6个单元测试 + 6个对抗性测试 + 3个端到端测试 |
 
 ---
@@ -34,7 +36,10 @@ super-official-writer/
 ├── references/
 │   ├── phrase-library.md             # 素材库（三~六字短语 + 按·拿·推搭配 + 概念封装示例）
 │   ├── templates.md                  # 18种文体框架模板速查
-│   └── format-spec.md                # GB/T 9704-2012 公文格式规范层（新增）
+│   ├── format-spec.md                # GB/T 9704-2012 公文格式规范层
+│   └── corpus-lingyun.md             # 蒸馏知识库（凌云笔杆子177条+惠水组工20条视频蒸馏，35类190单元）
+├── scripts/
+│   └── render_docx.js                # 排版执行层（结构化JSON→国标格式docx，含--demo自测）
 └── tests/
     └── test-cases.md                 # 测试用例集 v0.1（待跑通后填充结果）
 ```
