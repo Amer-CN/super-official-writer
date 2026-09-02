@@ -50,6 +50,17 @@ cp -r super-official-writer/ ~/.agents/skills/super-official-writer/
 
 新开对话即自动识别，触发场景：写/改/审任何公文、材料、汇报、总结、讲话稿。
 
+### 自动更新（v0.5+）
+
+skill 每次会话首次触发时会**自动检查版本**（`scripts/version_check.py`，git ls-remote 比对远端，断网时静默跳过、绝不阻塞写作任务）。发现新版本时会提示：
+
+```
+[skill 更新] 发现新版本（本地 5601f54 → 远端 a359983）
+建议：cd 技能目录 && git pull，或重新克隆覆盖。
+```
+
+更新了什么看 [CHANGELOG.md](CHANGELOG.md)——每个版本新增的知识明细都在里面。手动检查：`python scripts/version_check.py`。
+
 ### 方式二：任意 LLM 作为系统知识
 
 把 SKILL.md 全文 + 按需引用 references/ 下文件塞进 system prompt 或 RAG 知识库。
@@ -117,6 +128,7 @@ super-official-writer/
 | v0.2 | + GB/T 9704-2012 格式规范层 |
 | v0.3 | + 蒸馏知识库（凌云 177 条 + 惠水 20 条）+ 排版执行脚本 |
 | v0.4 | + 三本书蒸馏层：文种规范（60 条）+ 核稿病例（29 条） |
+| v0.5 | + 自动更新机制（version_check + CHANGELOG）+ 捉刀人 33 期（条例精讲/格式原理）& 公文摆渡 109 期（句式模板/思维模型）蒸馏 99 条 |
 
 ## 许可与致谢
 
