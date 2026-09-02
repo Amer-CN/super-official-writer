@@ -1,187 +1,128 @@
-# 本地 Agent 执行指令清单
+# 超级公文写作 Skill（融合版）
 
-> **角色**：你是文件部署 Agent，负责将 `super-official-writer` 融合版 Skill 推送到 GitHub 仓库。
-> **架构师**：Amer-CN (Tabbit) | **设计日期**：2026-08-14
+> 中文体制内公文/材料写作 AI 技能（Claude Code / Codex / 任意 Agent Skills 兼容环境可用）
+> 覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行
+>
+> **架构设计**：Amer-CN | **当前版本**：v0.4
 
----
+## 这是什么
 
-## 一、任务概述
+一个装进 Agent 的"笔杆子"。把公文写作拆成五步流程，在每一步接入规则引擎与知识库：写什么查什么、卡在哪查哪、写完自查什么。不是聊天式"帮我写个通知"，而是**可检索、可校验、可交付 Word** 的完整写作系统。
 
-将「超级公文写作 Skill（融合版）」推送到 GitHub 仓库，供后续审查和使用。
+### 能力矩阵
 
-### 融合版 vs 原版的改进点
+| 能力 | 说明 | 对应文件 |
+|------|------|----------|
+| **流程引擎** | 五步实战法：磨刀子→定盘子→搭架子→敲键子→收果子 | SKILL.md |
+| **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
+| **文体模板** | 18 种文体框架（周报/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
+| **实战知识库** | 281 条蒸馏知识单元：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级 | references/corpus-lingyun.md |
+| **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
+| **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
+| **格式规范** | GB/T 9704-2012 版面/字体字号/版头版记全要素 | references/format-spec.md |
+| **排版执行** | 一条命令把结构化 JSON 渲染成国标格式 .docx | scripts/render_docx.js |
+| **事实保护** | Protected Spans：用户给的数据零篡改 | SKILL.md |
 
-| 改进项 | 说明 |
-|--------|------|
-| 流程骨架 | 完整保留笔杆子五步法（磨刀子→定盘子→搭架子→敲键子→收果子） |
-| 文本规则 | 完整保留公文写作算法六层矩阵（V+N基因→高观点层） |
-| **新增 Protected Spans** | 用户提供的具体数据为不可篡改的事实片段 |
-| **新增算法级校验** | 收果子阶段8项逐条检查清单 |
-| **统一工作流** | Step1-5 每步明确调用哪些规则层 |
-| 素材库分离 | 短语库独立为 phrase-library.md，SKILL.md 更精炼 |
-| 模板库完整 | 18种文体框架从蒸馏笔记提取到 templates.md |
-| **新增格式规范层** | 按 GB/T 9704-2012 国标校验版面、字体字号、结构层次序数及版头/主体/版记要素 |
-| **新增蒸馏知识库** | corpus-lingyun.md：凌云笔杆子177条+惠水组工20条视频蒸馏，35类190个实战知识单元（标题公式/即兴发言/汇报方法/金句等） |
-| **新增排版执行层** | scripts/render_docx.js：结构化JSON一键生成国标格式docx（含--demo自测） |
-| **新增书籍蒸馏层** | 三本专业书籍蒸馏并入知识库：书1+书2文种规范层（法定15文种+60事务文种写法）、书3核稿病例层（57个改错案例+核稿十查清单） |
-| 测试框架 | 6个单元测试 + 6个对抗性测试 + 3个端到端测试 |
+### 知识来源
 
----
+| 来源 | 类型 | 蒸馏量 |
+|------|------|--------|
+| 《笔杆子是怎样炼成的》李永新（清华，2021） | 方法论 | 五步实战法 + 多风格引擎 |
+| 《公文写作算法》顿彬（郑州大学，2021） | 方法论 | 六层技能矩阵 + 18 种文体框架 |
+| 抖音博主"凌云笔杆子" 177 期视频 | 实战方法 | 标题公式 22 种、即兴发言框架 14 套、汇报口诀 7 组、金句素材 19 组等 |
+| 抖音博主"惠水组工" 20 期视频 | 组工知识 | 文种辨析、办文程序、格式硬规范 |
+| 《法定公文与常用公文写作》 | 文种规范 | 15 法定文种 + 60 事务文种 |
+| 《新党政机关公文与办公室写作》范兰德 | 事务文书 | 会务/计划总结/礼仪文书 |
+| 《党政机关公文写作处理病例分析》蔡振康 | 改错案例 | 57 个病例 + 核稿十查 |
 
-## 二、文件清单与路径
+> 视频类内容经授权渠道下载 → 语音转写 → 逐条蒸馏 → 结构化整理；书籍类内容经微信读书导出蒸馏。结构化数据集（280 条 jsonl）另存。
+
+## 安装
+
+### 方式一：Claude Code / ZCode（Agent Skills）
+
+```bash
+git clone https://github.com/Amer-CN/super-official-writer.git
+# 复制到你的技能目录（按你的环境）：
+cp -r super-official-writer/ ~/.agents/skills/super-official-writer/
+# 或 Claude Code: ~/.claude/skills/
+```
+
+新开对话即自动识别，触发场景：写/改/审任何公文、材料、汇报、总结、讲话稿。
+
+### 方式二：任意 LLM 作为系统知识
+
+把 SKILL.md 全文 + 按需引用 references/ 下文件塞进 system prompt 或 RAG 知识库。
+
+## 快速上手
+
+**写作**（对 Agent 说）：
+
+> 帮我写一份安全生产工作汇报，受众是局领导，要用数据说话。
+
+Agent 将按五步法执行：确认文体→检索知识库（汇报方法 7 条+文种规范）→搭架子→起草（六层矩阵逐层约束）→核稿十查。
+
+**交付 Word**：Agent 起草完成后调用排版执行层：
+
+```bash
+# 输入结构化 JSON，输出国标格式 docx（小标宋标题/黑体一级/楷体二级/仿宋正文/28磅行距）
+node scripts/render_docx.js input.json
+
+# 或先看内置样例：
+node scripts/render_docx.js --demo   # 生成 word/demo.docx
+# 依赖：cd scripts && npm install docx
+```
+
+**核稿**（把写好的稿子交给 Agent）：
+
+> 帮我核这份通知（贴上文本）
+
+Agent 按核稿十查清单逐项检查：文种是否在 15 法定文种内、行文关系是否匹配、标题三要素、首页显示正文、份号密级、联合行文署名、成文日期与印章……
+
+## 工作原理（五步流程 × 知识检索）
+
+```
+Step 1 接收需求 ── 确认文体/受众/风格，锁定 Protected Spans
+Step 2 磨刀子 ──── 查 corpus 文种规范层（选文种）
+Step 3 定盘子+搭架子 ─ 查 templates.md（文体框架）
+Step 4 敲键子 ──── 六层矩阵逐句生成；卡壳查 corpus 实战方法层
+Step 4.5 交付 ──── 需要时调 render_docx.js 出国标 Word
+Step 5 收果子 ──── 八项算法校验 + 核稿十查（corpus 病例层）
+```
+
+## 仓库结构
 
 ```
 super-official-writer/
-├── SKILL.md                          # 主文件（融合版核心规格，~20KB）
-├── README.md                         # 本文件（执行指令）
+├── SKILL.md                # 技能主文件：流程+算法+规则（~21KB）
+├── README.md               # 本文件
 ├── references/
-│   ├── phrase-library.md             # 素材库（三~六字短语 + 按·拿·推搭配 + 概念封装示例）
-│   ├── templates.md                  # 18种文体框架模板速查
-│   ├── format-spec.md                # GB/T 9704-2012 公文格式规范层
-│   └── corpus-lingyun.md             # 蒸馏知识库（凌云笔杆子177条+惠水组工20条视频蒸馏，35类190单元）
+│   ├── templates.md        # 18 种文体框架模板
+│   ├── phrase-library.md   # 素材库（三~六字短语/按拿推搭配/概念封装）
+│   ├── format-spec.md      # GB/T 9704-2012 公文格式规范
+│   └── corpus-lingyun.md   # 蒸馏知识库（66KB：实战方法+文种规范+核稿病例 281 条）
 ├── scripts/
-│   └── render_docx.js                # 排版执行层（结构化JSON→国标格式docx，含--demo自测）
+│   ├── render_docx.js      # 排版执行层（JSON→国标 docx）
+│   ├── package.json        # docx-js 依赖
+│   └── package-lock.json
 └── tests/
-    └── test-cases.md                 # 测试用例集 v0.1（待跑通后填充结果）
+    └── test-cases.md       # 测试用例集（待跑通填充）
 ```
 
-**所有文件已写入 `/mnt/cos/artifacts/super-official-writer/` 目录。**
+## 版本历史
+
+| 版本 | 内容 |
+|------|------|
+| v0.1 | 两本书方法论融合：五步实战法 × 六层技能矩阵 + Protected Spans |
+| v0.2 | + GB/T 9704-2012 格式规范层 |
+| v0.3 | + 蒸馏知识库（凌云 177 条 + 惠水 20 条）+ 排版执行脚本 |
+| v0.4 | + 三本书蒸馏层：文种规范（60 条）+ 核稿病例（29 条） |
+
+## 许可与致谢
+
+- 本 Skill 结构与方法论融合自两部公开出版物（李永新《笔杆子是怎样炼成的》、顿彬《公文写作算法》），书籍类蒸馏内容版权归原作者，本仓库以学习笔记形式整理
+- 视频类蒸馏内容归原博主（凌云笔杆子、惠水组工）所有，本仓库仅作方法提炼
+- 代码部分（scripts/）MIT License
 
 ---
-
-## 三、执行步骤
-
-### Step 1: 验证文件完整性
-
-```bash
-# 列出所有文件并检查大小
-ls -la /mnt/cos/artifacts/super-official-writer/
-ls -la /mnt/cos/artifacts/super-official-writer/references/
-ls -la /mnt/cos/artifacts/super-official-writer/tests/
-
-# 预期结果：
-# SKILL.md              ~20KB (20461 bytes)
-# references/phrase-library.md  ~4.5KB
-# references/templates.md       ~12KB
-# tests/test-cases.md           ~4.6KB
-```
-
-### Step 2: 创建 GitHub 仓库
-
-**方式 A（推荐）—— 推送到你的 GitHub 账号下新仓库：**
-
-```bash
-cd /mnt/cos/artifacts/super-official-writer/
-
-git init
-git add -A
-git commit -m "feat: 超级公文写作Skill融合版v0.1
-
-融合来源：
-- 李永新《笔杆子是怎样炼成的》（清华，2021）五步实战法
-- 顿彬《公文写作算法》（郑州大学，2021）六层技能矩阵
-
-新增组件：
-- Protected Spans 事实保护机制
-- 算法级校验清单（8项）
-- 统一工作流（Step1-5）
-- 18种文体模板库
-- 测试用例框架（15项）
-
-架构设计：Amer-CN"
-```
-
-然后创建 GitHub 仓库并推送：
-```bash
-# 在 github.com 上创建新仓库 super-official-writer（或你喜欢的名字）
-gh repo create super-official-writer --public --source=. --push
-# 或者手动：
-git remote add origin https://github.com/<YOUR_USERNAME>/super-official-writer.git
-git branch -M main
-git push -u origin main
-```
-
-**方式 B —— 推送到现有仓库的新分支：**
-```bash
-cd /path/to/existing/repo
-git checkout -b feature/super-official-writer
-cp -r /mnt/cos/artifacts/super-official-writer/* .
-git add -A
-git commit -m "feat: 超级公文写作Skill融合版v0.1"
-git push origin feature/super-official-writer
-```
-
-### Step 3: 运行基础验证（可选但推荐）
-
-用任意 LLM 加载 SKILL.md 后，运行以下快速测试：
-
-1. **Protected Spans 测试**：
-   > 输入："写周报。本周完成 [[3]] 个项目，投入 [[128.5万元]]。"
-   > 预期：输出中数字完整保留
-
-2. **首段按·拿·推测试**：
-   > 输入："生成一份工作汇报的首段（150字以内），背景是推进信息化建设"
-   > 预期：包含 按(依据) → 拿(措施) → 推(成效)
-
-3. **风格切换测试**：
-   > 输入：同一份周报数据分别用 S1 和 S6 生成
-   > 预期：S1 有大量数据对比，S6 极简压缩
-
-### Step 4: 通知架构师审查
-
-推送完成后，回复以下信息：
-
-```
-✅ 部署完成
-- 仓库地址：<GitHub URL>
-- 分支：<branch name>
-- Commit hash：<hash>
-- 文件数：4个（SKILL.md + phrase-library.md + templates.md + test-cases.md）
-```
-
----
-
-## 四、后续待办（由架构师在审查后安排）
-
-### 高优先级
-- [ ] 用真实公文语料跑通 test-cases.md 中的 15 个测试用例
-- [ ] 根据测试结果调整 V+N/N+V 阈值参数
-- [ ] 补充工程行业专属模板（施工报告/安全检查/项目验收等）
-
-### 中优先级
-- [ ] 补充 CHANGELOG.md
-- [ ] 添加 LICENSE 文件
-- [ ] 编写 quickstart.md 快速上手指南
-
-### 低优先级
-- [ ] 对抗性测试增加更多边界情况
-- [ ] 多模型交叉验证（不同 LLM 的输出质量对比）
-- [ ] 建立用户反馈收集机制
-
----
-
-## 五、关键决策记录
-
-### 为什么不合并成一个单文件？
-- SKILL.md 已经 20KB，如果嵌入全部素材库和 18 种模板会超过 40KB
-- 分离后 SKILL.md 保持精炼（核心规则），references 按需引用
-- 符合「女娲 · Skill造人术」的推荐结构
-
-### 为什么新增 Protected Spans？
-- 原版两个 skill 都没有事实保护机制
-- AI 最常见的错误是"美化"用户数据（把"3个项目"改成"多个重点项目"）
-- Protected Spans 是从 zh-human-writing 的设计思想借鉴来的
-
-### 为什么保留两套方法论而不是选一个？
-- 五步法解决的是"怎么组织写作流程"（PM 问题）
-- 六层矩阵解决的是"怎么写出规范句子"（工程师问题）
-- 两者互补，不存在冗余
-
-### V+N 纯粹性原则的适用边界？
-- 原书（顿彬）说"文章后半部分禁止出现 N+V"，这过于绝对
-- 融合版保留了这条规则但降低了强制程度（改为"应尽量避免"而非"禁止"）
-- 后续可根据测试数据进一步调优
-
----
-
-*本指令版本：v1.0 | 最后更新：2026-08-14 | 维护者：Amer-CN*
+*Curated by AI，方法论来自人类写作者。仅供参考，实际行文请结合本单位口径。*
