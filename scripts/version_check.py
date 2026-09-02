@@ -16,16 +16,30 @@
 - 本脚本只读（git ls-remote 不改本地任何东西），无凭据传输
 """
 import json
+import re
 import subprocess
 import sys
+import urllib.request
 from pathlib import Path
 
 REPO_URL = "https://github.com/Amer-CN/super-official-writer.git"
 SKILL_DIR = Path(__file__).resolve().parent.parent
 
 
-def _local_head() -> str | None:
-    """本地版本：git 仓库 HEAD；非仓库则读 SKILL.md 版本行。"""
+def _local_version() -> str | None:
+    """本地版本：优先读 SKILL.md 锚点（`<!-- skill-version: vX.Y -->`），
+    其次读"版本：vX.Y"行；两者都取不到时退化为 git HEAD 短哈希。"""
+    try:
+        text = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
+        import re
+        m = re.search(r"<!--\s*skill-version:\s*(v[\d.]+)\s*-->", text)
+        if m:
+            return m.group(1)
+        m = re.search(r"版本：\s*(v[\d.]+)", text)
+        if m:
+            return m.group(1)
+    except Exception:
+        pass
     try:
         r = subprocess.run(
             ["git", "-C", str(SKILL_DIR), "rev-parse", "--short", "HEAD"],
@@ -35,17 +49,25 @@ def _local_head() -> str | None:
             return r.stdout.strip()
     except Exception:
         pass
-    # 安装拷贝（无 .git）时退化为读版本号
+    return None
+
+
+RAW_URL = "https://raw.githubusercontent.com/Amer-CN/super-official-writer/master/SKILL.md"
+
+
+def _remote_version() -> str | None:
+    """远端版本：优先 GitHub raw SKILL.md 锚点版本；失败退化 ls-remote HEAD 短哈希。"""
     try:
-        text = (SKILL_DIR / "SKILL.md").read_text(encoding="utf-8")
-        import re
-        m = re.search(r"版本：\s*v([\d.]+)", text)
-        return f"v{m.group(1)}" if m else None
+        req = urllib.request.Request(
+            RAW_URL, headers={"User-Agent": "skill-version-check/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            text = resp.read().decode("utf-8", errors="ignore")
+            m = re.search(r"<!--\s*skill-version:\s*(v[\d.]+)\s*-->", text)
+            if m:
+                return m.group(1)
     except Exception:
-        return None
-
-
-def _remote_head() -> str | None:
+        pass
     try:
         r = subprocess.run(
             ["git", "ls-remote", REPO_URL, "HEAD"],
@@ -60,12 +82,14 @@ def _remote_head() -> str | None:
 
 def main() -> int:
     quiet = "--quiet" in sys.argv
-    local, remote = _local_head(), _remote_head()
+    local, remote = _local_version(), _remote_version()
 
     if remote is None:
         status = "unknown"          # 离线/无 git：静默放行
+    elif local and local.startswith("v") and remote and remote.startswith("v"):
+        status = "current" if local >= remote else "behind"   # 双版本号直接比较
     elif local and local.startswith("v"):
-        status = "unknown"          # 安装拷贝无 git 历史可比对
+        status = "unknown"          # 本地版本号 vs 远端哈希：不可比
     elif local and remote and local != remote:
         status = "behind"
     else:
