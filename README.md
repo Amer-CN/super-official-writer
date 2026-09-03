@@ -3,7 +3,7 @@
 > 中文体制内公文/材料写作 AI 技能（Claude Code / Codex / 任意 Agent Skills 兼容环境可用）
 > 覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行
 >
-> **架构设计**：Amer-CN | **当前版本**：v0.9
+> **架构设计**：Amer-CN | **当前版本**：v0.10
 
 ## 这是什么
 
@@ -119,11 +119,13 @@ super-official-writer/
 │   ├── phrase-library.md   # 素材库（三~六字短语/按拿推搭配/概念封装/报告金句）
 │   ├── format-spec.md      # GB/T 9704-2012 公文格式规范
 │   ├── style-params.md     # 量化风格参数（7 文种×13 项+标点纪律+标题浓度）
-│   └── corpus-lingyun.md   # 蒸馏知识库（268KB：实战方法+文种规范+核稿病例+报告蒸馏+四书层+改稿室层+大雨层 634 条）
+│   ├── corpus-lingyun.md   # 蒸馏知识库索引页（索引+10 分层文件：层索引+检索规则，条目正文在 corpus/）
+│   └── corpus/             # 分层知识库 10 文件（主层/文种规范/核稿病例/捉刀人/公文摆渡/报告蒸馏/手记2/付传/改稿室/大雨）+ INDEX.md 知识分类索引（自动生成）
 ├── scripts/
 │   ├── render_docx.js      # 排版执行层（JSON→国标 docx）
 │   ├── check_params.py     # 风格自检（7 文种参数对照，只判硬冲突）
 │   ├── version_check.py    # 版本自检（Step 0 检查远端更新）
+│   ├── build_corpus_index.py  # 知识分类索引生成（dataset category → corpus/INDEX.md）
 │   ├── package.json        # docx-js 依赖
 │   └── package-lock.json
 └── tests/
@@ -143,6 +145,7 @@ super-official-writer/
 | v0.7（2026-09-03） | + 借入 lieflat-gongwen（MIT）量化风格层：style-params.md 参数速查（7 文种/标点纪律/力度词配额/标题浓度/模板假设冲突）+ check_params.py 自检脚本 + 4 模板真实分布标注 + SKILL 素材核查三防线 |
 | v0.8（2026-09-03） | + 材料改稿室 79 期蒸馏（corpus 新层 79 条 GC01-GC79，dataset 扩至 652 条）：空话写实公式 16 条、AI 稿病改法 10 条、提法进阶 14 条、领导指令解码 12 条、从夯到拉五档 7 条、公文分寸 9 条、高频文体改稿 5 条、病因措施 2 条、理念词落地 4 条 |
 | v0.9（2026-09-03） | + 大雨写材料 82 期蒸馏（corpus 新层 46 条 DY01-DY46，82 期按系列合并，dataset 扩至 698 条）：逻辑主线与体系化 8 条、提炼概括 3 条、表述规范与写实 4 条、问题剖析 2 条、总结与素材转化 5 条、亮点打造与工作品牌 6 条、材料四度 4 条、改稿实操方法论 14 条 |
+| v0.10（2026-09-03） | corpus 分层文件化：274KB 单体拆为索引页 + corpus/ 下 10 个分层文件（条目正文逐字节不变，拼接等价 diff 为空；新增蒸馏=加文件不改单体）；新增知识分类索引 corpus/INDEX.md（scripts/build_corpus_index.py 自动生成，44 类/698 条），检索从按来源升级为按分类；dataset 未动 698 条 |
 
 ## 许可与致谢
 

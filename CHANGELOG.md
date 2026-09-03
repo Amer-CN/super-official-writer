@@ -2,6 +2,21 @@
 
 > 用户感知每次升级的新知识。安装后跑 `python scripts/version_check.py` 检查是否有新版本；behind 时建议 `git pull` 更新。
 
+## v0.10（2026-09-03）
+
+**重构：corpus 分层文件化（274KB 单体 → 索引页 + 10 个分层文件）**
+- 动因：蒸馏持续增长会让单体知识库越来越臃肿、维护脆；分层化后**新增蒸馏=新增一个文件**，不再改单体
+- `references/corpus-lingyun.md`（274KB，10 个 H1 层）拆为**索引页 + `references/corpus/` 下 10 个分层文件**：lingyun-huishui（主层 190 条）/book-wenzhong（文种规范 64 条）/book-hegao（核稿病例 45 条）/blogger-zhuodaoren（19 条）/blogger-gongwenbaidu（80 条）/gongzuobaogao（报告蒸馏 17 条）/book-shouji2（52 条）/book-fuchuan（40 条）/blogger-gaigaoshi（79 条）/blogger-dayu（46 条）
+- 条目正文逐字节不变（纯搬家，含空行）：python 将 10 个分层文件按序拼接（文件间补一个空行）与拆分前备份比对 diff 为空；主层头部（标题/来源行/层索引/检索规则/结构化数据行）留在索引页，新增"分层索引"小节（10 文件清单+条目数）
+- 条目口径：分层文件 `- **` 条目行合计 632 条，索引页保留检索规则 2 行 `**` 标注，与原单体 634 行 `- **` 计数一致，零丢失
+
+**新增：知识分类索引 `references/corpus/INDEX.md`（检索从"按来源分层"升级为"按知识分类"）**
+- `scripts/build_corpus_index.py` 读 `lingyun/dataset/gongwen_writing_dataset.jsonl` 的 category 字段自动生成：44 分类、698 条目，每条一行（id｜title｜定位分层文件），分类按条目数降序；重复执行输出确定
+- 数据说明：27 条公文摆渡条目的 category 字段为"正文片段→真实分类"脏值，脚本按最后一个"→"取真实分类
+- SKILL.md 七·二检索规则改两级：先查 corpus/INDEX.md 按分类定位条目与层文件 → 再 grep 对应层文件取条目全文；版本锚点 v0.9→v0.10
+- README：版本行 v0.10、版本历史、仓库结构树（corpus/ 目录与 INDEX.md、build_corpus_index.py）
+- dataset 未动（698 条）
+
 ## v0.9（2026-09-03）
 
 **新增：抖音博主"大雨写材料"82 期蒸馏（2025-03-04 至 2026-08-30）**
