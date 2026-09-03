@@ -2,6 +2,14 @@
 
 > 用户感知每次升级的新知识。安装后跑 `python scripts/version_check.py` 检查是否有新版本；behind 时建议 `git pull` 更新。
 
+## v0.7（2026-09-03）
+
+**新增：借入 lieflat-gongwen（MIT）量化风格层**
+- `references/style-params.md`：量化风格参数速查——7 文种参数表（中位数+四分位，与自检脚本同源）、文体族判别、标点纪律三则、力度词配额规则、标题技法浓度梯度、模板假设冲突 6 条（数据来自对方 229 篇公文 91.4 万字 + 党建千字材料 77 篇全量统计，MIT 归注）
+- `scripts/check_params.py`：成稿自检脚本（适配自 larashero3-dotcom/lieflat-gongwen，MIT，保留"只判硬冲突"设计）——`--genre` 逐项对照 / `--match` 猜文种 / `--list` 列文体；Windows python 可直接运行
+- `references/templates.md`：T3/T6/T8/T9 四个模板补"风格实测"真实分布标注（T4 政府工作报告用我们自己的 27 份实测，不标）
+- `SKILL.md`：第 1 步磨刀子新增"素材核查三防线"（AI 内容农场识别/权威源冲突占位/文件名文号只认权威源）；第 5 步收果子新增 check_params.py 量化自检入口；层级一基因层补 style-params.md 引用
+
 ## v0.6（2026-09-03）
 
 **新增：权威标准校准（GB/T 9704 + 公文处理条例）**
