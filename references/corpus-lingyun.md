@@ -3,8 +3,8 @@
 > 本文件为「超级公文写作 Skill」的实战知识库引用。
 > 来源：抖音博主 **凌云笔杆子** 177 期 + **惠水组工** 20 期 + **材料改稿室** 79 期 + **大雨写材料** 82 期写作类视频，经口播转写→逐条蒸馏→结构化整理（2026-09）。
 > 与 phrase-library.md（词句层）、templates.md（文体层）互补：本库是**方法+案例+金句的完整知识单元**，按 35 类组织。
-> 层索引（v0.10，正文分层文件化）：条目正文拆分至 `corpus/` 下 10 个分层文件（清单见下方「分层索引」，新增蒸馏=新增一个文件、不再改单体）；"书籍蒸馏·文种规范层"与"核稿病例层"补遗条目（B16-B19、C33-C48）分别在 book-wenzhong.md / book-hegao.md。
-> 完整结构化数据（含全文）：lingyun/dataset/gongwen_writing_dataset.jsonl（698 条）。
+> 层索引（v0.11，正文分层文件化）：条目正文拆分至 `corpus/` 下 11 个分层文件（清单见下方「分层索引」，新增蒸馏=新增一个文件、不再改单体）；"书籍蒸馏·文种规范层"与"核稿病例层"补遗条目（B16-B19、C33-C48）分别在 book-wenzhong.md / book-hegao.md。
+> 完整结构化数据（含全文）：lingyun/dataset/gongwen_writing_dataset.jsonl（892 条）。
 
 ## 检索规则
 
@@ -26,3 +26,4 @@
 - [corpus/book-fuchuan.md](corpus/book-fuchuan.md)——书籍蒸馏层·文种要领（付传）：各文种写法公式/文种间选用辨析/易错点（40 条）。
 - [corpus/blogger-gaigaoshi.md](corpus/blogger-gaigaoshi.md)——博主蒸馏层·材料改稿室（79 期）：改稿视角——低水平 vs 高水平对照/领导改稿指令解码/提法进阶（79 条）。
 - [corpus/blogger-dayu.md](corpus/blogger-dayu.md)——博主蒸馏层·大雨写材料（82 期）：思路框架视角——逻辑主线/亮点打造/材料四度（46 条）。
+- [corpus/blogger-wenxiong.md](corpus/blogger-wenxiong.md)——博主蒸馏层·加夜班的文兄（201 期）：数字框架库+申论应试视角——每期一个拿来即用的数字框架/高频句式库/万能素材（194 条）。

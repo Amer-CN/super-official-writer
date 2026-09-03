@@ -1,10 +1,10 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（698 条，44 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（892 条，45 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
-## 写作方法论（113 条）
+## 写作方法论（225 条）
 
 - lingyun_005｜"12321"方片牌写作框架｜lingyun-huishui.md
 - lingyun_019-020｜速成四回眸口诀｜lingyun-huishui.md
@@ -119,8 +119,120 @@
 - dayu_DY39｜手把手理思路：三块内容各归各位｜blogger-dayu.md
 - dayu_DY42｜让材料"自己说话"：摸清家底→科学谋划→品牌培育｜blogger-dayu.md
 - dayu_DY45｜成果展现：把"干了什么"写成"带来什么"｜blogger-dayu.md
+- wenxiong_WX08｜开头段"4步法"：下定义→重要性→过渡句→扣热点｜blogger-wenxiong.md
+- wenxiong_WX09｜"1拖4"句子结构：观点句/做法句+三个思路句+目的句｜blogger-wenxiong.md
+- wenxiong_WX13｜"怎么看+怎么办"两模型七维度破务虚题｜blogger-wenxiong.md
+- wenxiong_WX16｜数字思维六招：三比、二改、一形（观点统率数据）｜blogger-wenxiong.md
+- wenxiong_WX18｜想清楚三大思考模型：手表（历史思维）/钟摆（正反合）/放大镜（维度放大）｜blogger-wenxiong.md
+- wenxiong_WX24｜"一收二扬"豹尾四步法｜blogger-wenxiong.md
+- wenxiong_WX29｜"6 个看"写"重要意义"篇（必然要求/实际举措/应有之义/迫切需要/重要法宝/必由之路）｜blogger-wenxiong.md
+- wenxiong_WX30｜"四个干+四个要"写"工作要求"（事的角度+人的角度）｜blogger-wenxiong.md
+- wenxiong_WX31｜"4 个点+4 个看"写"形势分析"｜blogger-wenxiong.md
+- wenxiong_WX32｜"履职尽责"四步框架：知责→担责→履责→尽责｜blogger-wenxiong.md
+- wenxiong_WX33｜"系统观念"三关键字：远（前瞻）/高（全局）/全（整体）｜blogger-wenxiong.md
+- wenxiong_WX34｜"下一步工作打算"四行动框架｜blogger-wenxiong.md
+- wenxiong_WX35｜"2 论 3 步"写"辩证思维"：观点定调+两点论+重点论｜blogger-wenxiong.md
+- wenxiong_WX36｜"经验启示"三式：5 个最+5 个必+4 个靠｜blogger-wenxiong.md
+- wenxiong_WX39｜"成就+问题+关键字举措"策论三段式｜blogger-wenxiong.md
+- wenxiong_WX46｜"提振消费"对策：2W+三个聚焦（能/愿/敢消费）｜blogger-wenxiong.md
+- wenxiong_WX51｜"A 与 B"辩证论述万能语段四层法｜blogger-wenxiong.md
+- wenxiong_WX52｜"实干担当"人+劲+法三角度｜blogger-wenxiong.md
+- wenxiong_WX53｜比喻论述两式："绣花"与"滴灌"｜blogger-wenxiong.md
+- wenxiong_WX54｜"乡村产业振兴"框架：主线（小散弱→特融强）+2 大步 6 小点｜blogger-wenxiong.md
+- wenxiong_WX56｜"行政执法类"3 万能举措（转变理念/优化方式/加强治理）｜blogger-wenxiong.md
+- wenxiong_WX57｜"工作谋划"5 个深入方法论（对标/扬补/前瞻/集成/实效）｜blogger-wenxiong.md
+- wenxiong_WX63｜"构建机制"4 思路+模板（时间流程/工作环节/协同联动/压实责任）｜blogger-wenxiong.md
+- wenxiong_WX64｜"5 个强化"笔面一体框架（意识/抓手/体系/场景/保障）｜blogger-wenxiong.md
+- wenxiong_WX65｜"5 个并重"行政执法框架（预防监管/执法服务/力度温度/公平效率/主导协同）｜blogger-wenxiong.md
+- wenxiong_WX66｜"见解深刻"3 切入思路（关键七三开/抓住变量/群众思维）｜blogger-wenxiong.md
+- wenxiong_WX67｜"A+B 式辩证结尾"4 句万能模板｜blogger-wenxiong.md
+- wenxiong_WX68｜"为民服务"四字箴言：真·情·实·意｜blogger-wenxiong.md
+- wenxiong_WX70｜"四个千"基层治理框架（走进千家/倾听千言/汇聚千计/理顺千绪）｜blogger-wenxiong.md
+- wenxiong_WX71｜论述"人工智能"三个升华｜blogger-wenxiong.md
+- wenxiong_WX72｜"分领域→要素式"：思考力的关键一跃｜blogger-wenxiong.md
+- wenxiong_WX73｜历史主动精神"3 个变"（识变/应变/求变）｜blogger-wenxiong.md
+- wenxiong_WX74｜比喻论证三法：算账（气候候鸟）/镜片（望远显微放大）/做菜（吹糠见米刀下见菜文火慢炖）｜blogger-wenxiong.md
+- wenxiong_WX78｜"四个量"万用思维框架（增量/存量/变量/定量）｜blogger-wenxiong.md
+- wenxiong_WX79｜感谢信"3+3+4"框架｜blogger-wenxiong.md
+- wenxiong_WX80｜"五化建设"基层治理框架（实体化/穿透化/最优化/闭环化/智能化）｜blogger-wenxiong.md
+- wenxiong_WX82｜"三破"心法：破冰→破题→破局｜blogger-wenxiong.md
+- wenxiong_WX83｜"9 种功夫 84 个组合"万能框架（真细实/深狠巧/长硬苦等）｜blogger-wenxiong.md
+- wenxiong_WX84｜"三因"框架顶天立地：因地（特殊性）/因时（规律性）/因事（针对性）｜blogger-wenxiong.md
+- wenxiong_WX85｜马哲赋能"3 把钥匙"（含逻辑前置、理信交融）｜blogger-wenxiong.md
+- wenxiong_WX86｜"五个相"统筹"既要又要还要"（一致/统一/协调/结合/贯通）｜blogger-wenxiong.md
+- wenxiong_WX88｜"主观能动"4 步登神成段法｜blogger-wenxiong.md
+- wenxiong_WX89｜年度热词"韧性"：命题逻辑+质量互变溯源+四套框架｜blogger-wenxiong.md
+- wenxiong_WX90｜"4 个导向"笔面一体框架（问题/目标/结果/价值）｜blogger-wenxiong.md
+- wenxiong_WX91｜"12 个转变"搭热点框架（理念/治理/模式各 4）｜blogger-wenxiong.md
+- wenxiong_WX92｜作文"帽子"5 大句式（时代坐标/功能类比/过程比喻/列举挑战/揭示本质）｜blogger-wenxiong.md
+- wenxiong_WX93｜"四力"笔试面试万能框架（合力/内力/动力/活力）｜blogger-wenxiong.md
+- wenxiong_WX94｜"4 个一+4 个全"社会治理框架（一扇门/一揽子/一体化/一盘棋）｜blogger-wenxiong.md
+- wenxiong_WX95｜"深韧新实"四字破题诀｜blogger-wenxiong.md
+- wenxiong_WX97｜凸显省情 2 绝招（战略使命进标题/简称进结尾）｜blogger-wenxiong.md
+- wenxiong_WX98｜"特色举措"三句话（对象/举措/目标至少一个不基础）｜blogger-wenxiong.md
+- wenxiong_WX99｜"四问"框架贯穿核心（人/力/路/钱往哪里去）｜blogger-wenxiong.md
+- wenxiong_WX103｜"破转提融"四字底层逻辑｜blogger-wenxiong.md
+- wenxiong_WX105｜"四紧框架"（紧抓/紧贴/紧扣/紧盯）｜blogger-wenxiong.md
+- wenxiong_WX106｜"四动"框架（带动/驱动/联动/行动）｜blogger-wenxiong.md
+- wenxiong_WX107｜"致广大而尽精微"：升维看三高+降维做三好｜blogger-wenxiong.md
+- wenxiong_WX113｜"5+N+1"治理监管框架（五类监管/N 种组合/一个目的）｜blogger-wenxiong.md
+- wenxiong_WX114｜写出省情烙印"4 大笔法"（战略+工程/目标+落地/路径+文章/赶考+精神）｜blogger-wenxiong.md
+- wenxiong_WX120｜"四个关系"写出思辨味落地感（远近/点面/破立/管放）｜blogger-wenxiong.md
+- wenxiong_WX122｜"1+2+3+4"供需思维框架（一条主线/两侧拆解/三维溯源/四项施策）｜blogger-wenxiong.md
+- wenxiong_WX123｜"发展类题目"5 问框架（基础/资源/路径/融合/协同）｜blogger-wenxiong.md
+- wenxiong_WX126｜"3 板斧"扬长板/补短板/育新板｜blogger-wenxiong.md
+- wenxiong_WX127｜"4 化"框架提升答题格局（全域化/品质化/多元化/内涵化）｜blogger-wenxiong.md
+- wenxiong_WX130｜概括归纳"3 个有"（脑中有层次/眼里有关系/下笔有次序）｜blogger-wenxiong.md
+- wenxiong_WX131｜提炼"对策举措"3 关键词（立牌子/分类型/定层级）｜blogger-wenxiong.md
+- wenxiong_WX132｜概括"工作成效"3 要素+5 关键字（保推提破建）｜blogger-wenxiong.md
+- wenxiong_WX133｜"规范发展"类题三步走（盯材料找问题→推导想对策→放管结合促发展）｜blogger-wenxiong.md
+- wenxiong_WX134｜总结提纲"3 式+3 性"（总体式提炼/体系式归纳/概括式表达+系统性/科学性/有效性）｜blogger-wenxiong.md
+- wenxiong_WX136｜"5 个一"要点举措框架（一条心/一本账/一盘棋/一张图/一张网）｜blogger-wenxiong.md
+- wenxiong_WX137｜"四大行动"产业类主题通关框架（扩量/提质/延链/增效）｜blogger-wenxiong.md
+- wenxiong_WX139｜"4 大方法论"写"工作部署"（认识论/辩证论/系统论/战略论）｜blogger-wenxiong.md
+- wenxiong_WX140｜"三有"短评双框架（夸夸类递进式/纠偏类辩证式）｜blogger-wenxiong.md
+- wenxiong_WX141｜"四多框架"答全答准对策（多主体/多场景/多阵地/多维度）｜blogger-wenxiong.md
+- wenxiong_WX142｜变"表态"为"派活"：一个思维写出对策落地感｜blogger-wenxiong.md
+- wenxiong_WX143｜"类型化"对策：逻辑可迁移+结构可复制+要素可替换｜blogger-wenxiong.md
+- wenxiong_WX144｜推介词"5 个关键跃迁"（标题/素材/意象/站位/姿态）｜blogger-wenxiong.md
+- wenxiong_WX145｜"四谋四干"框架（谋定快干/谋早先干/谋准巧干/谋深实干）｜blogger-wenxiong.md
+- wenxiong_WX147｜"变与不变"写出思辨感（目标变方向不变/方法变规律不变/形态变本质不变）｜blogger-wenxiong.md
+- wenxiong_WX148｜"三推三向"框架：3 组推句+8 关键词（+三转化升维）｜blogger-wenxiong.md
+- wenxiong_WX149｜"3 定位+3 意识+3 路径"开头法（22 关键词库）｜blogger-wenxiong.md
+- wenxiong_WX151｜"五位一体"社区治理框架（设施/联动/互嵌/数智/新群体）｜blogger-wenxiong.md
+- wenxiong_WX152｜经验交流"1 道题+3 句话"（读题眼对应表/三层结构/提炼规律升华）｜blogger-wenxiong.md
+- wenxiong_WX153｜宣传引导"3 个方法论"（对谁说/说什么/怎么说）｜blogger-wenxiong.md
+- wenxiong_WX154｜"显功 VS 潜功"3 段 11 点写议论思辨感｜blogger-wenxiong.md
+- wenxiong_WX158｜"7 个思维"写新写好思维理念（投行/有解/链式/极限/归零/增值/场景）｜blogger-wenxiong.md
+- wenxiong_WX159｜"跨界融合"一个加号两种模式（文旅+是提质/+文旅是扩面）｜blogger-wenxiong.md
+- wenxiong_WX160｜"数智便民"5 要素+3 场景（政务办事/生活便利/特殊群体）｜blogger-wenxiong.md
+- wenxiong_WX161｜"3 破 3 立"高能立论+三种变式｜blogger-wenxiong.md
+- wenxiong_WX162｜"7 个办"优化服务（一窗综办/一事联办/容缺办/免证办/跨域办/智慧办/兜底办）｜blogger-wenxiong.md
+- wenxiong_WX163｜"钉钉子"4 种钉法（钉得准/盯得牢/钉得深/钉得正）｜blogger-wenxiong.md
+- wenxiong_WX164｜"4 个转变"写出高级感（由散向聚/由大向优/由管向服/由粗向精）｜blogger-wenxiong.md
+- wenxiong_WX165｜发展类举措"3 个类型化思路"（下沉拓展/跨界融合/传统升级）｜blogger-wenxiong.md
+- wenxiong_WX168｜协同"三跨"（跨部门/跨层级/跨领域）｜blogger-wenxiong.md
+- wenxiong_WX169｜"三个关乎"开头法（群众冷暖/主题着力点/发展大局）｜blogger-wenxiong.md
+- wenxiong_WX170｜"3 个反着来"写细写心为民服务（写潜功/写小事/写细节）｜blogger-wenxiong.md
+- wenxiong_WX171｜"三思法"论证（思危→思变→思进）｜blogger-wenxiong.md
+- wenxiong_WX173｜"两看两没有"同构辩证法｜blogger-wenxiong.md
+- wenxiong_WX175｜"2+4+5"分析题干提观点（两大观点/四大规律/五对范畴）｜blogger-wenxiong.md
+- wenxiong_WX177｜"双向校准"负负得正议论法（防过+防不及→回归正道）｜blogger-wenxiong.md
+- wenxiong_WX178｜"5 大治理"基层治理（主动/源头/数字/综合/闭环）｜blogger-wenxiong.md
+- wenxiong_WX179｜"因地制宜"4 种写法（禀赋拆解/对比升华/分类施策/正本清源）｜blogger-wenxiong.md
+- wenxiong_WX180｜新闻短评"1+3+1"（一个核心观点/三层分论点/一次价值升华）｜blogger-wenxiong.md
+- wenxiong_WX181｜"2 层迂回"叙议交融（叙一层议一层再叙一层再议一层）｜blogger-wenxiong.md
+- wenxiong_WX182｜"3 个化"受众视角（分众化/节点化/场景化）｜blogger-wenxiong.md
+- wenxiong_WX185｜"新兴产业"3 看+4 全+4 化高级框架｜blogger-wenxiong.md
+- wenxiong_WX186｜"小而美"乡村振兴方法论（小切口小体量小步子×三重美）｜blogger-wenxiong.md
+- wenxiong_WX187｜"六组关系"写好创新（新旧/破立/快慢/传统现代/量变质变/实干创新）｜blogger-wenxiong.md
+- wenxiong_WX189｜"两本书"写好学习（有字之书+无字之书）｜blogger-wenxiong.md
+- wenxiong_WX190｜区分"三种效益"两条原则（看结果不看手段/看主要矛盾不看次要矛盾）｜blogger-wenxiong.md
+- wenxiong_WX192｜"5 略统筹"写站位格局（战略/方略/谋略/策略/胆略）｜blogger-wenxiong.md
+- wenxiong_WX193｜经验做法"6 类 18 个字"（场景驱动/流程再造/机制创新/技术赋能/载体创建/闭环督导）｜blogger-wenxiong.md
+- wenxiong_WX194｜论点具体化"6 种逻辑方法"（前 3 种：因果回溯/假设反正/现象点化）｜blogger-wenxiong.md
 
-## 文种规范（77 条）
+## 文种规范（78 条）
 
 - book2_01｜B1 决议｜book-wenzhong.md
 - book2_02｜B2 决定｜book-wenzhong.md
@@ -199,8 +311,9 @@
 - gaigaoshi_GC30｜低水平通知提出要求，高水平通知降低执行成本｜blogger-gaigaoshi.md
 - gaigaoshi_GC77｜请示＝把大问题研究成小决定｜blogger-gaigaoshi.md
 - gaigaoshi_GC79｜会议纪要＝动词即权责边界，写稿人不能扩大会议授权｜blogger-gaigaoshi.md
+- wenxiong_WX19｜会议纪要实战："纪其髓、择其要"＋归堆→排序→整饬｜blogger-wenxiong.md
 
-## 金句素材（45 条）
+## 金句素材（64 条）
 
 - lingyun_006｜《感动中国》5 个金句公式｜lingyun-huishui.md
 - lingyun_009｜新年贺词金句 5 组｜lingyun-huishui.md
@@ -247,6 +360,171 @@
 - shouji2_S62｜S62 结尾四式+结尾诗词金句谱系｜book-shouji2.md
 - sgzbg_056｜2018 金句｜gongzuobaogao.md
 - sgzbg_057｜2019 金句｜gongzuobaogao.md
+- wenxiong_WX01｜干部考察评价用语库（5 方面 50 条＋6 类 30 条）｜blogger-wenxiong.md
+- wenxiong_WX03｜金句积累·创新改革"破立"语段（原句+替换法）｜blogger-wenxiong.md
+- wenxiong_WX04｜金句积累·"早与好"状态句（字眼拆解+迁移改写）｜blogger-wenxiong.md
+- wenxiong_WX05｜问题表述·"三种豆腐"比拟倾向｜blogger-wenxiong.md
+- wenxiong_WX21｜金句四技巧：AA/AB/ABA/ABC（+使用两原则）｜blogger-wenxiong.md
+- wenxiong_WX43｜用典故"2 方向 2 作用 2 内涵"+五类常用典故｜blogger-wenxiong.md
+- wenxiong_WX69｜"苏超联赛"万能素材：一例打通五热点｜blogger-wenxiong.md
+- wenxiong_WX75｜"群众办事六个办"实战素材框架｜blogger-wenxiong.md
+- wenxiong_WX87｜"虑胜者必图其终，成功者先计于始"始终思维三步吃透｜blogger-wenxiong.md
+- wenxiong_WX100｜"一例降十会"之广东百千万工程（四维度+两用法）｜blogger-wenxiong.md
+- wenxiong_WX102｜"6 匹快马"开头结尾气势句｜blogger-wenxiong.md
+- wenxiong_WX128｜"张雪机车"热点案例库：3 层面+6 角度+1 思维｜blogger-wenxiong.md
+- wenxiong_WX129｜"X 经济"新提法库：4 类 14 种经济形态+三种用法｜blogger-wenxiong.md
+- wenxiong_WX138｜"舞台"排比法：三类舞台六种镜头（空间/时间/精神）｜blogger-wenxiong.md
+- wenxiong_WX150｜"主角"三句台词的笔面运用（六部箴言/主动淬炼/自我认同）｜blogger-wenxiong.md
+- wenxiong_WX167｜"5 个俗语"写接地气｜blogger-wenxiong.md
+- wenxiong_WX174｜"十五五"基础设施"六张网"（水网/地下管网/新型电网/物流网/算力网/通信网）｜blogger-wenxiong.md
+- wenxiong_WX176｜"义乌经验"3 内涵 8 场景｜blogger-wenxiong.md
+- wenxiong_WX183｜"拎马桶改造"万能素材：3 内涵+9 场景｜blogger-wenxiong.md
+
+## 词句升级（53 条）
+
+- lingyun_101｜"高度重视"十组替换词｜lingyun-huishui.md
+- lingyun_175｜通俗→高级表达 10 组｜lingyun-huishui.md
+- gongwenbaidu_01｜G01 三个提升表达成色的句式｜blogger-gongwenbaidu.md
+- gongwenbaidu_02｜G02 三个"以小见大"超高级句式｜blogger-gongwenbaidu.md
+- gongwenbaidu_03｜G03 点亮公文语言的三组小词｜blogger-gongwenbaidu.md
+- gongwenbaidu_04｜G04 省委书记致辞金句解剖（排比含金量）｜blogger-gongwenbaidu.md
+- gongwenbaidu_05｜G05 金句生产法（从照搬到生产）｜blogger-gongwenbaidu.md
+- gongwenbaidu_06｜G06 "优势转化"经典句式体系｜blogger-gongwenbaidu.md
+- gongwenbaidu_28｜G28 政务信息与公文语言积累法｜blogger-gongwenbaidu.md
+- shouji2_S17｜S17 金句与用典检索：句子迷+诗词名句网｜book-shouji2.md
+- shouji2_S46｜S46 高度第十法：引用管理学经济学心理学原理｜book-shouji2.md
+- shouji2_S50｜S50 逻辑词与逻辑句是"路标"｜book-shouji2.md
+- shouji2_S57｜S57 公文语言的精髓是"行话体系"｜book-shouji2.md
+- shouji2_S58｜S58 词汇积累：背+替换，双管齐下｜book-shouji2.md
+- shouji2_S59｜S59 要素句式法（每要素记两三个句式照着套）｜book-shouji2.md
+- shouji2_S60｜S60 领导说"语言太平"，问题出在修辞上｜book-shouji2.md
+- shouji2_S70｜S70 用典七类（用典约等于有才）｜book-shouji2.md
+- gaigaoshi_GC36｜"进一步"＝已有基础＋新差距＋下一阶段增量｜blogger-gaigaoshi.md
+- gaigaoshi_GC37｜"基本完成"＝划清完成边界｜blogger-gaigaoshi.md
+- gaigaoshi_GC38｜"总体平稳"＝总体判断＋局部变化＋大局结论｜blogger-gaigaoshi.md
+- gaigaoshi_GC39｜"通过……推动……"＝动作打中结果的卡点｜blogger-gaigaoshi.md
+- gaigaoshi_GC40｜"既要……又要……"＝重点不在都要，在怎么分｜blogger-gaigaoshi.md
+- gaigaoshi_GC41｜"在……前提下……"＝前提是给后面的动作踩刹车｜blogger-gaigaoshi.md
+- gaigaoshi_GC42｜"一方面……另一方面……"＝一个结果、两个原因、一个原因一组做法｜blogger-gaigaoshi.md
+- gaigaoshi_GC43｜"压茬推进"＝能提前的准备先做，必须等的继续等｜blogger-gaigaoshi.md
+- gaigaoshi_GC44｜"源头治理"＝改掉问题反复产生的规则｜blogger-gaigaoshi.md
+- gaigaoshi_GC45｜"以……为抓手"＝抓得住、勾得上、带得动｜blogger-gaigaoshi.md
+- gaigaoshi_GC46｜"按照……原则"＝原则翻译成四个动词：优先、不得、暂缓、再比较｜blogger-gaigaoshi.md
+- gaigaoshi_GC47｜"组合拳"＝一个结果拆成几个条件，一项措施补一个缺口｜blogger-gaigaoshi.md
+- gaigaoshi_GC48｜"一盘棋"＝把各自的小账放到一起算总账｜blogger-gaigaoshi.md
+- gaigaoshi_GC49｜"牵住牛鼻子"＝抓住一处、改变一片｜blogger-gaigaoshi.md
+- dayu_DY12｜表述规范：口语删净、术语对号、搭配当先｜blogger-dayu.md
+- dayu_DY13｜表达准确：主语补齐、定语后置、对应关系｜blogger-dayu.md
+- dayu_DY33｜添加一个动作：动词前置串联全段｜blogger-dayu.md
+- wenxiong_WX10｜4 大类 33 个通用动词（一贯二抓三提四推）｜blogger-wenxiong.md
+- wenxiong_WX14｜6 类高级过渡句式（重要性 5 式+举措部署 3 式+成效启示 3 式）｜blogger-wenxiong.md
+- wenxiong_WX15｜"抓落实"6 个切入点 33 个句式｜blogger-wenxiong.md
+- wenxiong_WX17｜"3 大转折"型过渡句式（经验启示/问题不足/原因剖析）｜blogger-wenxiong.md
+- wenxiong_WX40｜"6 个是"写"思想认识"（式子句六类）｜blogger-wenxiong.md
+- wenxiong_WX44｜"对策举措"万能句式库（四期 12 式：3 动词+短语→4 动词→副词修饰动词链）｜blogger-wenxiong.md
+- wenxiong_WX47｜"论述句"万能句式库（三期：关联词上做文章）｜blogger-wenxiong.md
+- wenxiong_WX48｜举例子"3 方法+7 句式"（单例聚焦/多例排比/点面结合）｜blogger-wenxiong.md
+- wenxiong_WX55｜论述句第四期：越是…越要/过不了 A 关就过不了 B 关/系统工程句｜blogger-wenxiong.md
+- wenxiong_WX60｜成效副词"4 类 9 个"（显著/明显/更加、加速/不断、全面/广泛、持续/稳步）｜blogger-wenxiong.md
+- wenxiong_WX62｜对策句式第五期（密集嫁接型/对标呵护型/对接融入型）｜blogger-wenxiong.md
+- wenxiong_WX135｜写活句子公式：比喻找喻体→比拟加动作→合成句子｜blogger-wenxiong.md
+- wenxiong_WX146｜"历史纵深感"3 个高能句式｜blogger-wenxiong.md
+- wenxiong_WX155｜议论升华"4 大方向"（往高拔/往远看/往深挖/往回落）｜blogger-wenxiong.md
+- wenxiong_WX156｜"10 种作用"写法（放大/叠加/牵引/催化/兜底/杠杆/纽带/示范/倒逼等）｜blogger-wenxiong.md
+- wenxiong_WX166｜"6 个高级词"写活分论点（映照/催生/勾勒/标注/浸润等）｜blogger-wenxiong.md
+- wenxiong_WX172｜"从…到…再到…"递进句式 3 种变式（阶段演进/范围拓展/由表及里）｜blogger-wenxiong.md
+- wenxiong_WX188｜辩证句式"三个一"（一枚硬币/一面镜子/一张产床）｜blogger-wenxiong.md
+- wenxiong_WX191｜"6 个高级句式"写深写新"问题表现"｜blogger-wenxiong.md
+
+## 结构方法（45 条）
+
+- lingyun_132｜《求是》文章两组框架｜lingyun-huishui.md
+- lingyun_145｜"三"的写法（三横三纵/三位一体/三元三链）｜lingyun-huishui.md
+- gongwenbaidu_11｜G11 宏观与微观的系统分析模型｜blogger-gongwenbaidu.md
+- gongwenbaidu_17｜G17 总分+平行+递进经典结构｜blogger-gongwenbaidu.md
+- gongwenbaidu_18｜G18 框架搭建三种底层模型｜blogger-gongwenbaidu.md
+- gongwenbaidu_19｜G19 点线面构建法三类型｜blogger-gongwenbaidu.md
+- gongwenbaidu_20｜G20 五个抽屉组合（归纳主要做法和成效）｜blogger-gongwenbaidu.md
+- sgzbg_041｜目标排比（"我们要"+V+N）（排比开头）｜gongzuobaogao.md
+- sgzbg_043｜2004 一级结构骨架｜gongzuobaogao.md
+- sgzbg_044｜2008 一级结构骨架｜gongzuobaogao.md
+- sgzbg_045｜2013 一级结构骨架｜gongzuobaogao.md
+- sgzbg_046｜2016 一级结构骨架｜gongzuobaogao.md
+- sgzbg_047｜2022 一级结构骨架｜gongzuobaogao.md
+- sgzbg_048｜2026 一级结构骨架｜gongzuobaogao.md
+- shouji2_S26｜S26 扩充与压缩互逆改写｜book-shouji2.md
+- shouji2_S47｜S47 公文六大行文逻辑｜book-shouji2.md
+- shouji2_S48｜S48 逻辑混用规则：跨层级可混用，同层级唯一｜book-shouji2.md
+- shouji2_S49｜S49 金字塔叙述方式（结论先行）｜book-shouji2.md
+- shouji2_S51｜S51 分类思维（心中时刻绷紧"类"的弦）｜book-shouji2.md
+- shouji2_S56｜S56 要素思维放到篇章同样成立｜book-shouji2.md
+- dayu_DY01｜材料乱三类病根与八病体检｜blogger-dayu.md
+- dayu_DY02｜找逻辑主线：从散点里圈出一条贯穿线｜blogger-dayu.md
+- dayu_DY03｜逻辑三角：问题归因分三层｜blogger-dayu.md
+- dayu_DY04｜逻辑交叉：同类项合并+机制与行动拆开｜blogger-dayu.md
+- dayu_DY05｜厘清主体：几个主体各干各的事｜blogger-dayu.md
+- dayu_DY06｜条目式到条理化：按性质归位+动词前置｜blogger-dayu.md
+- dayu_DY07｜时间线分层：前期/中期/后期三步走｜blogger-dayu.md
+- dayu_DY34｜措施+结果=因果闭环｜blogger-dayu.md
+- dayu_DY38｜双层逻辑线：块与块一条线、块内一条线｜blogger-dayu.md
+- dayu_DY44｜总分自洽：总标题与三块互相印证｜blogger-dayu.md
+- dayu_DY46｜用逻辑体现体系：说服力来自链条完整｜blogger-dayu.md
+- wenxiong_WX06｜列框架两层次三步法：关键词→动宾短语→效果字聚焦｜blogger-wenxiong.md
+- wenxiong_WX11｜"二横三纵"5 种段落展开形式｜blogger-wenxiong.md
+- wenxiong_WX20｜"12341"圣诞树装配结构（关键/重点/导向/问题/目的）｜blogger-wenxiong.md
+- wenxiong_WX23｜"3+3+3"金字塔框架：三环节×三动力×三主体｜blogger-wenxiong.md
+- wenxiong_WX25｜五层论证法：点题→正论→反论→举例→结论｜blogger-wenxiong.md
+- wenxiong_WX27｜"4 层设问"论证法：引出→设问→过渡→回答｜blogger-wenxiong.md
+- wenxiong_WX37｜"焦点锚点落点"分论点法+"三明治式"论证｜blogger-wenxiong.md
+- wenxiong_WX41｜"起承转合"四步论述（金句→阐述→形势→实干）｜blogger-wenxiong.md
+- wenxiong_WX49｜段落分层"3 个抓手"（重复结构句/同维度不同要素/相同牵引词）｜blogger-wenxiong.md
+- wenxiong_WX50｜"引议联结"四步论证法｜blogger-wenxiong.md
+- wenxiong_WX61｜"A+B+C 三位一体"论述框架｜blogger-wenxiong.md
+- wenxiong_WX96｜"三点一线"论述"A 与 B"辩证统一（关系点/结合点/示范点+延长线）｜blogger-wenxiong.md
+- wenxiong_WX104｜"一带三"类型化大作文 3 种写法（递进/并列/辩证）｜blogger-wenxiong.md
+- wenxiong_WX157｜递进"3 大结构"（链条/爬坡/纵深递进）｜blogger-wenxiong.md
+
+## 标题技巧（39 条）
+
+- lingyun_001｜土味小标题公式｜lingyun-huishui.md
+- lingyun_003｜80 年前的老标题（群众语言）｜lingyun-huishui.md
+- lingyun_013｜"新"字法小标题组合｜lingyun-huishui.md
+- lingyun_062｜"四点一线"小标题框架｜lingyun-huishui.md
+- lingyun_068｜事业观小标题（四组关系）｜lingyun-huishui.md
+- lingyun_080｜整改"三个量"三组小标题｜lingyun-huishui.md
+- lingyun_089｜"潜绩"四组八"潜"小标题｜lingyun-huishui.md
+- lingyun_091｜人民日报小标题三组（当周）｜lingyun-huishui.md
+- lingyun_102｜"张力"小标题公式｜lingyun-huishui.md
+- lingyun_104｜大报小标题三公式｜lingyun-huishui.md
+- lingyun_117｜人民日报"化字法"｜lingyun-huishui.md
+- lingyun_118｜人民日报"从字法"｜lingyun-huishui.md
+- lingyun_123｜获奖文稿的小标题逻辑（下基层调研报告）｜lingyun-huishui.md
+- lingyun_127｜标题"七彩法"｜lingyun-huishui.md
+- lingyun_129｜学大家手笔"六个以"｜lingyun-huishui.md
+- lingyun_135｜"三正三责"小标题｜lingyun-huishui.md
+- lingyun_138｜"小/大"写法（字虽少，很高级）｜lingyun-huishui.md
+- lingyun_139｜标题"辩证法"（光明日报）｜lingyun-huishui.md
+- lingyun_153｜光明日报"四精"写法（选育管用）｜lingyun-huishui.md
+- lingyun_154｜人民日报"着眼+必须"句式｜lingyun-huishui.md
+- lingyun_168｜好标题"四个用"｜lingyun-huishui.md
+- lingyun_176｜"四个棋"标题（学习教育收官）｜lingyun-huishui.md
+- gongwenbaidu_24｜G24 二级标题的六种逻辑维度｜blogger-gongwenbaidu.md
+- gongwenbaidu_25｜G25 观点句写法（两段式标题前段）｜blogger-gongwenbaidu.md
+- shouji2_S08｜S08 套路不可耻：普通材料员要写"中性美"｜book-shouji2.md
+- shouji2_S09｜S09 高端材料也用套路｜book-shouji2.md
+- shouji2_S65｜S65 标题大忌："万能八条"式官言官语｜book-shouji2.md
+- shouji2_S66｜S66 做亮标题七型｜book-shouji2.md
+- shouji2_S67｜S67 标题补充三型（数字顺数、提问、对比、复合）｜book-shouji2.md
+- shouji2_S68｜S68 单字重复法（标题届第一网红）：两步+一禁忌｜book-shouji2.md
+- shouji2_S69｜S69 拟写标题三步成型｜book-shouji2.md
+- gaigaoshi_GC67｜写小标题五档（年度总结例）：评价式→事项式→结果式→分层式→变化式｜blogger-gaigaoshi.md
+- wenxiong_WX22｜分论点三大思维模型：下棋/打牌/算术｜blogger-wenxiong.md
+- wenxiong_WX26｜视觉锤+文字钉：重复写"四感"标题（动词重复四诀）｜blogger-wenxiong.md
+- wenxiong_WX28｜前置型+后置型 12 种重复性标题视觉锤｜blogger-wenxiong.md
+- wenxiong_WX38｜"守正创新"3 个框架+金句｜blogger-wenxiong.md
+- wenxiong_WX45｜"数理化"三组科学类比喻词标题｜blogger-wenxiong.md
+- wenxiong_WX77｜总结报告"一字点睛法"：精准单字+有力"新"字短语｜blogger-wenxiong.md
+- wenxiong_WX184｜大标题"3 个方法"（首式截断：双字对比/双字辩证）｜blogger-wenxiong.md
 
 ## 文种要领（37 条）
 
@@ -328,78 +606,6 @@
 - gongwenbaidu_G11·微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜blogger-gongwenbaidu.md
 - gongwenbaidu_G11·下级机关倾向微观表达，上级机关倾向宏观表达｜下级机关倾向微观表达，上级机关倾向宏观表达｜blogger-gongwenbaidu.md
 
-## 词句升级（34 条）
-
-- lingyun_101｜"高度重视"十组替换词｜lingyun-huishui.md
-- lingyun_175｜通俗→高级表达 10 组｜lingyun-huishui.md
-- gongwenbaidu_01｜G01 三个提升表达成色的句式｜blogger-gongwenbaidu.md
-- gongwenbaidu_02｜G02 三个"以小见大"超高级句式｜blogger-gongwenbaidu.md
-- gongwenbaidu_03｜G03 点亮公文语言的三组小词｜blogger-gongwenbaidu.md
-- gongwenbaidu_04｜G04 省委书记致辞金句解剖（排比含金量）｜blogger-gongwenbaidu.md
-- gongwenbaidu_05｜G05 金句生产法（从照搬到生产）｜blogger-gongwenbaidu.md
-- gongwenbaidu_06｜G06 "优势转化"经典句式体系｜blogger-gongwenbaidu.md
-- gongwenbaidu_28｜G28 政务信息与公文语言积累法｜blogger-gongwenbaidu.md
-- shouji2_S17｜S17 金句与用典检索：句子迷+诗词名句网｜book-shouji2.md
-- shouji2_S46｜S46 高度第十法：引用管理学经济学心理学原理｜book-shouji2.md
-- shouji2_S50｜S50 逻辑词与逻辑句是"路标"｜book-shouji2.md
-- shouji2_S57｜S57 公文语言的精髓是"行话体系"｜book-shouji2.md
-- shouji2_S58｜S58 词汇积累：背+替换，双管齐下｜book-shouji2.md
-- shouji2_S59｜S59 要素句式法（每要素记两三个句式照着套）｜book-shouji2.md
-- shouji2_S60｜S60 领导说"语言太平"，问题出在修辞上｜book-shouji2.md
-- shouji2_S70｜S70 用典七类（用典约等于有才）｜book-shouji2.md
-- gaigaoshi_GC36｜"进一步"＝已有基础＋新差距＋下一阶段增量｜blogger-gaigaoshi.md
-- gaigaoshi_GC37｜"基本完成"＝划清完成边界｜blogger-gaigaoshi.md
-- gaigaoshi_GC38｜"总体平稳"＝总体判断＋局部变化＋大局结论｜blogger-gaigaoshi.md
-- gaigaoshi_GC39｜"通过……推动……"＝动作打中结果的卡点｜blogger-gaigaoshi.md
-- gaigaoshi_GC40｜"既要……又要……"＝重点不在都要，在怎么分｜blogger-gaigaoshi.md
-- gaigaoshi_GC41｜"在……前提下……"＝前提是给后面的动作踩刹车｜blogger-gaigaoshi.md
-- gaigaoshi_GC42｜"一方面……另一方面……"＝一个结果、两个原因、一个原因一组做法｜blogger-gaigaoshi.md
-- gaigaoshi_GC43｜"压茬推进"＝能提前的准备先做，必须等的继续等｜blogger-gaigaoshi.md
-- gaigaoshi_GC44｜"源头治理"＝改掉问题反复产生的规则｜blogger-gaigaoshi.md
-- gaigaoshi_GC45｜"以……为抓手"＝抓得住、勾得上、带得动｜blogger-gaigaoshi.md
-- gaigaoshi_GC46｜"按照……原则"＝原则翻译成四个动词：优先、不得、暂缓、再比较｜blogger-gaigaoshi.md
-- gaigaoshi_GC47｜"组合拳"＝一个结果拆成几个条件，一项措施补一个缺口｜blogger-gaigaoshi.md
-- gaigaoshi_GC48｜"一盘棋"＝把各自的小账放到一起算总账｜blogger-gaigaoshi.md
-- gaigaoshi_GC49｜"牵住牛鼻子"＝抓住一处、改变一片｜blogger-gaigaoshi.md
-- dayu_DY12｜表述规范：口语删净、术语对号、搭配当先｜blogger-dayu.md
-- dayu_DY13｜表达准确：主语补齐、定语后置、对应关系｜blogger-dayu.md
-- dayu_DY33｜添加一个动作：动词前置串联全段｜blogger-dayu.md
-
-## 标题技巧（32 条）
-
-- lingyun_001｜土味小标题公式｜lingyun-huishui.md
-- lingyun_003｜80 年前的老标题（群众语言）｜lingyun-huishui.md
-- lingyun_013｜"新"字法小标题组合｜lingyun-huishui.md
-- lingyun_062｜"四点一线"小标题框架｜lingyun-huishui.md
-- lingyun_068｜事业观小标题（四组关系）｜lingyun-huishui.md
-- lingyun_080｜整改"三个量"三组小标题｜lingyun-huishui.md
-- lingyun_089｜"潜绩"四组八"潜"小标题｜lingyun-huishui.md
-- lingyun_091｜人民日报小标题三组（当周）｜lingyun-huishui.md
-- lingyun_102｜"张力"小标题公式｜lingyun-huishui.md
-- lingyun_104｜大报小标题三公式｜lingyun-huishui.md
-- lingyun_117｜人民日报"化字法"｜lingyun-huishui.md
-- lingyun_118｜人民日报"从字法"｜lingyun-huishui.md
-- lingyun_123｜获奖文稿的小标题逻辑（下基层调研报告）｜lingyun-huishui.md
-- lingyun_127｜标题"七彩法"｜lingyun-huishui.md
-- lingyun_129｜学大家手笔"六个以"｜lingyun-huishui.md
-- lingyun_135｜"三正三责"小标题｜lingyun-huishui.md
-- lingyun_138｜"小/大"写法（字虽少，很高级）｜lingyun-huishui.md
-- lingyun_139｜标题"辩证法"（光明日报）｜lingyun-huishui.md
-- lingyun_153｜光明日报"四精"写法（选育管用）｜lingyun-huishui.md
-- lingyun_154｜人民日报"着眼+必须"句式｜lingyun-huishui.md
-- lingyun_168｜好标题"四个用"｜lingyun-huishui.md
-- lingyun_176｜"四个棋"标题（学习教育收官）｜lingyun-huishui.md
-- gongwenbaidu_24｜G24 二级标题的六种逻辑维度｜blogger-gongwenbaidu.md
-- gongwenbaidu_25｜G25 观点句写法（两段式标题前段）｜blogger-gongwenbaidu.md
-- shouji2_S08｜S08 套路不可耻：普通材料员要写"中性美"｜book-shouji2.md
-- shouji2_S09｜S09 高端材料也用套路｜book-shouji2.md
-- shouji2_S65｜S65 标题大忌："万能八条"式官言官语｜book-shouji2.md
-- shouji2_S66｜S66 做亮标题七型｜book-shouji2.md
-- shouji2_S67｜S67 标题补充三型（数字顺数、提问、对比、复合）｜book-shouji2.md
-- shouji2_S68｜S68 单字重复法（标题届第一网红）：两步+一禁忌｜book-shouji2.md
-- shouji2_S69｜S69 拟写标题三步成型｜book-shouji2.md
-- gaigaoshi_GC67｜写小标题五档（年度总结例）：评价式→事项式→结果式→分层式→变化式｜blogger-gaigaoshi.md
-
 ## 标题素材（32 条）
 
 - lingyun_070｜事业观人物事例"十二治水名人"（上）｜lingyun-huishui.md
@@ -435,41 +641,7 @@
 - sgzbg_054｜2018 部署段对仗小标题｜gongzuobaogao.md
 - sgzbg_055｜2019 部署段对仗小标题｜gongzuobaogao.md
 
-## 结构方法（31 条）
-
-- lingyun_132｜《求是》文章两组框架｜lingyun-huishui.md
-- lingyun_145｜"三"的写法（三横三纵/三位一体/三元三链）｜lingyun-huishui.md
-- gongwenbaidu_11｜G11 宏观与微观的系统分析模型｜blogger-gongwenbaidu.md
-- gongwenbaidu_17｜G17 总分+平行+递进经典结构｜blogger-gongwenbaidu.md
-- gongwenbaidu_18｜G18 框架搭建三种底层模型｜blogger-gongwenbaidu.md
-- gongwenbaidu_19｜G19 点线面构建法三类型｜blogger-gongwenbaidu.md
-- gongwenbaidu_20｜G20 五个抽屉组合（归纳主要做法和成效）｜blogger-gongwenbaidu.md
-- sgzbg_041｜目标排比（"我们要"+V+N）（排比开头）｜gongzuobaogao.md
-- sgzbg_043｜2004 一级结构骨架｜gongzuobaogao.md
-- sgzbg_044｜2008 一级结构骨架｜gongzuobaogao.md
-- sgzbg_045｜2013 一级结构骨架｜gongzuobaogao.md
-- sgzbg_046｜2016 一级结构骨架｜gongzuobaogao.md
-- sgzbg_047｜2022 一级结构骨架｜gongzuobaogao.md
-- sgzbg_048｜2026 一级结构骨架｜gongzuobaogao.md
-- shouji2_S26｜S26 扩充与压缩互逆改写｜book-shouji2.md
-- shouji2_S47｜S47 公文六大行文逻辑｜book-shouji2.md
-- shouji2_S48｜S48 逻辑混用规则：跨层级可混用，同层级唯一｜book-shouji2.md
-- shouji2_S49｜S49 金字塔叙述方式（结论先行）｜book-shouji2.md
-- shouji2_S51｜S51 分类思维（心中时刻绷紧"类"的弦）｜book-shouji2.md
-- shouji2_S56｜S56 要素思维放到篇章同样成立｜book-shouji2.md
-- dayu_DY01｜材料乱三类病根与八病体检｜blogger-dayu.md
-- dayu_DY02｜找逻辑主线：从散点里圈出一条贯穿线｜blogger-dayu.md
-- dayu_DY03｜逻辑三角：问题归因分三层｜blogger-dayu.md
-- dayu_DY04｜逻辑交叉：同类项合并+机制与行动拆开｜blogger-dayu.md
-- dayu_DY05｜厘清主体：几个主体各干各的事｜blogger-dayu.md
-- dayu_DY06｜条目式到条理化：按性质归位+动词前置｜blogger-dayu.md
-- dayu_DY07｜时间线分层：前期/中期/后期三步走｜blogger-dayu.md
-- dayu_DY34｜措施+结果=因果闭环｜blogger-dayu.md
-- dayu_DY38｜双层逻辑线：块与块一条线、块内一条线｜blogger-dayu.md
-- dayu_DY44｜总分自洽：总标题与三块互相印证｜blogger-dayu.md
-- dayu_DY46｜用逻辑体现体系：说服力来自链条完整｜blogger-dayu.md
-
-## 修改方法（27 条）
+## 修改方法（29 条）
 
 - huishui_H17｜改材料 20 字秘诀（2024-11-04）｜lingyun-huishui.md
 - book3_CHECKLIST｜核稿十查清单｜book-hegao.md
@@ -498,6 +670,39 @@
 - dayu_DY17｜问题类材料：圈词定性+因果补链+规范表述｜blogger-dayu.md
 - dayu_DY37｜空话套话的自检：负全责/务必/狠抓逐个换｜blogger-dayu.md
 - dayu_DY43｜切勿答非所问：措施要对着问题靶心｜blogger-dayu.md
+- wenxiong_WX42｜归纳"现状问题"4 关键字：有/还/较/不（+6 个常用句尾）｜blogger-wenxiong.md
+- wenxiong_WX118｜材料引用"他说"变"我说"3 法（场景融入/对比升华/延伸阐释）｜blogger-wenxiong.md
+
+## 即兴发言（28 条）
+
+- lingyun_007｜演讲稿"三颗种子"范例｜lingyun-huishui.md
+- lingyun_014｜即兴发言"黄金三点"｜lingyun-huishui.md
+- lingyun_017｜突袭点名发言"扫地僧"三字诀｜lingyun-huishui.md
+- lingyun_033｜"四个圈"脱稿发言公式｜lingyun-huishui.md
+- lingyun_065｜即兴发言"三块砖"｜lingyun-huishui.md
+- lingyun_078｜临场发言三准备（推荐文章）｜lingyun-huishui.md
+- lingyun_088｜即兴发言"锦鲤摆尾"｜lingyun-huishui.md
+- lingyun_092｜即兴发言万能公式"345"｜lingyun-huishui.md
+- lingyun_096｜即兴发言"看李元芳"｜lingyun-huishui.md
+- lingyun_112｜即兴发言"九星连珠"｜lingyun-huishui.md
+- lingyun_130｜开会发言"五个说"（不练口才的心法）｜lingyun-huishui.md
+- lingyun_134｜临场发言五锦囊（浙江宣传）｜lingyun-huishui.md
+- lingyun_140｜口才三方法（速成）｜lingyun-huishui.md
+- lingyun_166｜青年干部演讲的"质感"（三反写法）｜lingyun-huishui.md
+- wenxiong_WX76｜面试综合分析题"三步法"（有立场/有观点/有方法）｜blogger-wenxiong.md
+- wenxiong_WX81｜人际关系题"五感"框架（方向/信任/边界/节奏/成长）｜blogger-wenxiong.md
+- wenxiong_WX108｜"1+2+3"分析框架（一个定位/两个方面/三个思维）｜blogger-wenxiong.md
+- wenxiong_WX109｜"1+3+4"热点现象分析框架（一个核心/三个维度/四个启示）｜blogger-wenxiong.md
+- wenxiong_WX110｜"3+2+1"态度观点题框架（三个看法/两个方法/一个做法）｜blogger-wenxiong.md
+- wenxiong_WX111｜讲话类态度观点题"3+3+3"（三个深刻/三个读懂/三个做到）｜blogger-wenxiong.md
+- wenxiong_WX112｜两面性社会现象题"1+3+3"（一个主流/三层递进/三个打法）｜blogger-wenxiong.md
+- wenxiong_WX115｜"冰山模型"四层归因（主体/制度/观念/文化）｜blogger-wenxiong.md
+- wenxiong_WX116｜结合岗位"三个向"（首向截断：向前奔跑/向上生长）｜blogger-wenxiong.md
+- wenxiong_WX117｜"3 个关键字"答三大主体（政府引领/社会协同/个人尽责）｜blogger-wenxiong.md
+- wenxiong_WX119｜结合岗位"谈认识"三个有（眼里有光/手里有方/肩上有责）｜blogger-wenxiong.md
+- wenxiong_WX121｜"3 个关键词"答出系统味道（动态平衡/同步增益/有机融合）｜blogger-wenxiong.md
+- wenxiong_WX124｜"正方形答题法"四步答面试观点题｜blogger-wenxiong.md
+- wenxiong_WX125｜"3 维分析"从现象看本质（周期性/结构性/体系性）｜blogger-wenxiong.md
 
 ## 核稿病例（26 条）
 
@@ -528,7 +733,7 @@
 - book3_25｜C31 "纪要格式"是特定格式｜book-hegao.md
 - book3_26｜核稿检查清单（书 3 全书浓缩）｜book-hegao.md
 
-## 职场表达（19 条）
+## 职场表达（20 条）
 
 - lingyun_011｜朋友圈跨年文案"你要写体"｜lingyun-huishui.md
 - lingyun_012｜办公室人成长五点（推荐文章+扩展）｜lingyun-huishui.md
@@ -549,6 +754,7 @@
 - lingyun_119｜说话"六个要"｜lingyun-huishui.md
 - huishui_H05｜事毕必回复（2023-06-30）｜lingyun-huishui.md
 - gaigaoshi_GC27｜低水平周报写动作，高水平周报写结果｜blogger-gaigaoshi.md
+- wenxiong_WX02｜竞聘演讲三段骨架：谈经历→讲优势→谈未来｜blogger-wenxiong.md
 
 ## 格式规范（17 条）
 
@@ -570,6 +776,24 @@
 - shu3_C38｜C38 "印发机关和印发日期"标注要认真｜book-hegao.md
 - shu3_C39｜C39 "版记"部分的"应当"与"不当"｜book-hegao.md
 
+## 文种辨析（15 条）
+
+- huishui_H06｜"妥否，请批示" vs "妥否，请批复"（2023-08-21）｜lingyun-huishui.md
+- huishui_H14｜请示与报告三大区别（2024-09-13）｜lingyun-huishui.md
+- huishui_H15｜通知与通告五大区别（2024-09-18）｜lingyun-huishui.md
+- book3_OV5｜文种误用三大高危区｜book-hegao.md
+- zhuodaoren_04｜Z04 请示与报告的终极区分法｜blogger-zhuodaoren.md
+- zhuodaoren_06｜Z06 意见文种精讲｜blogger-zhuodaoren.md
+- fanben_F03｜F03 决定与决议辨析 + 决定/通知/意见三文种选用｜book-fuchuan.md
+- fanben_F05｜F05 嘉奖令/表彰性决定/表扬性通报三文种选用 + 命令与通知边界｜book-fuchuan.md
+- shu3_C36｜C36 "意见"不是"过不去"｜book-hegao.md
+- shu3_C40｜C40 "请示"要按规矩行文｜book-hegao.md
+- shu3_C41｜C41 "请示"应当一文一事｜book-hegao.md
+- shu3_C42｜C42 "请示"的主送对象来不得移花接木｜book-hegao.md
+- shu3_C43｜C43 "请示"与"函"应当准确使用｜book-hegao.md
+- shu3_C46｜C46 受双重领导的机关行上行文应当正确选用主送对象｜book-hegao.md
+- wenxiong_WX07｜会议纪要"认为/指出/强调/要求"四用语辨析｜blogger-wenxiong.md
+
 ## 讲话稿（15 条）
 
 - lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
@@ -587,40 +811,6 @@
 - gaigaoshi_GC56｜领导让你"写得像领导讲话"＝给所有部门建立同一套判断标准｜blogger-gaigaoshi.md
 - gaigaoshi_GC74｜领导讲话稿＝先判断、再取舍、后行动｜blogger-gaigaoshi.md
 - dayu_DY41｜节奏感：短句对仗、一个主语、领导口吻｜blogger-dayu.md
-
-## 即兴发言（14 条）
-
-- lingyun_007｜演讲稿"三颗种子"范例｜lingyun-huishui.md
-- lingyun_014｜即兴发言"黄金三点"｜lingyun-huishui.md
-- lingyun_017｜突袭点名发言"扫地僧"三字诀｜lingyun-huishui.md
-- lingyun_033｜"四个圈"脱稿发言公式｜lingyun-huishui.md
-- lingyun_065｜即兴发言"三块砖"｜lingyun-huishui.md
-- lingyun_078｜临场发言三准备（推荐文章）｜lingyun-huishui.md
-- lingyun_088｜即兴发言"锦鲤摆尾"｜lingyun-huishui.md
-- lingyun_092｜即兴发言万能公式"345"｜lingyun-huishui.md
-- lingyun_096｜即兴发言"看李元芳"｜lingyun-huishui.md
-- lingyun_112｜即兴发言"九星连珠"｜lingyun-huishui.md
-- lingyun_130｜开会发言"五个说"（不练口才的心法）｜lingyun-huishui.md
-- lingyun_134｜临场发言五锦囊（浙江宣传）｜lingyun-huishui.md
-- lingyun_140｜口才三方法（速成）｜lingyun-huishui.md
-- lingyun_166｜青年干部演讲的"质感"（三反写法）｜lingyun-huishui.md
-
-## 文种辨析（14 条）
-
-- huishui_H06｜"妥否，请批示" vs "妥否，请批复"（2023-08-21）｜lingyun-huishui.md
-- huishui_H14｜请示与报告三大区别（2024-09-13）｜lingyun-huishui.md
-- huishui_H15｜通知与通告五大区别（2024-09-18）｜lingyun-huishui.md
-- book3_OV5｜文种误用三大高危区｜book-hegao.md
-- zhuodaoren_04｜Z04 请示与报告的终极区分法｜blogger-zhuodaoren.md
-- zhuodaoren_06｜Z06 意见文种精讲｜blogger-zhuodaoren.md
-- fanben_F03｜F03 决定与决议辨析 + 决定/通知/意见三文种选用｜book-fuchuan.md
-- fanben_F05｜F05 嘉奖令/表彰性决定/表扬性通报三文种选用 + 命令与通知边界｜book-fuchuan.md
-- shu3_C36｜C36 "意见"不是"过不去"｜book-hegao.md
-- shu3_C40｜C40 "请示"要按规矩行文｜book-hegao.md
-- shu3_C41｜C41 "请示"应当一文一事｜book-hegao.md
-- shu3_C42｜C42 "请示"的主送对象来不得移花接木｜book-hegao.md
-- shu3_C43｜C43 "请示"与"函"应当准确使用｜book-hegao.md
-- shu3_C46｜C46 受双重领导的机关行上行文应当正确选用主送对象｜book-hegao.md
 
 ## 理论学习（13 条）
 
@@ -713,6 +903,15 @@
 - shu3_C33｜C33 我们那儿是不用公文的（公文的作用）｜book-hegao.md
 - shu3_C47｜C47 "骂街公文"有多么不该｜book-hegao.md
 
+## 总结技巧（6 条）
+
+- gongwenbaidu_15｜G15 工作总结两大布局：并列式→递进式｜blogger-gongwenbaidu.md
+- gongwenbaidu_16｜G16 工作总结框架：焦点前置与焦点后置｜blogger-gongwenbaidu.md
+- gongwenbaidu_35｜G35 年中总结的"框与情"｜blogger-gongwenbaidu.md
+- dayu_DY18｜总结的三段严密逻辑：是什么→怎么做→靠什么｜blogger-dayu.md
+- dayu_DY19｜总结把握重点：目标/项目/成效三个重点｜blogger-dayu.md
+- wenxiong_WX12｜计划秒变总结三步法：移→顺→换（动宾改主谓）｜blogger-wenxiong.md
+
 ## 办文程序（5 条）
 
 - lingyun_109｜《党政机关公文处理工作条例》三分钟记忆版｜lingyun-huishui.md
@@ -728,14 +927,6 @@
 - lingyun_097｜城市宣传语三公式｜lingyun-huishui.md
 - lingyun_116｜汇报片/宣传片文案"五调"｜lingyun-huishui.md
 - lingyun_151｜工作成绩写出流量"六子登科法"｜lingyun-huishui.md
-
-## 总结技巧（5 条）
-
-- gongwenbaidu_15｜G15 工作总结两大布局：并列式→递进式｜blogger-gongwenbaidu.md
-- gongwenbaidu_16｜G16 工作总结框架：焦点前置与焦点后置｜blogger-gongwenbaidu.md
-- gongwenbaidu_35｜G35 年中总结的"框与情"｜blogger-gongwenbaidu.md
-- dayu_DY18｜总结的三段严密逻辑：是什么→怎么做→靠什么｜blogger-dayu.md
-- dayu_DY19｜总结把握重点：目标/项目/成效三个重点｜blogger-dayu.md
 
 ## 文字规范（5 条）
 
@@ -784,6 +975,12 @@
 - lingyun_158｜青年干部研讨发言三组框架｜lingyun-huishui.md
 - lingyun_167｜交流发言七组小标题框架｜lingyun-huishui.md
 
+## 调研报告（3 条）
+
+- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
+- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
+- wenxiong_WX59｜调研报告保姆级教程：5 板块 10 句式（标题/开头/做法/问题/对策）｜blogger-wenxiong.md
+
 ## 会务组织（2 条）
 
 - lingyun_031｜趣味范文：给诸葛亮写会议纪要｜lingyun-huishui.md
@@ -809,10 +1006,10 @@
 - lingyun_067｜反内耗五句古文｜lingyun-huishui.md
 - lingyun_141｜面对大领导不紧张的秘诀｜lingyun-huishui.md
 
-## 调研报告（2 条）
+## 问题分析（2 条）
 
-- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
-- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
+- wenxiong_WX58｜"3 个悖论"写深问题矛盾（投入产出/供给需求/服务感受）｜blogger-wenxiong.md
+- wenxiong_WX101｜"矛盾—问题—困难—挑战"四词辨析与分层运用｜blogger-wenxiong.md
 
 ## 修辞方法（1 条）
 

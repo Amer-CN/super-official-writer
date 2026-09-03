@@ -29,6 +29,7 @@ PREFIX_TO_FILE = {
     'gongwenbaidu': 'blogger-gongwenbaidu.md',
     'gaigaoshi': 'blogger-gaigaoshi.md',
     'dayu': 'blogger-dayu.md',
+    'wenxiong': 'blogger-wenxiong.md',
 }
 
 
