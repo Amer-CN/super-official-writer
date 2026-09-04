@@ -8,7 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;897%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.12-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.13-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
 [![知识库](https://img.shields.io/badge/知识库-897条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
@@ -144,7 +144,7 @@ super-official-writer/
 │   ├── package.json        # docx-js 依赖
 │   └── package-lock.json
 └── tests/
-    └── test-cases.md       # 评测基线 v1（15 用例真实运行记录 + 问题清单 + v0.12 修复建议）
+    └── test-cases.md       # 评测基线（15 用例 × 两轮真实运行：run1 问题清单 → v0.12 修复 → run2 实效验证）
 ```
 
 </details>
@@ -152,7 +152,7 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.12</b>（2026-09-04）· v0.1 → v0.12 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.13</b>（2026-09-04）· v0.1 → v0.13 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
@@ -169,6 +169,7 @@ super-official-writer/
 | v0.11（2026-09-04） | + 加夜班的文兄 201 期蒸馏（corpus 新层 194 条 WX01-WX194，201 期全量，dataset 扩至 892 条/45 类）：写作方法论 112 条、词句升级 19 条、金句素材 19 条、结构方法 14 条、即兴发言 14 条、标题技巧 7 条、其余 9 条；INDEX.md 重生成（45 类/892 条）；19 图文期暂挂留 v0.11.1 |
 | v0.11.1（2026-09-04） | + 加夜班的文兄 19 图文期识读蒸馏并入（层 194→207 条 WX195-WX207，dataset 扩至 905 条/47 类）："你懂的"系列 6 期合并为检视负面表述库 3 条（学习/作风/担当）、成稿范例 13 期提炼骨架+佳句 10 条；INDEX.md 重生成（47 类/905 条） |
 | v0.12（2026-09-04） | 按评测 14 条问题定向修复（五项）：①法定公文成稿范例层（纪要/通知/请示/批复/函五文种各 1 篇+版式清单+详略尺度，P0-2/P2-2）；②领域素材层（安全生产/养老托幼/基层治理/国企办公 53 条，dataset 扩至 958 条/48 类，P1-1）；③check_params 三修+弯引号规范（建议词拆两档 P1-3、"三管三必须"固定提法白名单 P1-4、占位冒号/百分比剔除+中文弯引号 P1-5）；④T8 任务块指引+T20 个人周报/T21 月度总结新模板+无参数文种对照表（P0-1/P1-6）；⑤三条截断蒸馏条目补全+INDEX 数字承诺 WARN 抽检（P1-2）；corpus 引注 841→897 条（11→13 个分层文件），INDEX.md 重生成（48 类/958 条） |
+| v0.13（2026-09-04） | 评测驱动第二轮：①补 3 条未认领 P2 知识（联署函要点/检视降重四招/调研实施三法）+SKILL 七·二分类计数对齐 INDEX 实数；②**评测二轮**：15 用例重跑，升 13/平 2/降 0，有用命中 67→97 条次，"想找没找到"21→7 收窄 2/3，结构性返工清零；v0.12 五项修复+P1 三条新知识 7 项生效、1 项部分生效 |
 
 </details>
 

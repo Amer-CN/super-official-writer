@@ -84,6 +84,7 @@ PREFIX_TO_FILE = {
     'dayu': 'blogger-dayu.md',
     'wenxiong': 'blogger-wenxiong.md',
     'domain': 'domains.md',
+    'tiaoli': 'chengwen-fanli.md',
 }
 
 

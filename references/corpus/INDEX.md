@@ -1,7 +1,7 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（958 条，48 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（961 条，48 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
 ## 写作方法论（225 条）
@@ -913,7 +913,7 @@
 - dayu_DY16｜个人剖析材料：正反两方面写一个问题｜blogger-dayu.md
 - dayu_DY20｜单位总结：把罗列升级为"举措+成果"｜blogger-dayu.md
 
-## 成稿范例（10 条）
+## 成稿范例（11 条）
 
 - wenxiong_WX198｜个人年度总结三段模板（成绩四板块/不足三差距/打算四坚持）｜blogger-wenxiong.md
 - wenxiong_WX199｜座谈发言"三对范畴"骨架（取下与戴上/失去与收获/当下与未来）｜blogger-wenxiong.md
@@ -925,6 +925,7 @@
 - wenxiong_WX205｜以文辅政"摸实情、讲实话、求实效"（三功/三文/三抓手）｜blogger-wenxiong.md
 - wenxiong_WX206｜标兵交流发言稿全骨架（牌子/旗子/号子 三三得九）｜blogger-wenxiong.md
 - wenxiong_WX207｜年度个人检查（对照检查）材料全骨架（三方面+四剖析+四个"人"）｜blogger-wenxiong.md
+- tiaoli_fanli_001｜联合主办商洽函要点（联署）｜chengwen-fanli.md
 
 ## 汇报方法（9 条）
 
@@ -1026,6 +1027,20 @@
 - dayu_DY21｜素材到信息：主题提炼+成效具象｜blogger-dayu.md
 - dayu_DY22｜口述变材料：口语素材规范化改写｜blogger-dayu.md
 
+## 检视负面表述库（4 条）
+
+- wenxiong_WX195｜检视问题负面表述·学习类（学悟落差/四个不够/猛子扎不下去）｜blogger-wenxiong.md
+- wenxiong_WX196｜检视问题负面表述·作风类（干而不"X"/落实执行欠一步）｜blogger-wenxiong.md
+- wenxiong_WX197｜检视问题负面表述·担当类（三个有差距/担当软塌塌/四个有所减弱）｜blogger-wenxiong.md
+- wenxiong_WX208｜检视表述降重四招（检视材料防撞车）｜blogger-wenxiong.md
+
+## 调研报告（4 条）
+
+- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
+- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
+- wenxiong_WX59｜调研报告保姆级教程：5 板块 10 句式（标题/开头/做法/问题/对策）｜blogger-wenxiong.md
+- lingyun_177｜调研实施三法：问卷/访谈/蹲点（承"解剖麻雀"）｜lingyun-huishui.md
+
 ## 报告蒸馏（3 条）
 
 - sgzbg_049｜宏观调控定性词链（提法链）｜gongzuobaogao.md
@@ -1038,23 +1053,11 @@
 - lingyun_121｜好文风="观察现象、分析难题、拿出措施"（光明日报）｜lingyun-huishui.md
 - lingyun_142｜稿子"不虚不空"四把钥匙（应用写作）｜lingyun-huishui.md
 
-## 检视负面表述库（3 条）
-
-- wenxiong_WX195｜检视问题负面表述·学习类（学悟落差/四个不够/猛子扎不下去）｜blogger-wenxiong.md
-- wenxiong_WX196｜检视问题负面表述·作风类（干而不"X"/落实执行欠一步）｜blogger-wenxiong.md
-- wenxiong_WX197｜检视问题负面表述·担当类（三个有差距/担当软塌塌/四个有所减弱）｜blogger-wenxiong.md
-
 ## 研讨发言（3 条）
 
 - lingyun_072｜研讨发言双维思路｜lingyun-huishui.md
 - lingyun_158｜青年干部研讨发言三组框架｜lingyun-huishui.md
 - lingyun_167｜交流发言七组小标题框架｜lingyun-huishui.md
-
-## 调研报告（3 条）
-
-- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
-- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
-- wenxiong_WX59｜调研报告保姆级教程：5 板块 10 句式（标题/开头/做法/问题/对策）｜blogger-wenxiong.md
 
 ## 会务组织（2 条）
 
