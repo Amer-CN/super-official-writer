@@ -141,6 +141,13 @@ BAD_WORDS = {
     '相关部门': '模糊主体 → 明确牵头和配合单位',
 }
 
+# 固定提法白名单（评测 P1-4）：标准提法中的力度字样（如"三管三必须"的 3 个"必须"）
+# 属不可改写的固定表述，统计前整句剔除，避免计入强制词配额诱导改稿破坏提法。
+# 扩充方式：往列表追加短语即可，统计端自动生效。
+FIXED_PHRASES = [
+    '管行业必须管安全、管业务必须管安全、管生产经营必须管安全',
+]
+
 
 def analyze(text):
     lines = [l.strip() for l in text.split('\n') if l.strip()]
@@ -172,6 +179,9 @@ def analyze(text):
     # 理由：自造概念常带力度字样（如需求分类"必须改""可以缓"），
     # 计入后会顶破配额。经验总结强制词配额仅 0-1，任何误判都致命。
     depunct = re.sub(r'[“"][^”"]{0,20}[”"]', '', plain)
+    # 固定提法白名单：标准提法（"三管三必须"等）内的力度词不计入任何配额
+    for _ph in FIXED_PHRASES:
+        depunct = depunct.replace(_ph, '□' * len(_ph))
     # "不得不"是"只能"义，不是禁止义，需从"不得"中排除
     qz_text = depunct.replace('不得不', '＃＃＃')
 
@@ -185,7 +195,10 @@ def analyze(text):
         dun=round(1000*plain.count('、')/chars, 1),
         qz=sum(qz_text.count(w) for w in ['应当','必须','不得','严禁']),
         yq=sum(depunct.count(w) for w in ['要','切实','确保','务必']),
-        jy=sum(depunct.count(w) for w in ['建议','可以','鼓励','支持']),
+        # 建议词只计建言档（建议/可以）；倡议档（鼓励/支持/倡导）单独计 chang，
+        # 不占建议词配额（评测 P1-3：照旧计入会把改稿引向删除正当的"鼓励"表述）
+        jy=sum(depunct.count(w) for w in ['建议','可以']),
+        chang=sum(depunct.count(w) for w in ['鼓励','支持','倡导']),
         # 占位符内的 % 不是真实数据（如【待补：xx%】），先剔除
         pct=len(re.findall(r'\d+(?:\.\d+)?%',
                            re.sub(r'【[^】]*】', '', plain))),
@@ -298,14 +311,17 @@ def report(a, genre):
         v = a[k]
         flag = '' if lo <= v <= hi else '  ⚠偏离'
         print(f'{label:<12}{v:>8}{mid:>8}{f"{lo}-{hi}":>12}   {bar(v,lo,hi)}{flag}')
+    # 倡议词单独计档（评测 P1-3）：不占建议词配额；暂无语料区间，仅报数值
+    print(f'{"倡议词":<12}{a["chang"]:>8}{"—":>8}{"—":>12}   （鼓励/支持/倡导，不计入建议词）')
 
     # ②b 标点修辞检查
     dash_issues = []
     if a['dash'] > 1:
         dash_issues.append(f'正文破折号 {a["dash"]} 个（语料平均 0.2-0.9 个/篇，建议不超过 1 个）')
-    # 非引语冒号
+    # 非引语冒号（【待补：…】占位内的冒号是待填标记，先剔除再检测——评测 P1-5）
     non_quote_colons = []
-    for cm in re.finditer(r'([^\n]{0,12})：', a['plain']):
+    plain_noph = re.sub(r'【[^】]*】', '', a['plain'])
+    for cm in re.finditer(r'([^\n]{0,12})：', plain_noph):
         before = cm.group(1).strip()
         if re.search(r'[一二三四五六七八九十]+、|（[一二三四五六七八九十]）|\d+[．.]', before):
             continue

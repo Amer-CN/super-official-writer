@@ -1,30 +1,40 @@
-# 超级公文写作 Skill
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:C0392B,100:7B241C&height=170&section=header&text=super-official-writer&fontSize=54&fontColor=ffffff&animation=fadeIn" width="100%"></p>
 
-> 中文体制内公文/材料写作 AI 技能（Claude Code / Codex / 任意 Agent Skills 兼容环境可用）
-> 覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行
->
-> **架构设计**：Amer-CN | **当前版本**：v0.11.1
+<div align="center">
 
-## 这是什么
+#### 体制内公文/材料写作 AI 技能：从需求到国标 Word 的完整写作系统
 
-一个装进 Agent 的"笔杆子"。把公文写作拆成五步流程，在每一步接入规则引擎与知识库：写什么查什么、卡在哪查哪、写完自查什么。不是聊天式"帮我写个通知"，而是**可检索、可校验、可交付 Word** 的完整写作系统。
+**覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行**
 
-### 能力矩阵
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;897%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
+
+[![Version](https://img.shields.io/badge/Version-v0.12-C0392B?style=for-the-badge)](#-版本历史)
+[![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
+[![知识库](https://img.shields.io/badge/知识库-897条-10B981?style=for-the-badge)](#-知识来源)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
+
+</div>
+
+---
+
+一个装进 Agent 的"笔杆子"。把公文写作拆成五步流程，在每一步接入规则引擎与知识库：写什么查什么、卡在哪查哪、写完自查什么。不是聊天式"帮我写个通知"，而是**可检索、可校验、可交付 Word** 的完整写作系统。Claude Code / Codex 等任意 Agent Skills 兼容环境可用。
+
+## ✨ 能力矩阵
 
 | 能力 | 说明 | 对应文件 |
 |------|------|----------|
-| **流程引擎** | 五步实战法：磨刀子→定盘子→搭架子→敲键子→收果子 | SKILL.md |
-| **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
-| **文体模板** | 19 种文体框架（周报/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
-| **实战知识库** | 841 条蒸馏知识单元（45 分类 + 报告蒸馏层 + 四书蒸馏层 + 五博主层）：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库 | references/corpus-lingyun.md |
-| **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
-| **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
-| **风格量化验收** | 7 文种句长/顿号/力度词等 13 项参数与自检脚本（只判硬冲突与同向偏离） | references/style-params.md + scripts/check_params.py |
-| **格式规范** | GB/T 9704-2012 版面/字体字号/版头版记全要素 | references/format-spec.md |
-| **排版执行** | 一条命令把结构化 JSON 渲染成国标格式 .docx | scripts/render_docx.js |
-| **事实保护** | Protected Spans：用户给的数据零篡改 | SKILL.md |
+| 🧭 **流程引擎** | 五步实战法：磨刀子→定盘子→搭架子→敲键子→收果子 | SKILL.md |
+| 🧬 **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
+| 📐 **文体模板** | 21 种文体框架（周报/月度总结/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
+| 📚 **实战知识库** | 897 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 四书蒸馏层 + 五博主层）：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
+| 📜 **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
+| 🔍 **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
+| 📏 **风格量化验收** | 7 文种句长/顿号/力度词等 13 项参数与自检脚本（只判硬冲突与同向偏离） | references/style-params.md + scripts/check_params.py |
+| 📄 **格式规范** | GB/T 9704-2012 版面/字体字号/版头版记全要素 | references/format-spec.md |
+| 🖨️ **排版执行** | 一条命令把结构化 JSON 渲染成国标格式 .docx | scripts/render_docx.js |
+| 🔒 **事实保护** | Protected Spans：用户给的数据零篡改 | SKILL.md |
 
-### 知识来源
+## 📚 知识来源
 
 | 来源 | 类型 | 蒸馏量 |
 |------|------|--------|
@@ -40,12 +50,13 @@
 | 《党政机关公文写作处理病例分析》蔡振康 | 改错案例 | 57 个病例 + 核稿十查 + 完整版补遗（行文原则篇等 16 例） |
 | 《秘书工作手记2：怎样写出好公文》像玉的石头 | 实务经验 | 互联网检索找范文、领导意图揣摩、词句操作、修改整容 |
 | 《新编办公室文书写作要领与范本全书（第 2 版）》付传 | 文种要领 | 各文种要领/差异点/文种辨析 |
-| 历年国务院政府工作报告 27 份（2000-2026） | 权威语料 | 句式基准实测、提法迭代表、金句库、报告骨架 |
+| 历年国务院政府工作报告 27 份（2000-2026） | 权威语料 | 句式基准实测、提法迭代表、金句库、报告骨架；领域素材层主要句源（安全生产/养老/治理部署句式与机制口径） |
+| 国务院公报/地方政府门户（公有领域公文范例） | 成稿范例 | 纪要/通知/请示/批复/函五文种真实件 4 篇＋合成范例 1 篇（版式要素清单＋详略尺度，法定公文依《著作权法》第五条可收录） |
 | 开源项目 lieflat-gongwen（larashero3-dotcom，MIT，2026） | 量化风格参数 | 102 万字语料全量统计：文种参数表、标点纪律、力度词配额、标题技法浓度、模板假设冲突校准——致谢作者 lieflat 与贡献者 shiujan |
 
-> 视频类内容经授权渠道下载 → 语音转写 → 逐条蒸馏 → 结构化整理；书籍类内容经微信读书导出蒸馏。结构化数据集（905 条 jsonl）另存。
+> 视频类内容经授权渠道下载 → 语音转写 → 逐条蒸馏 → 结构化整理；书籍类内容经微信读书导出蒸馏。结构化数据集（958 条 jsonl）另存。
 
-## 安装
+## 📦 安装
 
 ### 方式一：Claude Code / ZCode（Agent Skills）
 
@@ -73,7 +84,7 @@ skill 每次会话首次触发时会**自动检查版本**（`scripts/version_ch
 
 把 SKILL.md 全文 + 按需引用 references/ 下文件塞进 system prompt 或 RAG 知识库。
 
-## 快速上手
+## 🚀 快速上手
 
 **写作**（对 Agent 说）：
 
@@ -98,7 +109,7 @@ node scripts/render_docx.js --demo   # 生成 word/demo.docx
 
 Agent 按核稿十查清单逐项检查：文种是否在 15 法定文种内、行文关系是否匹配、标题三要素、首页显示正文、份号密级、联合行文署名、成文日期与印章……
 
-## 工作原理（五步流程 × 知识检索）
+## ⚙️ 工作原理（五步流程 × 知识检索）
 
 ```
 Step 1 接收需求 ── 确认文体/受众/风格，锁定 Protected Spans
@@ -109,19 +120,22 @@ Step 4.5 交付 ──── 需要时调 render_docx.js 出国标 Word
 Step 5 收果子 ──── 八项算法校验 + 核稿十查（corpus 病例层）
 ```
 
-## 仓库结构
+## 🗂️ 仓库结构
+
+<details>
+<summary><b>目录树</b>（点击展开）</summary>
 
 ```
 super-official-writer/
 ├── SKILL.md                # 技能主文件：流程+算法+规则（~21KB）
 ├── README.md               # 本文件
 ├── references/
-│   ├── templates.md        # 19 种文体框架模板（4 种带语料实测标注）
+│   ├── templates.md        # 21 种文体框架模板（4 种带语料实测标注）
 │   ├── phrase-library.md   # 素材库（三~六字短语/按拿推搭配/概念封装/报告金句）
 │   ├── format-spec.md      # GB/T 9704-2012 公文格式规范
-│   ├── style-params.md     # 量化风格参数（7 文种×13 项+标点纪律+标题浓度）
-│   ├── corpus-lingyun.md   # 蒸馏知识库索引页（索引+11 分层文件：层索引+检索规则，条目正文在 corpus/）
-│   └── corpus/             # 分层知识库 11 文件（主层/文种规范/核稿病例/捉刀人/公文摆渡/报告蒸馏/手记2/付传/改稿室/大雨/文兄）+ INDEX.md 知识分类索引（自动生成）
+│   ├── style-params.md     # 量化风格参数（7 文种×13 项+标点纪律+标题浓度+无参数文种对照表）
+│   ├── corpus-lingyun.md   # 蒸馏知识库索引页（索引+13 分层文件：层索引+检索规则，条目正文在 corpus/）
+│   └── corpus/             # 分层知识库 13 文件（主层/文种规范/核稿病例/捉刀人/公文摆渡/报告蒸馏/手记2/付传/改稿室/大雨/文兄/领域素材/法定公文成稿范例）+ INDEX.md 知识分类索引（自动生成）
 ├── scripts/
 │   ├── render_docx.js      # 排版执行层（JSON→国标 docx）
 │   ├── check_params.py     # 风格自检（7 文种参数对照，只判硬冲突）
@@ -133,7 +147,12 @@ super-official-writer/
     └── test-cases.md       # 测试用例集（待跑通填充）
 ```
 
-## 版本历史
+</details>
+
+## 📜 版本历史
+
+<details>
+<summary><b>当前 v0.12</b>（2026-09-04）· v0.1 → v0.12 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
@@ -149,8 +168,11 @@ super-official-writer/
 | v0.10（2026-09-03） | corpus 分层文件化：274KB 单体拆为索引页 + corpus/ 下 10 个分层文件（条目正文逐字节不变，拼接等价 diff 为空；新增蒸馏=加文件不改单体）；新增知识分类索引 corpus/INDEX.md（scripts/build_corpus_index.py 自动生成，44 类/698 条），检索从按来源升级为按分类；dataset 未动 698 条 |
 | v0.11（2026-09-04） | + 加夜班的文兄 201 期蒸馏（corpus 新层 194 条 WX01-WX194，201 期全量，dataset 扩至 892 条/45 类）：写作方法论 112 条、词句升级 19 条、金句素材 19 条、结构方法 14 条、即兴发言 14 条、标题技巧 7 条、其余 9 条；INDEX.md 重生成（45 类/892 条）；19 图文期暂挂留 v0.11.1 |
 | v0.11.1（2026-09-04） | + 加夜班的文兄 19 图文期识读蒸馏并入（层 194→207 条 WX195-WX207，dataset 扩至 905 条/47 类）："你懂的"系列 6 期合并为检视负面表述库 3 条（学习/作风/担当）、成稿范例 13 期提炼骨架+佳句 10 条；INDEX.md 重生成（47 类/905 条） |
+| v0.12（2026-09-04） | 按评测 14 条问题定向修复（五项）：①法定公文成稿范例层（纪要/通知/请示/批复/函五文种各 1 篇+版式清单+详略尺度，P0-2/P2-2）；②领域素材层（安全生产/养老托幼/基层治理/国企办公 53 条，dataset 扩至 958 条/48 类，P1-1）；③check_params 三修+弯引号规范（建议词拆两档 P1-3、"三管三必须"固定提法白名单 P1-4、占位冒号/百分比剔除+中文弯引号 P1-5）；④T8 任务块指引+T20 个人周报/T21 月度总结新模板+无参数文种对照表（P0-1/P1-6）；⑤三条截断蒸馏条目补全+INDEX 数字承诺 WARN 抽检（P1-2）；corpus 引注 841→897 条（11→13 个分层文件），INDEX.md 重生成（48 类/958 条） |
 
-## 许可与致谢
+</details>
+
+## 🙏 许可与致谢
 
 **方法论来源（2 部）：**
 - 李永新《笔杆子是怎样炼成的》（清华大学出版社，2021）——五步实战法、素材库、多风格引擎
@@ -169,5 +191,12 @@ super-official-writer/
 
 所有书籍与视频内容版权归原作者/博主所有，本仓库以学习笔记与方法提炼形式整理；代码部分（scripts/）MIT License。
 
+<div align="center">
+
 ---
+
+Made by [@Amer-CN](https://github.com/Amer-CN)
+
 *Curated by AI，方法论来自人类写作者。仅供参考，实际行文请结合本单位口径。*
+
+</div>
