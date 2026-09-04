@@ -1,7 +1,7 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（892 条，45 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（905 条，47 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
 ## 写作方法论（225 条）
@@ -857,6 +857,19 @@
 - dayu_DY16｜个人剖析材料：正反两方面写一个问题｜blogger-dayu.md
 - dayu_DY20｜单位总结：把罗列升级为"举措+成果"｜blogger-dayu.md
 
+## 成稿范例（10 条）
+
+- wenxiong_WX198｜个人年度总结三段模板（成绩四板块/不足三差距/打算四坚持）｜blogger-wenxiong.md
+- wenxiong_WX199｜座谈发言"三对范畴"骨架（取下与戴上/失去与收获/当下与未来）｜blogger-wenxiong.md
+- wenxiong_WX200｜检视整改"下半篇文章"四发力（立根固本/落细落小/修枝剪叶/直面问题）｜blogger-wenxiong.md
+- wenxiong_WX201｜机关服务岗位修养"守两条、提三力"（预见力/协调力/承受力）｜blogger-wenxiong.md
+- wenxiong_WX202｜成长感悟类发言双范例（一份初心三种能力四个方向/悟能悟空悟净）｜blogger-wenxiong.md
+- wenxiong_WX203｜元旦贺词骨架（回望四势+展望+祝福）｜blogger-wenxiong.md
+- wenxiong_WX204｜干事创业"想干能干敢干"+抓落实三部曲（从我做起/马上就办/久久为功）｜blogger-wenxiong.md
+- wenxiong_WX205｜以文辅政"摸实情、讲实话、求实效"（三功/三文/三抓手）｜blogger-wenxiong.md
+- wenxiong_WX206｜标兵交流发言稿全骨架（牌子/旗子/号子 三三得九）｜blogger-wenxiong.md
+- wenxiong_WX207｜年度个人检查（对照检查）材料全骨架（三方面+四剖析+四个"人"）｜blogger-wenxiong.md
+
 ## 汇报方法（9 条）
 
 - lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
@@ -968,6 +981,12 @@
 - lingyun_018｜浙江宣传"活人感"（文风）｜lingyun-huishui.md
 - lingyun_121｜好文风="观察现象、分析难题、拿出措施"（光明日报）｜lingyun-huishui.md
 - lingyun_142｜稿子"不虚不空"四把钥匙（应用写作）｜lingyun-huishui.md
+
+## 检视负面表述库（3 条）
+
+- wenxiong_WX195｜检视问题负面表述·学习类（学悟落差/四个不够/猛子扎不下去）｜blogger-wenxiong.md
+- wenxiong_WX196｜检视问题负面表述·作风类（干而不"X"/落实执行欠一步）｜blogger-wenxiong.md
+- wenxiong_WX197｜检视问题负面表述·担当类（三个有差距/担当软塌塌/四个有所减弱）｜blogger-wenxiong.md
 
 ## 研讨发言（3 条）
 
