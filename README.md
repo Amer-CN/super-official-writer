@@ -144,7 +144,7 @@ super-official-writer/
 │   ├── package.json        # docx-js 依赖
 │   └── package-lock.json
 └── tests/
-    └── test-cases.md       # 测试用例集（待跑通填充）
+    └── test-cases.md       # 评测基线 v1（15 用例真实运行记录 + 问题清单 + v0.12 修复建议）
 ```
 
 </details>
