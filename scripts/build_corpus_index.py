@@ -65,6 +65,31 @@ def numeric_promise_check(entries):
                 f"- WARN {e['id'].strip()}｜{e['title'].strip()}｜标题承诺 {expected} 点，正文仅可提取 {actual} 点")
     return warns
 
+
+# dataset 标题 ↔ 层文件同步抽检（WARN，不阻断）：
+# 数字承诺抽检只查 dataset 自身，层文件截断（如 lingyun_172 仅存 1/6）因此漏网（评测 P1-7）。
+# 本抽检按 INDEX 已有 id→title 口径核对层文件中存在完整标题，只防"标题在 INDEX、层文件缺/断"，
+# 不做全量正文比对。
+SYNC_PREFIXES = ('lingyun', 'huishui')
+
+
+def layer_sync_check(entries):
+    """对同步范围内条目，核对层文件含完整标题；缺/断则输出 WARN 行列表。"""
+    warns = []
+    layer_texts = {}
+    for e in entries:
+        prefix = e['id'].split('_', 1)[0]
+        if prefix not in SYNC_PREFIXES:
+            continue
+        fname = PREFIX_TO_FILE[prefix]
+        if fname not in layer_texts:
+            path = OUT.parent / fname
+            layer_texts[fname] = path.read_text(encoding='utf-8') if path.exists() else ''
+        if e['title'].strip() not in layer_texts[fname]:
+            warns.append(
+                f"- WARN {e['id'].strip()}｜{e['title'].strip()}｜层文件 {fname} 缺该标题（dataset↔层文件同步检查）")
+    return warns
+
 # id 前缀 → 分层文件（书1/书2/书1补遗 shu1 = 文种规范层 B 系列；书3/书3补遗 shu3 = 核稿病例层 C 系列；
 # domain = 领域素材层，v0.12 新增；chengwen-fanli 成稿范例不入 dataset，无 id 映射需求）
 PREFIX_TO_FILE = {
@@ -135,6 +160,15 @@ def main():
             print(w)
     else:
         print('WARN 数字承诺一致性抽检：无')
+
+    # dataset↔层文件同步抽检：输出 WARN 列表（仅提示，不阻断）
+    sync_warns = layer_sync_check(entries)
+    if sync_warns:
+        print(f'WARN dataset↔层文件同步抽检：{len(sync_warns)} 条标题在 INDEX 但层文件缺/断：')
+        for w in sync_warns:
+            print(w)
+    else:
+        print('WARN dataset↔层文件同步抽检：无')
 
 
 if __name__ == '__main__':

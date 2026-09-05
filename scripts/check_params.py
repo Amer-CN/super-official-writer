@@ -10,6 +10,7 @@
   python scripts/check_params.py 成稿.md --genre 调研报告   # 已知文种，逐项对照
   python scripts/check_params.py 成稿.md --genre 短经验材料
   python scripts/check_params.py 成稿.md --match            # 不确定文种，猜最像哪个
+  python scripts/check_params.py 成稿.md --final            # 清稿终检：检出 ASCII 直角引号即 FAIL（exit 1），引号不过不得清稿
   python scripts/check_params.py --list                     # 列出支持的文体
 
 设计原则：只判"硬冲突"（文种识别错误），其余仅作对照提示。
@@ -422,6 +423,7 @@ def main():
     ap.add_argument('file', nargs='?')
     ap.add_argument('--genre', '-g')
     ap.add_argument('--match', action='store_true')
+    ap.add_argument('--final', action='store_true')
     ap.add_argument('--list', action='store_true')
     ap.add_argument('-h', '--help', action='store_true')
     args = ap.parse_args()
@@ -448,6 +450,15 @@ def main():
     a = analyze(raw)
     if not a:
         print('文件为空或无法解析', file=sys.stderr); sys.exit(2)
+
+    # 终检强制门（--final）：ASCII 直角引号 >0 即 FAIL，弯引号不过不得清稿。
+    # 普通模式（--genre/--match）仍为 ③c 软提示，行为不变。
+    if args.final:
+        if a['ascii_quote'] > 0:
+            print(f'【终检 FAIL】检出 {a["ascii_quote"]} 个 ASCII 直角引号——弯引号不过不得清稿')
+            sys.exit(1)
+        print('【终检 PASS】引号规范合规')
+        sys.exit(0)
 
     if args.match or not args.genre:
         print(f'\n{args.file} 参数向量匹配结果：\n')
