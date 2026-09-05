@@ -91,7 +91,7 @@ def layer_sync_check(entries):
     return warns
 
 # id 前缀 → 分层文件（书1/书2/书1补遗 shu1 = 文种规范层 B 系列；书3/书3补遗 shu3 = 核稿病例层 C 系列；
-# domain = 领域素材层，v0.12 新增；chengwen-fanli 成稿范例不入 dataset，无 id 映射需求）
+# domain = 领域素材层，v0.12 新增；tiaoli/fanli = 成稿范例层要点条，v0.13/v0.15 起入 dataset）
 PREFIX_TO_FILE = {
     'lingyun': 'lingyun-huishui.md',
     'huishui': 'lingyun-huishui.md',
@@ -110,6 +110,7 @@ PREFIX_TO_FILE = {
     'wenxiong': 'blogger-wenxiong.md',
     'domain': 'domains.md',
     'tiaoli': 'chengwen-fanli.md',
+    'fanli': 'chengwen-fanli.md',
 }
 
 

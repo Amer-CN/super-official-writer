@@ -1,10 +1,10 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（961 条，48 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（965 条，48 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
-## 写作方法论（225 条）
+## 写作方法论（226 条）
 
 - lingyun_005｜"12321"方片牌写作框架｜lingyun-huishui.md
 - lingyun_019-020｜速成四回眸口诀｜lingyun-huishui.md
@@ -231,8 +231,9 @@
 - wenxiong_WX192｜"5 略统筹"写站位格局（战略/方略/谋略/策略/胆略）｜blogger-wenxiong.md
 - wenxiong_WX193｜经验做法"6 类 18 个字"（场景驱动/流程再造/机制创新/技术赋能/载体创建/闭环督导）｜blogger-wenxiong.md
 - wenxiong_WX194｜论点具体化"6 种逻辑方法"（前 3 种：因果回溯/假设反正/现象点化）｜blogger-wenxiong.md
+- wenxiong_WX209｜经验材料叙事弧线（铺垫→拐点→验证→升华）｜blogger-wenxiong.md
 
-## 文种规范（78 条）
+## 文种规范（80 条）
 
 - book2_01｜B1 决议｜book-wenzhong.md
 - book2_02｜B2 决定｜book-wenzhong.md
@@ -312,6 +313,8 @@
 - gaigaoshi_GC77｜请示＝把大问题研究成小决定｜blogger-gaigaoshi.md
 - gaigaoshi_GC79｜会议纪要＝动词即权责边界，写稿人不能扩大会议授权｜blogger-gaigaoshi.md
 - wenxiong_WX19｜会议纪要实战："纪其髓、择其要"＋归堆→排序→整饬｜blogger-wenxiong.md
+- fanli_hanshang_001｜商洽发函五要素与尾语两式｜chengwen-fanli.md
+- fanli_renwutongzhi_001｜任务型通知三段式（与印发型对照）｜chengwen-fanli.md
 
 ## 金句素材（64 条）
 
@@ -380,6 +383,63 @@
 - wenxiong_WX176｜"义乌经验"3 内涵 8 场景｜blogger-wenxiong.md
 - wenxiong_WX183｜"拎马桶改造"万能素材：3 内涵+9 场景｜blogger-wenxiong.md
 
+## 领域素材（54 条）
+
+- domain_001｜"三管三必须"官方口径｜domains.md
+- domain_002｜责任十六字＋三个责任｜domains.md
+- domain_003｜"人命关天"定调句系｜domains.md
+- domain_004｜"坚决遏制重特大事故"收束句｜domains.md
+- domain_005｜专项整治→治本攻坚阶段口径链｜domains.md
+- domain_006｜"事前预防转型"高位句｜domains.md
+- domain_007｜"本质安全"提法｜domains.md
+- domain_008｜隐患整改"销号"闭环句式｜domains.md
+- domain_009｜"四不两直"检查方式｜domains.md
+- domain_010｜"全链条"专项整治新口径｜domains.md
+- domain_011｜电动自行车攻坚机制词库｜domains.md
+- domain_012｜应急段"宁可备而不用"句｜domains.md
+- domain_013｜安全讲话收尾金句｜domains.md
+- domain_014｜海恩法则（引原理撑警示段）｜domains.md
+- domain_015｜"一老一小"总帽句｜domains.md
+- domain_016｜养老服务体系官方定式｜domains.md
+- domain_017｜"普惠"定语＋农村养老｜domains.md
+- domain_018｜医养结合＋长护险固定搭配｜domains.md
+- domain_019｜助餐支点句（经验提法）｜domains.md
+- domain_020｜助餐运营三件套｜domains.md
+- domain_021｜"15 分钟养老服务圈"｜domains.md
+- domain_022｜农村养老思路四段｜domains.md
+- domain_023｜农村养老三症结对仗｜domains.md
+- domain_024｜养老对策机制词库｜domains.md
+- domain_025｜托育递进口径链｜domains.md
+- domain_026｜适老化改造与银发经济｜domains.md
+- domain_027｜智慧养老论述升华｜domains.md
+- domain_028｜"共建共治共享"定式｜domains.md
+- domain_029｜新时代"枫桥经验"＋综治中心规范化（当前口径）｜domains.md
+- domain_030｜治理重心下移｜domains.md
+- domain_031｜市域社会治理现代化｜domains.md
+- domain_032｜信访段三要素｜domains.md
+- domain_033｜矛盾纠纷多元化解机制｜domains.md
+- domain_034｜"一站式"调解经验骨架｜domains.md
+- domain_035｜"五个一"举措框架｜domains.md
+- domain_036｜"五大治理"框架｜domains.md
+- domain_037｜"4 个一"社会治理框架｜domains.md
+- domain_038｜"五位一体"社区治理框架｜domains.md
+- domain_039｜"四个千"群众工作法｜domains.md
+- domain_040｜"三跨"协同机制｜domains.md
+- domain_041｜网格化常态治理｜domains.md
+- domain_042｜国企改革阶段口径链｜domains.md
+- domain_043｜"做强做优做大"＋主责主业｜domains.md
+- domain_044｜"核心功能＋核心竞争力"｜domains.md
+- domain_045｜中国特色现代企业制度/公司治理｜domains.md
+- domain_046｜瘦身健体提质增效｜domains.md
+- domain_047｜混改试点清单｜domains.md
+- domain_048｜央企国企开放场景（2026 新口径）｜domains.md
+- domain_049｜国企关键小事口径｜domains.md
+- domain_050｜以文辅政"三功/三文"骨架｜domains.md
+- domain_051｜国企办公室主任竞聘三段骨架｜domains.md
+- domain_052｜国企办公室总结三块｜domains.md
+- domain_053｜国企贺词领域表达｜domains.md
+- domain_054｜常见矛调/解纷机制名称清单｜domains.md
+
 ## 词句升级（53 条）
 
 - lingyun_101｜"高度重视"十组替换词｜lingyun-huishui.md
@@ -435,62 +495,6 @@
 - wenxiong_WX172｜"从…到…再到…"递进句式 3 种变式（阶段演进/范围拓展/由表及里）｜blogger-wenxiong.md
 - wenxiong_WX188｜辩证句式"三个一"（一枚硬币/一面镜子/一张产床）｜blogger-wenxiong.md
 - wenxiong_WX191｜"6 个高级句式"写深写新"问题表现"｜blogger-wenxiong.md
-
-## 领域素材（53 条）
-
-- domain_001｜"三管三必须"官方口径｜domains.md
-- domain_002｜责任十六字＋三个责任｜domains.md
-- domain_003｜"人命关天"定调句系｜domains.md
-- domain_004｜"坚决遏制重特大事故"收束句｜domains.md
-- domain_005｜专项整治→治本攻坚阶段口径链｜domains.md
-- domain_006｜"事前预防转型"高位句｜domains.md
-- domain_007｜"本质安全"提法｜domains.md
-- domain_008｜隐患整改"销号"闭环句式｜domains.md
-- domain_009｜"四不两直"检查方式｜domains.md
-- domain_010｜"全链条"专项整治新口径｜domains.md
-- domain_011｜电动自行车攻坚机制词库｜domains.md
-- domain_012｜应急段"宁可备而不用"句｜domains.md
-- domain_013｜安全讲话收尾金句｜domains.md
-- domain_014｜海恩法则（引原理撑警示段）｜domains.md
-- domain_015｜"一老一小"总帽句｜domains.md
-- domain_016｜养老服务体系官方定式｜domains.md
-- domain_017｜"普惠"定语＋农村养老｜domains.md
-- domain_018｜医养结合＋长护险固定搭配｜domains.md
-- domain_019｜助餐支点句（经验提法）｜domains.md
-- domain_020｜助餐运营三件套｜domains.md
-- domain_021｜"15 分钟养老服务圈"｜domains.md
-- domain_022｜农村养老思路四段｜domains.md
-- domain_023｜农村养老三症结对仗｜domains.md
-- domain_024｜养老对策机制词库｜domains.md
-- domain_025｜托育递进口径链｜domains.md
-- domain_026｜适老化改造与银发经济｜domains.md
-- domain_027｜智慧养老论述升华｜domains.md
-- domain_028｜"共建共治共享"定式｜domains.md
-- domain_029｜新时代"枫桥经验"＋综治中心规范化（当前口径）｜domains.md
-- domain_030｜治理重心下移｜domains.md
-- domain_031｜市域社会治理现代化｜domains.md
-- domain_032｜信访段三要素｜domains.md
-- domain_033｜矛盾纠纷多元化解机制｜domains.md
-- domain_034｜"一站式"调解经验骨架｜domains.md
-- domain_035｜"五个一"举措框架｜domains.md
-- domain_036｜"五大治理"框架｜domains.md
-- domain_037｜"4 个一"社会治理框架｜domains.md
-- domain_038｜"五位一体"社区治理框架｜domains.md
-- domain_039｜"四个千"群众工作法｜domains.md
-- domain_040｜"三跨"协同机制｜domains.md
-- domain_041｜网格化常态治理｜domains.md
-- domain_042｜国企改革阶段口径链｜domains.md
-- domain_043｜"做强做优做大"＋主责主业｜domains.md
-- domain_044｜"核心功能＋核心竞争力"｜domains.md
-- domain_045｜中国特色现代企业制度/公司治理｜domains.md
-- domain_046｜瘦身健体提质增效｜domains.md
-- domain_047｜混改试点清单｜domains.md
-- domain_048｜央企国企开放场景（2026 新口径）｜domains.md
-- domain_049｜国企关键小事口径｜domains.md
-- domain_050｜以文辅政"三功/三文"骨架｜domains.md
-- domain_051｜国企办公室主任竞聘三段骨架｜domains.md
-- domain_052｜国企办公室总结三块｜domains.md
-- domain_053｜国企贺词领域表达｜domains.md
 
 ## 结构方法（45 条）
 

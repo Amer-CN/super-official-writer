@@ -6,11 +6,11 @@
 
 **覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;898%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;901%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.14-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.15-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
-[![知识库](https://img.shields.io/badge/知识库-898条-10B981?style=for-the-badge)](#-知识来源)
+[![知识库](https://img.shields.io/badge/知识库-901条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
 
 </div>
@@ -26,7 +26,7 @@
 | 🧭 **流程引擎** | 五步实战法：磨刀子→定盘子→搭架子→敲键子→收果子 | SKILL.md |
 | 🧬 **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
 | 📐 **文体模板** | 21 种文体框架（周报/月度总结/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
-| 📚 **实战知识库** | 898 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 四书蒸馏层 + 五博主层）：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
+| 📚 **实战知识库** | 901 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 四书蒸馏层 + 五博主层）：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
 | 📜 **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
 | 🔍 **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
 | 📏 **风格量化验收** | 7 文种句长/顿号/力度词等 13 项参数与自检脚本（只判硬冲突与同向偏离） | references/style-params.md + scripts/check_params.py |
@@ -152,7 +152,7 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.14</b>（2026-09-05）· v0.1 → v0.14 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.15</b>（2026-09-05）· v0.1 → v0.15 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
@@ -170,6 +170,7 @@ super-official-writer/
 | v0.11.1（2026-09-04） | + 加夜班的文兄 19 图文期识读蒸馏并入（层 194→207 条 WX195-WX207，dataset 扩至 905 条/47 类）："你懂的"系列 6 期合并为检视负面表述库 3 条（学习/作风/担当）、成稿范例 13 期提炼骨架+佳句 10 条；INDEX.md 重生成（47 类/905 条） |
 | v0.12（2026-09-04） | 按评测 14 条问题定向修复（五项）：①法定公文成稿范例层（纪要/通知/请示/批复/函五文种各 1 篇+版式清单+详略尺度，P0-2/P2-2）；②领域素材层（安全生产/养老托幼/基层治理/国企办公 53 条，dataset 扩至 958 条/48 类，P1-1）；③check_params 三修+弯引号规范（建议词拆两档 P1-3、"三管三必须"固定提法白名单 P1-4、占位冒号/百分比剔除+中文弯引号 P1-5）；④T8 任务块指引+T20 个人周报/T21 月度总结新模板+无参数文种对照表（P0-1/P1-6）；⑤三条截断蒸馏条目补全+INDEX 数字承诺 WARN 抽检（P1-2）；corpus 引注 841→898 条（11→13 个分层文件），INDEX.md 重生成（48 类/958 条） |
 | v0.13（2026-09-04） | 评测驱动第二轮：①补 3 条未认领 P2 知识（联署函要点/检视降重四招/调研实施三法）+SKILL 七·二分类计数对齐 INDEX 实数；②**评测二轮**：15 用例重跑，升 13/平 2/降 0，有用命中 67→97 条次，"想找没找到"21→7 收窄 2/3，结构性返工清零；v0.12 五项修复+P1 三条新知识 7 项生效、1 项部分生效 |
+| v0.15（2026-09-05） | 二轮留档 P2 全清+三轮评测：①述职口径两可化+SKILL 多源口径冲突裁决规则（P2-8）；②范例层回收 run2 产物补商洽发函/任务型通知两篇成稿（5→7 篇），函尾语两式写明（P2-9）；③WX209 经验叙事弧线+domain_054 矛调机制清单（P2-11）；④T8 目标量化基线三问（P2-12）；dataset 961→965、INDEX 重生成、SKILL 计数对齐（合计 901）；三轮评测 run3：升 11/平 4/降 0，终检门 15/15 PASS，检索断层清零（21→7→0），新 P2 仅 2 条 |
 | v0.14（2026-09-05） | 二轮留档问题闭环：①check_params.py 新增 --final 终检强制门（ASCII 直角引号 >0 即 FAIL exit 1，弯引号不过不得清稿，P2-14）；②lingyun_172 层文件按 dataset 补全（原仅存 1/6，P1-7）；③build_corpus_index.py 新增 dataset↔层文件同步抽检（层文件缺/断标题报 WARN，P1-7）；④无参数文种对照表 7→10 行（个人年度总结/对照检查/述职报告，P2-7）+SKILL 三处指引（终检门/批复回读请示 P2-13/无批示信息稿平实导语 P2-10）；P2-8/9/11/12 继续留档 |
 
 </details>
