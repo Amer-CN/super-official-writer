@@ -10,6 +10,7 @@
  *   正文：仿宋_GB2312 三号
  *   行距：固定值 28 磅；页边距 上3.7/下3.5/左2.8/右2.6 cm
  *   落款：右对齐（说明人/日期）
+ *   页码：4号半角宋体、一字线，单页码右空一字/双页码左空一字（距版心下边缘 7mm）
  *
  * 用法：
  *   node render_docx.js input.json            # input.json 见下方 INPUT_SCHEMA
@@ -49,7 +50,8 @@ const F = {
   h2: { ascii: "楷体_GB2312", eastAsia: "楷体_GB2312", hAnsi: "楷体_GB2312" },
   body: { ascii: "仿宋_GB2312", eastAsia: "仿宋_GB2312", hAnsi: "仿宋_GB2312" },
 };
-const SIZE = { title: 44, section: 32 }; // docx half-points: 22pt=44, 16pt(三号)=32
+const SIZE = { title: 44, section: 32, pageNo: 28 }; // docx half-points: 22pt=44, 16pt(三号)=32, 14pt(4号)=28
+const SONG = { ascii: "宋体", eastAsia: "宋体", hAnsi: "宋体" }; // 页码：4号半角宋体
 
 function tryDocx() {
   try {
@@ -66,8 +68,24 @@ function tryDocx() {
   }
 }
 
+// GB/T 9704 页码：4号半角宋体，数字左右各一条一字线；单页码右空一字、双页码左空一字
+function pageNumFooter(docx, odd) {
+  const { Footer, Paragraph, TextRun, AlignmentType, PageNumber } = docx;
+  return new Footer({
+    children: [new Paragraph({
+      alignment: odd ? AlignmentType.RIGHT : AlignmentType.LEFT,
+      indent: odd ? { right: 280 } : { left: 280 }, // 一字 ≈ 4号字 14pt = 280 twips
+      children: [
+        new TextRun({ text: "— ", font: SONG, size: SIZE.pageNo }),
+        new TextRun({ children: [PageNumber.CURRENT], font: SONG, size: SIZE.pageNo }),
+        new TextRun({ text: " —", font: SONG, size: SIZE.pageNo }),
+      ],
+    })],
+  });
+}
+
 function build(docx, input) {
-  const { Document, Packer, Paragraph, TextRun, AlignmentType } = docx;
+  const { Document, Packer, Paragraph, TextRun, AlignmentType, Footer, PageNumber } = docx;
 
   const titleFont = input.titleFontFallback ? F.titleFontFallback : F.titleFont;
   const children = [];
@@ -135,11 +153,16 @@ function build(docx, input) {
   return new Document({
     creator: "super-official-writer v0.3",
     title: input.title,
+    evenAndOddHeaderAndFooters: true, // 单双页页码分侧
     sections: [{
       properties: {
         page: {
-          margin: { top: 3.7 * CM, bottom: 3.5 * CM, left: 2.8 * CM, right: 2.6 * CM },
+          margin: { top: 3.7 * CM, bottom: 3.5 * CM, left: 2.8 * CM, right: 2.6 * CM, footer: 1588 }, // 页码一字线距版心下边缘 7mm
         },
+      },
+      footers: {
+        default: pageNumFooter(docx, true),  // 单页码右空一字
+        even: pageNumFooter(docx, false),    // 双页码左空一字
       },
       children,
     }],
