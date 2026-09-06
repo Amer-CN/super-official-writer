@@ -4,6 +4,7 @@
  *
  * 输入结构化 JSON，输出 GB/T 9704-2012 格式的 .docx：
  *   标题：方正小标宋简体 二号（缺字体时回退 黑体）
+ *   发文字号：仿宋_GB2312 三号 居中（可选，docNumber 字段）
  *   一级标题：黑体 三号 不加粗
  *   二级标题：楷体_GB2312 三号 不加粗
  *   正文：仿宋_GB2312 三号
@@ -18,6 +19,7 @@
  * {
  *   "title": "关于XX工作的通知",
  *   "sub_title": "——补充说明",           // 可选，标题下副行
+ *   "docNumber": "×政办发〔2026〕12号",  // 可选，发文字号（标题后居中一行）
  *   "body": [
  *     {"level": "h1", "text": "一、总体要求"},
  *     {"level": "h2", "text": "（一）指导思想"},
@@ -82,17 +84,26 @@ function build(docx, input) {
       spacing: { line: 560, after: 240, lineRule: "exact" },
     }));
   }
+  if (input.docNumber) {
+    children.push(new Paragraph({
+      children: [new TextRun({ text: input.docNumber, font: F.body, size: SIZE.section })],
+      alignment: AlignmentType.CENTER,
+      spacing: { line: 560, after: 240, lineRule: "exact" },
+    }));
+  }
 
   for (const blk of input.body || []) {
     if (blk.level === "h1") {
       children.push(new Paragraph({
         children: [new TextRun({ text: blk.text, font: F.h1, size: SIZE.section })],
+        keepNext: true,
         spacing: { line: 560, before: 120, lineRule: "exact" },
         indent: { firstLine: 2 * 320 },
       }));
     } else if (blk.level === "h2") {
       children.push(new Paragraph({
         children: [new TextRun({ text: blk.text, font: F.h2, size: SIZE.section })],
+        keepNext: true,
         spacing: { line: 560, before: 60, lineRule: "exact" },
         indent: { firstLine: 2 * 320 },
       }));
@@ -136,6 +147,7 @@ function build(docx, input) {
 }
 
 const DEMO = {
+  docNumber: "×政办发〔2026〕12号",
   title: "关于开展2026年度公文写作规范化培训的通知",
   body: [
     { level: "para", text: "为提升机关公文写作规范化水平，经研究，决定开展2026年度公文写作培训。现将有关事项通知如下。" },

@@ -8,7 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;901%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.15-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.16-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
 [![知识库](https://img.shields.io/badge/知识库-901条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
@@ -154,10 +154,11 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.15</b>（2026-09-05）· v0.1 → v0.15 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.16</b>（2026-09-06）· v0.1 → v0.16 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
+| v0.16（2026-09-06） | run4 跨模型盲评驱动交付链修复：render_docx.js 新增 docNumber 发文字号字段（标题后居中一行，仿宋三号，补齐 GB/T 9704 版头要素，P1-8）+ 一级标题 keepNext 防孤悬页末（P2-17）；SKILL 素材核查三防线新增第 5 条（届数/次数等推算数字无依据一律占位，P2-18）；run4 终分 executor 0.942＞主窗口 0.833 |
 | v0.1 | 两本书方法论融合：五步实战法 × 六层技能矩阵 + Protected Spans |
 | v0.2 | + GB/T 9704-2012 格式规范层 |
 | v0.3 | + 蒸馏知识库（凌云 177 条 + 惠水 20 条）+ 排版执行脚本 |
