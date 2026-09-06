@@ -30,4 +30,4 @@ node scripts/render_docx.js --demo                       # docx 排版演示（�
 
 ## 当前状态（2026-09-06）
 
-v0.16 已推送（GB/T 9704 docx 渲染要素齐备：标题/文号/字体/页码）。语料生产现场在 `F:/AIXM/XZ/lingyun/`（本地 git，博主查重表 `blogger-registry.md`；该仓另有另一窗口的 blogger6/erp_dev 独立数据集，与本 skill 无关勿混）。评测四轮收官（run4 盲评 executor 0.942＞主窗口 0.833）。遗留：P2-19 观察项（不动）、tests 尚无自动化断言、评测后续走增量盲评模式。
+v0.16 已推送（GB/T 9704 docx 渲染要素齐备：标题/文号/字体/页码）。语料生产现场在 `F:/AIXM/XZ/lingyun/`（本地 git，博主查重表 `blogger-registry.md`；该仓另有另一窗口的 blogger6/erp_dev 独立数据集，与本 skill 无关勿混）。评测四轮收官（run4 盲评 executor 0.942＞主窗口 0.833）。遗留：评测后续走增量盲评模式（唯一遗留）。推送前必跑 `python scripts/check_integrity.py`（9 项完整性断言：版本三处/dataset 对账/计数行自洽/INDEX 零 diff/终检门回归 24 稿/盲卷零泄漏/索引页计数抽查）。
