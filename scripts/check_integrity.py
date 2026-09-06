@@ -106,6 +106,32 @@ def main():
                 leak.append(f"{f.name}:{kw}")
     check("run4 盲卷身份零泄漏", not leak, ",".join(leak))
 
+    # 8. README 散文中的 jsonl 条数 == dataset 实数（历史版本行用"条/48 类"句式，不会误伤）
+    jsonl_counts = [int(x) for x in re.findall(r"(\d+) 条 jsonl", readme)]
+    check("README 散文 jsonl 条数 == dataset 实数",
+          all(c == len(ids) for c in jsonl_counts),
+          f"出现 {jsonl_counts} vs 实数 {len(ids)}" if jsonl_counts and any(c != len(ids) for c in jsonl_counts) else "")
+
+    # 9. 致谢博主覆盖：注册表全部抖音博主必须出现在 README"视频蒸馏来源"
+    registry = (LINGYUN / "blogger-registry.md").read_text(encoding="utf-8")
+    # ERP 独立数据集博主（如锦鲤 baba）明确标注"独立 … 未并入公文 skill"，不在本断言范围内
+    reg_names = []
+    for line in registry.splitlines():
+        # 凌云笔杆子行无 sec_uid（未存档），以"未存档"识别；锦鲤 baba（ERP 独立）排除
+        m2 = re.match(r"\| ([^|]+) \| (MS4w|（早期蒸馏)", line)
+        if m2 and "未并入公文 skill" not in line:
+            reg_names.append(m2.group(1).strip())
+    mm = re.search(r"\*\*视频蒸馏来源（(\d+) 位博主）：\*\*([\s\S]*?)\n\n", readme)
+    if mm and reg_names:
+        declared_n, body = int(mm.group(1)), mm.group(2)
+        listed = len(re.findall(r"^- 抖音", body, re.M))
+        missing = [n for n in reg_names if n not in body]
+        check(f"致谢博主覆盖（声明 {declared_n}/列出 {listed}/注册表 {len(reg_names)}）",
+              declared_n == listed == len(reg_names) and not missing,
+              f"缺 {missing}" if missing else f"声明 {declared_n} vs 列出 {listed} vs 注册表 {len(reg_names)}")
+    else:
+        check("致谢博主覆盖", False, "README 致谢节或注册表格式未匹配")
+
     # 7. corpus-lingyun.md 索引页计数抽查 == 层文件实数
     idx = (ROOT / "references" / "corpus-lingyun.md").read_text(encoding="utf-8")
     pairs = [("lingyun-huishui.md", r"惠水组工 20 期实战方法，35 类速查（(\d+) 条）"),
