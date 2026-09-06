@@ -132,6 +132,21 @@ def main():
     else:
         check("致谢博主覆盖", False, "README 致谢节或注册表格式未匹配")
 
+    # 12. 版本字符串一致性（散落版本标注第二类）
+    # SKILL 锚点之外允许的版本号：CHANGELOG 历史行、README 版本历史行、creator 去版本化后应无 "v0.X"
+    import glob as _g
+    ver_hits = []
+    ver_hits += [("SKILL.md 融合设计节", 1 if "设计时版本" in skill else 0)]
+    rj = (ROOT / "scripts" / "render_docx.js").read_text(encoding="utf-8")
+    ver_hits.append(("render_docx.js creator 去版本化", 1 if re.search(r'creator:\s*"super-official-writer"', rj) else 0))
+    # SKILL 正文裸 "v0.X"（除锚点/设计时版本/CHANGELOG 指代外）应为 0
+    body = re.sub(r"<!--\s*skill-version:[^>]*>", "", skill)
+    body = body.replace("设计时版本", "")
+    stray = re.findall(r"现行\s*v0\.[\d.]+|版本[：:]\s*v0\.[\d.]+", body)
+    ver_hits.append(("SKILL 正文无裸现役版本标注", 1 if not stray else 0))
+    for name, ok in ver_hits:
+        check(name, bool(ok), "" if ok else "见上")
+
     # 7. corpus-lingyun.md 索引页计数抽查 == 层文件实数
     idx = (ROOT / "references" / "corpus-lingyun.md").read_text(encoding="utf-8")
     pairs = [("lingyun-huishui.md", r"惠水组工 20 期实战方法，35 类速查（(\d+) 条）"),

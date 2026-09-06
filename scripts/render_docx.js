@@ -151,7 +151,7 @@ function build(docx, input) {
   }
 
   return new Document({
-    creator: "super-official-writer v0.3",
+    creator: "super-official-writer",
     title: input.title,
     evenAndOddHeaderAndFooters: true, // 单双页页码分侧
     sections: [{
