@@ -132,6 +132,9 @@ Step 5 收果子 ──── 八项算法校验 + 核稿十查（corpus 病例�
 super-official-writer/
 ├── SKILL.md                # 技能主文件：流程+算法+规则（~21KB）
 ├── README.md               # 本文件
+├── docs/
+│   ├── distillation-sop.md # 抖音博主蒸馏流水线 SOP（供其他窗口/项目复用）
+│   └── integration-contract.md # 集成契约（下游按编号解析本仓时的稳定性承诺；普通用户可忽略）
 ├── references/
 │   ├── templates.md        # 21 种文体框架模板（4 种带语料实测标注）
 │   ├── phrase-library.md   # 素材库（三~六字短语/按拿推搭配/概念封装/报告金句）

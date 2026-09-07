@@ -26,6 +26,7 @@ node scripts/render_docx.js --demo                       # docx 排版演示（�
 - `references/`：templates（21 模板）/ style-params（7 文种参数）/ phrase-library / format-spec（GB/T 9704）/ sources（条例+GB9704 原文+27 份报告）
 - `scripts/`：render_docx（排版，v0.16 起含 docNumber 文号行+keepNext+奇偶页码，GB/T 9704 要素齐备）/ check_params（风格自检+--final 终检门）/ version_check（更新）/ build_corpus_index（索引）
 - `docs/distillation-sop.md`：抖音博主蒸馏流水线 SOP（供其他窗口/项目复用）
+- `docs/integration-contract.md`：集成契约（下游稳定面承诺；改 SKILL 章节编号/T 编号/锚点格式前必读，breaking 须 CHANGELOG 标注）
 - `.work/`：任务简报与决策备忘（gitignored）；决策备忘在 `.work/decisions/`
 
 ## 当前状态（2026-09-06）
