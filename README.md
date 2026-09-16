@@ -6,11 +6,11 @@
 
 **覆盖：写作方法论 × 文体模板 × 实战知识库 × 国标格式规范 × docx 排版执行**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;901%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;932%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.16-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.17-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
-[![知识库](https://img.shields.io/badge/知识库-901条-10B981?style=for-the-badge)](#-知识来源)
+[![知识库](https://img.shields.io/badge/知识库-932条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
 
 </div>
@@ -26,7 +26,7 @@
 | 🧭 **流程引擎** | 五步实战法：磨刀子→定盘子→搭架子→敲键子→收果子 | SKILL.md |
 | 🧬 **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
 | 📐 **文体模板** | 21 种文体框架（周报/月度总结/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
-| 📚 **实战知识库** | 901 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 四书蒸馏层 + 七博主层（v0.3 凌云+惠水 → v0.5 摆渡+捉刀人 → v0.8 改稿室 → v0.9 大雨 → v0.11 文兄））：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
+| 📚 **实战知识库** | 932 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 五书蒸馏层 + 七博主层（v0.3 凌云+惠水 → v0.5 摆渡+捉刀人 → v0.8 改稿室 → v0.9 大雨 → v0.11 文兄））：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
 | 📜 **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
 | 🔍 **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
 | 📏 **风格量化验收** | 7 文种句长/顿号/力度词等 13 项参数与自检脚本（只判硬冲突与同向偏离） | references/style-params.md + scripts/check_params.py |
@@ -51,12 +51,13 @@
 | 《新党政机关公文与办公室写作》范兰德 | 事务文书 | 会务/计划总结/礼仪文书 + 完整版补遗（典型材料/感谢信/倡议书/名称时间数字用法） |
 | 《党政机关公文写作处理病例分析》蔡振康 | 改错案例 | 57 个病例 + 核稿十查 + 完整版补遗（行文原则篇等 16 例） |
 | 《秘书工作手记2：怎样写出好公文》像玉的石头 | 实务经验 | 互联网检索找范文、领导意图揣摩、词句操作、修改整容 |
+| 《秘书工作手记：办公室老江湖的职场心法》像玉的石头 | 实务经验 | 汇报反馈、沟通礼仪、宴请座次、办会细节、文件命名与高效办公（写稿只收对手记2差值，v0.17） |
 | 《新编办公室文书写作要领与范本全书（第 2 版）》付传 | 文种要领 | 各文种要领/差异点/文种辨析 |
 | 历年国务院政府工作报告 27 份（2000-2026） | 权威语料 | 句式基准实测、提法迭代表、金句库、报告骨架；领域素材层主要句源（安全生产/养老/治理部署句式与机制口径） |
 | 国务院公报/地方政府门户（公有领域公文范例） | 成稿范例 | 纪要/通知/请示/批复/函五文种真实件 4 篇＋合成范例 1 篇（版式要素清单＋详略尺度，法定公文依《著作权法》第五条可收录） |
 | 开源项目 lieflat-gongwen（larashero3-dotcom，MIT，2026） | 量化风格参数 | 102 万字语料全量统计：文种参数表、标点纪律、力度词配额、标题技法浓度、模板假设冲突校准——致谢作者 lieflat 与贡献者 shiujan |
 
-> 视频类内容经授权渠道下载 → 语音转写 → 逐条蒸馏 → 结构化整理；书籍类内容经微信读书导出蒸馏。结构化数据集（965 条 jsonl）另存。
+> 视频类内容经授权渠道下载 → 语音转写 → 逐条蒸馏 → 结构化整理；书籍类内容经微信读书导出蒸馏。结构化数据集（996 条 jsonl）另存。
 
 ## 📦 安装
 
@@ -158,10 +159,11 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.16</b>（2026-09-06）· v0.1 → v0.16 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.17</b>（2026-09-16）· v0.1 → v0.17 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
+| v0.17（2026-09-16） | + 手记1去重蒸馏 31 条（corpus 新层 book-shouji1.md，dataset 扩至 996 条/48 类）：P0 写稿差值 6 条（五得/格式脸面/标题四型/写实新例/资料库新例/校对新例）+P1 汇报沟通 9 条（回音/频次/五条/意图/四步/当场问/笔记本/眼力见/挨骂/即兴/暖场/心窝话/日常）+P2 习惯 1 条+P3 事务 7 条（座次/敬酒/点菜/选餐厅/办会/短会/大会/命名办公邮件）；撞题只收增量，未收 4 主题见底稿清单；SKILL 计数同步（书籍 201→232/合计 901→932） |
 | v0.16（2026-09-06） | run4 跨模型盲评驱动交付链修复：render_docx.js 新增 docNumber 发文字号字段（标题后居中一行，仿宋三号，补齐 GB/T 9704 版头要素，P1-8）+ 一二级标题 keepNext 防孤悬页末（P2-17），页码编排（4 号半角宋体一字线，单页右空/双页左空，P2-20）；judge 第 4 轮视觉验收 **accept 零残留**——GB/T 9704 渲染要素全部齐备；SKILL 素材核查三防线新增第 5 条（届数/次数等推算数字无依据一律占位，P2-18）；run4 终分 executor 0.942＞主窗口 0.833；题面限定词入 Protected Spans（P2-19）+ 新增 check_integrity.py 完整性门禁 9 项断言 |
 | v0.1 | 两本书方法论融合：五步实战法 × 六层技能矩阵 + Protected Spans |
 | v0.2 | + GB/T 9704-2012 格式规范层 |

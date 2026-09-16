@@ -1,10 +1,10 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（965 条，48 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（996 条，48 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
-## 写作方法论（226 条）
+## 写作方法论（227 条）
 
 - lingyun_005｜"12321"方片牌写作框架｜lingyun-huishui.md
 - lingyun_019-020｜速成四回眸口诀｜lingyun-huishui.md
@@ -232,6 +232,7 @@
 - wenxiong_WX193｜经验做法"6 类 18 个字"（场景驱动/流程再造/机制创新/技术赋能/载体创建/闭环督导）｜blogger-wenxiong.md
 - wenxiong_WX194｜论点具体化"6 种逻辑方法"（前 3 种：因果回溯/假设反正/现象点化）｜blogger-wenxiong.md
 - wenxiong_WX209｜经验材料叙事弧线（铺垫→拐点→验证→升华）｜blogger-wenxiong.md
+- shouji1_S18｜S18 资料库四法的新例：剪报父亲/路遥准备/王同学事迹｜book-shouji1.md
 
 ## 文种规范（80 条）
 
@@ -544,7 +545,7 @@
 - wenxiong_WX104｜"一带三"类型化大作文 3 种写法（递进/并列/辩证）｜blogger-wenxiong.md
 - wenxiong_WX157｜递进"3 大结构"（链条/爬坡/纵深递进）｜blogger-wenxiong.md
 
-## 标题技巧（39 条）
+## 标题技巧（40 条）
 
 - lingyun_001｜土味小标题公式｜lingyun-huishui.md
 - lingyun_003｜80 年前的老标题（群众语言）｜lingyun-huishui.md
@@ -585,6 +586,7 @@
 - wenxiong_WX45｜"数理化"三组科学类比喻词标题｜blogger-wenxiong.md
 - wenxiong_WX77｜总结报告"一字点睛法"：精准单字+有力"新"字短语｜blogger-wenxiong.md
 - wenxiong_WX184｜大标题"3 个方法"（首式截断：双字对比/双字辩证）｜blogger-wenxiong.md
+- shouji1_S16｜S16 标题四型+出处：万能八条判俗/四六句场合适配｜book-shouji1.md
 
 ## 文种要领（37 条）
 
@@ -733,7 +735,7 @@
 - wenxiong_WX42｜归纳"现状问题"4 关键字：有/还/较/不（+6 个常用句尾）｜blogger-wenxiong.md
 - wenxiong_WX118｜材料引用"他说"变"我说"3 法（场景融入/对比升华/延伸阐释）｜blogger-wenxiong.md
 
-## 即兴发言（28 条）
+## 即兴发言（29 条）
 
 - lingyun_007｜演讲稿"三颗种子"范例｜lingyun-huishui.md
 - lingyun_014｜即兴发言"黄金三点"｜lingyun-huishui.md
@@ -763,6 +765,7 @@
 - wenxiong_WX121｜"3 个关键词"答出系统味道（动态平衡/同步增益/有机融合）｜blogger-wenxiong.md
 - wenxiong_WX124｜"正方形答题法"四步答面试观点题｜blogger-wenxiong.md
 - wenxiong_WX125｜"3 维分析"从现象看本质（周期性/结构性/体系性）｜blogger-wenxiong.md
+- shouji1_S10｜S10 即兴发言四个有：准备/态度/说法/爆点｜book-shouji1.md
 
 ## 核稿病例（26 条）
 
@@ -793,7 +796,7 @@
 - book3_25｜C31 "纪要格式"是特定格式｜book-hegao.md
 - book3_26｜核稿检查清单（书 3 全书浓缩）｜book-hegao.md
 
-## 职场表达（20 条）
+## 职场表达（26 条）
 
 - lingyun_011｜朋友圈跨年文案"你要写体"｜lingyun-huishui.md
 - lingyun_012｜办公室人成长五点（推荐文章+扩展）｜lingyun-huishui.md
@@ -815,8 +818,14 @@
 - huishui_H05｜事毕必回复（2023-06-30）｜lingyun-huishui.md
 - gaigaoshi_GC27｜低水平周报写动作，高水平周报写结果｜blogger-gaigaoshi.md
 - wenxiong_WX02｜竞聘演讲三段骨架：谈经历→讲优势→谈未来｜blogger-wenxiong.md
+- shouji1_S08｜S08 眼力见：放低姿态的服务心态｜book-shouji1.md
+- shouji1_S09｜S09 挨骂三识：能力强不背锅/不当场声辩/坏事变好事三步｜book-shouji1.md
+- shouji1_S11｜S11 暖场三件套：元气问候/体面说不/不议人孩子｜book-shouji1.md
+- shouji1_S12｜S12 把话说到心窝：请/您+夸张夸人+四句口头禅｜book-shouji1.md
+- shouji1_S13｜S13 跟领导的日常：马上就办/人际不过夜/陪出差细节｜book-shouji1.md
+- shouji1_S22｜S22 电话笑意五式：升调急速/自报家门/不玩变脸/多用书面/让对方先挂｜book-shouji1.md
 
-## 格式规范（17 条）
+## 格式规范（18 条）
 
 - lingyun_010｜公文排版顺口溜｜lingyun-huishui.md
 - lingyun_058｜Word 插图不跑位｜lingyun-huishui.md
@@ -835,6 +844,26 @@
 - shu3_C37｜C37 "正文"标注要正确｜book-hegao.md
 - shu3_C38｜C38 "印发机关和印发日期"标注要认真｜book-hegao.md
 - shu3_C39｜C39 "版记"部分的"应当"与"不当"｜book-hegao.md
+- shouji1_S15｜S15 格式是脸面：先调格式再改稿｜book-shouji1.md
+
+## 讲话稿（16 条）
+
+- lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
+- lingyun_098｜讲话开头"捧哏法"｜lingyun-huishui.md
+- lingyun_100｜讲话开头"夸景法"五式｜lingyun-huishui.md
+- lingyun_156｜七一《光明日报》八个好开头｜lingyun-huishui.md
+- lingyun_164｜求是首篇结构"成绩+优秀特质+展望"｜lingyun-huishui.md
+- huishui_H16｜讲话稿开头五招（2024-10-18）｜lingyun-huishui.md
+- gongwenbaidu_09｜G09 领导讲话稿站位的底层逻辑（三级讲话）｜blogger-gongwenbaidu.md
+- gongwenbaidu_10｜G10 写好领导讲话稿的五种思维｜blogger-gongwenbaidu.md
+- shouji2_S43｜S43 代拟文稿体现领导个性四招｜book-shouji2.md
+- shouji2_S61｜S61 开头四式（领导先读开头、瞅提纲、翻结尾，"一读一瞅一翻"形成判断基调）｜book-shouji2.md
+- shouji2_S63｜S63 写实讲话稿正文五法（以习近平哲学社会科学座谈会讲话为标杆）｜book-shouji2.md
+- fanben_F31｜F31 领导讲话稿分型 + 演讲稿（讲话稿增量，演讲稿为 corpus 未覆盖文种）｜book-fuchuan.md
+- gaigaoshi_GC56｜领导让你"写得像领导讲话"＝给所有部门建立同一套判断标准｜blogger-gaigaoshi.md
+- gaigaoshi_GC74｜领导讲话稿＝先判断、再取舍、后行动｜blogger-gaigaoshi.md
+- dayu_DY41｜节奏感：短句对仗、一个主语、领导口吻｜blogger-dayu.md
+- shouji1_S17｜S17 写实五法的新例证：个性/痛处/细节/事实/举措｜book-shouji1.md
 
 ## 文种辨析（15 条）
 
@@ -854,23 +883,23 @@
 - shu3_C46｜C46 受双重领导的机关行上行文应当正确选用主送对象｜book-hegao.md
 - wenxiong_WX07｜会议纪要"认为/指出/强调/要求"四用语辨析｜blogger-wenxiong.md
 
-## 讲话稿（15 条）
+## 汇报方法（15 条）
 
-- lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
-- lingyun_098｜讲话开头"捧哏法"｜lingyun-huishui.md
-- lingyun_100｜讲话开头"夸景法"五式｜lingyun-huishui.md
-- lingyun_156｜七一《光明日报》八个好开头｜lingyun-huishui.md
-- lingyun_164｜求是首篇结构"成绩+优秀特质+展望"｜lingyun-huishui.md
-- huishui_H16｜讲话稿开头五招（2024-10-18）｜lingyun-huishui.md
-- gongwenbaidu_09｜G09 领导讲话稿站位的底层逻辑（三级讲话）｜blogger-gongwenbaidu.md
-- gongwenbaidu_10｜G10 写好领导讲话稿的五种思维｜blogger-gongwenbaidu.md
-- shouji2_S43｜S43 代拟文稿体现领导个性四招｜book-shouji2.md
-- shouji2_S61｜S61 开头四式（领导先读开头、瞅提纲、翻结尾，"一读一瞅一翻"形成判断基调）｜book-shouji2.md
-- shouji2_S63｜S63 写实讲话稿正文五法（以习近平哲学社会科学座谈会讲话为标杆）｜book-shouji2.md
-- fanben_F31｜F31 领导讲话稿分型 + 演讲稿（讲话稿增量，演讲稿为 corpus 未覆盖文种）｜book-fuchuan.md
-- gaigaoshi_GC56｜领导让你"写得像领导讲话"＝给所有部门建立同一套判断标准｜blogger-gaigaoshi.md
-- gaigaoshi_GC74｜领导讲话稿＝先判断、再取舍、后行动｜blogger-gaigaoshi.md
-- dayu_DY41｜节奏感：短句对仗、一个主语、领导口吻｜blogger-dayu.md
+- lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
+- lingyun_047｜即兴汇报"果源三建"口诀｜lingyun-huishui.md
+- lingyun_071｜汇报工作五字诀"成正困重问"｜lingyun-huishui.md
+- lingyun_085｜PPT 封面四步法｜lingyun-huishui.md
+- lingyun_114｜汇报"土衔鼠"三字诀｜lingyun-huishui.md
+- lingyun_122｜汇报"5 先 5 后"公式｜lingyun-huishui.md
+- huishui_H04｜向领导汇报工作四要点（2023-06-14）｜lingyun-huishui.md
+- gaigaoshi_GC06｜汇报进展＝让领导能判断，不是表态"我在干"｜blogger-gaigaoshi.md
+- gaigaoshi_GC28｜低水平开头写客套，高水平开头说正事｜blogger-gaigaoshi.md
+- shouji1_S01｜S01 交办必有回音：件件有着落、事事有回信｜book-shouji1.md
+- shouji1_S02｜S02 汇报频次定律：你的次数永远少于领导期望｜book-shouji1.md
+- shouji1_S03｜S03 好汇报五条：先结果、有书面、详略当、列一二三、带方案｜book-shouji1.md
+- shouji1_S05｜S05 吃准指示四步：原话落实/观点发散/参与酝酿/个性发散｜book-shouji1.md
+- shouji1_S06｜S06 没听清必须当场问：先备方案再开口｜book-shouji1.md
+- shouji1_S07｜S07 指示先记下来：笔记本绑在腋窝下｜book-shouji1.md
 
 ## 理论学习（13 条）
 
@@ -931,17 +960,30 @@
 - wenxiong_WX207｜年度个人检查（对照检查）材料全骨架（三方面+四剖析+四个"人"）｜blogger-wenxiong.md
 - tiaoli_fanli_001｜联合主办商洽函要点（联署）｜chengwen-fanli.md
 
-## 汇报方法（9 条）
+## 写作理念（10 条）
 
-- lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
-- lingyun_047｜即兴汇报"果源三建"口诀｜lingyun-huishui.md
-- lingyun_071｜汇报工作五字诀"成正困重问"｜lingyun-huishui.md
-- lingyun_085｜PPT 封面四步法｜lingyun-huishui.md
-- lingyun_114｜汇报"土衔鼠"三字诀｜lingyun-huishui.md
-- lingyun_122｜汇报"5 先 5 后"公式｜lingyun-huishui.md
-- huishui_H04｜向领导汇报工作四要点（2023-06-14）｜lingyun-huishui.md
-- gaigaoshi_GC06｜汇报进展＝让领导能判断，不是表态"我在干"｜blogger-gaigaoshi.md
-- gaigaoshi_GC28｜低水平开头写客套，高水平开头说正事｜blogger-gaigaoshi.md
+- lingyun_146｜精品意识六点（权威作者）｜lingyun-huishui.md
+- book3_OV4｜公文的法定效用｜book-hegao.md
+- zhuodaoren_18｜Z19 韩红"走个面"案例（公文角度）｜blogger-zhuodaoren.md
+- shouji2_S10｜S10 文稿不是文章｜book-shouji2.md
+- shouji2_S29｜S29 抄袭三雷区｜book-shouji2.md
+- shouji2_S32｜S32 意图才是硬杠杠｜book-shouji2.md
+- shu3_C33｜C33 我们那儿是不用公文的（公文的作用）｜book-hegao.md
+- shu3_C47｜C47 "骂街公文"有多么不该｜book-hegao.md
+- shouji1_S04｜S04 指示≠意图：最低纲领忠实与最高纲领发散｜book-shouji1.md
+- shouji1_S14｜S14 写稿五得：为人/推进/斟酌/露脸/信息｜book-shouji1.md
+
+## 办公室事务（9 条）
+
+- lingyun_066｜文化墙"十个上墙"+一个避坑｜lingyun-huishui.md
+- lingyun_169｜长效机制"四章"（收官不是收场）｜lingyun-huishui.md
+- shouji1_S20｜S20 机德：不做不接电话讨厌鬼/短信六规｜book-shouji1.md
+- shouji1_S21｜S21 微信六规：实名头像/加班读书朋友圈/点赞回笑脸/不说在吗｜book-shouji1.md
+- shouji1_S23｜S23 宴请座次：顺流而下+餐巾辨位+分座灵活｜book-shouji1.md
+- shouji1_S24｜S24 敬酒七法：先说后喝+六话术+代酒礼仪｜book-shouji1.md
+- shouji1_S25｜S25 点菜全链：先点后报+四问+冷热位主食酒水打包埋单｜book-shouji1.md
+- shouji1_S26｜S26 选餐厅四库+点菜经理：隐居/著名/菜系/特色｜book-shouji1.md
+- shouji1_S30｜S30 文件命名3W+办公桌断舍离+电脑三区+邮件六原则｜book-shouji1.md
 
 ## 经验材料（9 条）
 
@@ -966,17 +1008,6 @@
 - lingyun_093｜古树课堂案例（学习形式创新）｜lingyun-huishui.md
 - lingyun_136｜查改整治十个好做法（人民日报头版）｜lingyun-huishui.md
 
-## 写作理念（8 条）
-
-- lingyun_146｜精品意识六点（权威作者）｜lingyun-huishui.md
-- book3_OV4｜公文的法定效用｜book-hegao.md
-- zhuodaoren_18｜Z19 韩红"走个面"案例（公文角度）｜blogger-zhuodaoren.md
-- shouji2_S10｜S10 文稿不是文章｜book-shouji2.md
-- shouji2_S29｜S29 抄袭三雷区｜book-shouji2.md
-- shouji2_S32｜S32 意图才是硬杠杠｜book-shouji2.md
-- shu3_C33｜C33 我们那儿是不用公文的（公文的作用）｜book-hegao.md
-- shu3_C47｜C47 "骂街公文"有多么不该｜book-hegao.md
-
 ## 总结技巧（6 条）
 
 - gongwenbaidu_15｜G15 工作总结两大布局：并列式→递进式｜blogger-gongwenbaidu.md
@@ -985,6 +1016,23 @@
 - dayu_DY18｜总结的三段严密逻辑：是什么→怎么做→靠什么｜blogger-dayu.md
 - dayu_DY19｜总结把握重点：目标/项目/成效三个重点｜blogger-dayu.md
 - wenxiong_WX12｜计划秒变总结三步法：移→顺→换（动宾改主谓）｜blogger-wenxiong.md
+
+## 文字规范（6 条）
+
+- lingyun_094｜写作易错 5 例（第一期）｜lingyun-huishui.md
+- lingyun_095｜"的"字用法三公式｜lingyun-huishui.md
+- lingyun_099｜写作易错 5 例（第二期）｜lingyun-huishui.md
+- lingyun_103｜五组易混词辨析｜lingyun-huishui.md
+- shouji2_S76｜S76 错别字防治（一个错别字毁所有）｜book-shouji2.md
+- shouji1_S19｜S19 校对四法的新例：更上层楼/婚姻法一夫一妻｜book-shouji1.md
+
+## 会务组织（5 条）
+
+- lingyun_031｜趣味范文：给诸葛亮写会议纪要｜lingyun-huishui.md
+- lingyun_063｜办会五步法｜lingyun-huishui.md
+- shouji1_S27｜S27 办会四步：名单先行/防漏四类/通知三要素/确认闭环｜book-shouji1.md
+- shouji1_S28｜S28 开短会三招：议题四病/Memo一页/议程三控｜book-shouji1.md
+- shouji1_S29｜S29 大会细节四件套：贵宾室/不当甩手/车位三制/背景板五诀｜book-shouji1.md
 
 ## 办文程序（5 条）
 
@@ -1001,14 +1049,6 @@
 - lingyun_097｜城市宣传语三公式｜lingyun-huishui.md
 - lingyun_116｜汇报片/宣传片文案"五调"｜lingyun-huishui.md
 - lingyun_151｜工作成绩写出流量"六子登科法"｜lingyun-huishui.md
-
-## 文字规范（5 条）
-
-- lingyun_094｜写作易错 5 例（第一期）｜lingyun-huishui.md
-- lingyun_095｜"的"字用法三公式｜lingyun-huishui.md
-- lingyun_099｜写作易错 5 例（第二期）｜lingyun-huishui.md
-- lingyun_103｜五组易混词辨析｜lingyun-huishui.md
-- shouji2_S76｜S76 错别字防治（一个错别字毁所有）｜book-shouji2.md
 
 ## 专项文书（4 条）
 
@@ -1063,16 +1103,6 @@
 - lingyun_158｜青年干部研讨发言三组框架｜lingyun-huishui.md
 - lingyun_167｜交流发言七组小标题框架｜lingyun-huishui.md
 
-## 会务组织（2 条）
-
-- lingyun_031｜趣味范文：给诸葛亮写会议纪要｜lingyun-huishui.md
-- lingyun_063｜办会五步法｜lingyun-huishui.md
-
-## 办公室事务（2 条）
-
-- lingyun_066｜文化墙"十个上墙"+一个避坑｜lingyun-huishui.md
-- lingyun_169｜长效机制"四章"（收官不是收场）｜lingyun-huishui.md
-
 ## 座谈发言（2 条）
 
 - lingyun_128｜座谈发言"小城故事多"｜lingyun-huishui.md
@@ -1088,6 +1118,11 @@
 - lingyun_067｜反内耗五句古文｜lingyun-huishui.md
 - lingyun_141｜面对大领导不紧张的秘诀｜lingyun-huishui.md
 
+## 职场方法（2 条）
+
+- lingyun_107｜周一"四头"上班法｜lingyun-huishui.md
+- shouji1_S31｜S31 习惯为王三件套：自动自发/记日记/拼身体｜book-shouji1.md
+
 ## 问题分析（2 条）
 
 - wenxiong_WX58｜"3 个悖论"写深问题矛盾（投入产出/供给需求/服务感受）｜blogger-wenxiong.md
@@ -1100,10 +1135,6 @@
 ## 文种写法（1 条）
 
 - huishui_H07｜思想汇报写法（2023-08-28）｜lingyun-huishui.md
-
-## 职场方法（1 条）
-
-- lingyun_107｜周一"四头"上班法｜lingyun-huishui.md
 
 ## 职场礼仪（1 条）
 

@@ -101,6 +101,7 @@ PREFIX_TO_FILE = {
     'book3': 'book-hegao.md',
     'shu3': 'book-hegao.md',
     'shouji2': 'book-shouji2.md',
+    'shouji1': 'book-shouji1.md',
     'fanben': 'book-fuchuan.md',
     'sgzbg': 'gongzuobaogao.md',
     'zhuodaoren': 'blogger-zhuodaoren.md',
@@ -165,11 +166,11 @@ def main():
     # dataset↔层文件同步抽检：输出 WARN 列表（仅提示，不阻断）
     sync_warns = layer_sync_check(entries)
     if sync_warns:
-        print(f'WARN dataset↔层文件同步抽检：{len(sync_warns)} 条标题在 INDEX 但层文件缺/断：')
+        print(f'WARN dataset-层文件同步抽检：{len(sync_warns)} 条标题在 INDEX 但层文件缺/断：')
         for w in sync_warns:
             print(w)
     else:
-        print('WARN dataset↔层文件同步抽检：无')
+        print('WARN dataset-层文件同步抽检：无')
 
 
 if __name__ == '__main__':
