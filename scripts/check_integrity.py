@@ -9,14 +9,20 @@
     python scripts/check_integrity.py            # 逐条输出 PASS/FAIL
     python scripts/check_integrity.py --quiet    # 只看 exit code（0=全过，1=有 FAIL）
 
-断言清单：
+断言清单（13 项；第 13 项对 2 个层文件各抽查一次，故全过时输出 14 行 PASS）：
   1. 版本三处一致（SKILL 锚点 / CHANGELOG 最新条 / README 徽章）
-  2. dataset jsonl：id 唯一；条数 == dataset/README.md 合计行
-  3. SKILL 七·二计数行自洽（分段和 + 5 篇纯范例 == 合计）
-  4. INDEX.md 重生成零 diff（防手改/漂移）
-  5. 终检门回归：run3/run4 存档成稿 --final 全 PASS
-  6. run4 盲卷身份零泄漏（防串通证据不被污染）
-  7. corpus-lingyun.md 索引页计数抽查 == 层文件实数（主层/文兄/领域）
+  2. dataset jsonl：id 唯一
+  3. dataset 条数 == dataset/README.md 合计行
+  4. SKILL 七·二计数行自洽（分段和 + 5 篇纯范例 == 合计）
+  5. INDEX.md 重生成零 diff（防手改/漂移；若 INDEX 属本版本交付物，此项会 FAIL 并自动 checkout 回滚——跑完须重跑 build_corpus_index.py 再提交）
+  6. 终检门回归：run3/run4 存档成稿 --final 全 PASS
+  7. run4 盲卷身份零泄漏（防串通证据不被污染）
+  8. README 散文中的 jsonl 条数 == dataset 实数
+  9. 致谢博主覆盖（注册表博主全出现在 README 视频蒸馏来源）
+  10. SKILL.md 融合设计节版本标注在位
+  11. render_docx.js creator 去版本化
+  12. SKILL 正文无裸现役版本标注
+  13. corpus-lingyun.md 索引页计数抽查 == 层文件实数（lingyun-huishui / 文兄两处）
 """
 import json
 import re
@@ -132,7 +138,7 @@ def main():
     else:
         check("致谢博主覆盖", False, "README 致谢节或注册表格式未匹配")
 
-    # 12. 版本字符串一致性（散落版本标注第二类）
+    # 10-12. 版本字符串一致性（三项：融合设计节标注 / render_docx creator 去版本化 / SKILL 无裸现役版本）
     # SKILL 锚点之外允许的版本号：CHANGELOG 历史行、README 版本历史行、creator 去版本化后应无 "v0.X"
     import glob as _g
     ver_hits = []
@@ -147,7 +153,7 @@ def main():
     for name, ok in ver_hits:
         check(name, bool(ok), "" if ok else "见上")
 
-    # 7. corpus-lingyun.md 索引页计数抽查 == 层文件实数
+    # 13. corpus-lingyun.md 索引页计数抽查 == 层文件实数（2 个层文件各出一条）
     idx = (ROOT / "references" / "corpus-lingyun.md").read_text(encoding="utf-8")
     pairs = [("lingyun-huishui.md", r"惠水组工 20 期实战方法，35 类速查（(\d+) 条）"),
              ("blogger-wenxiong.md", r"加夜班的文兄（220 期，含 19 图文期）[\s\S]*?（(\d+) 条，"),

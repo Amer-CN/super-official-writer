@@ -87,7 +87,7 @@ def layer_sync_check(entries):
             layer_texts[fname] = path.read_text(encoding='utf-8') if path.exists() else ''
         if e['title'].strip() not in layer_texts[fname]:
             warns.append(
-                f"- WARN {e['id'].strip()}｜{e['title'].strip()}｜层文件 {fname} 缺该标题（dataset↔层文件同步检查）")
+                f"- WARN {e['id'].strip()}｜{e['title'].strip()}｜层文件 {fname} 缺该标题（dataset-层文件同步检查）")
     return warns
 
 # id 前缀 → 分层文件（书1/书2/书1补遗 shu1 = 文种规范层 B 系列；书3/书3补遗 shu3 = 核稿病例层 C 系列；
