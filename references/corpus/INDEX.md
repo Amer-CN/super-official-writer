@@ -1,10 +1,10 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（1520 条，48 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（1672 条，48 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
-## 写作方法论（383 条）
+## 写作方法论（450 条）
 
 - lingyun_005｜"12321"方片牌写作框架｜lingyun-huishui.md
 - lingyun_019-020｜速成四回眸口诀｜lingyun-huishui.md
@@ -389,8 +389,75 @@
 - dashoubi_S122｜观点要鲜明要独到：从普通提法到“治理亚健康”｜book-dashoubi.md
 - dashoubi_S123｜三种与众不同的观点写法｜book-dashoubi.md
 - dashoubi_S141｜讲话“语言美”的四个来源｜book-dashoubi.md
+- liancheng_S02｜三天起草主题教育方案、讲话、主持词三件套复盘｜book-liancheng.md
+- liancheng_S04｜从一次读报复原素材积累全过程｜book-liancheng.md
+- liancheng_S05｜精读三步法与三种阅读策略｜book-liancheng.md
+- liancheng_S06｜批注法拆解范文：用「是什么、为什么、怎么办」固化好思维好语句｜book-liancheng.md
+- liancheng_S07｜「两夹一锦」素材固化三件套｜book-liancheng.md
+- liancheng_S08｜六类常写体例的范文挖掘渠道｜book-liancheng.md
+- liancheng_S09｜按岗位分工的重点报刊清单｜book-liancheng.md
+- liancheng_S11｜多从自己拟过的材料中摘现成｜book-liancheng.md
+- liancheng_S12｜三类「为什么」归堆实质与「共性道理+单位实际+鼓动号召」公式｜book-liancheng.md
+- liancheng_S14｜通读权衡四查：任务缺项、领导意图、框架结构、亮点新意｜book-liancheng.md
+- liancheng_S15｜交稿时头页附说明小帖｜book-liancheng.md
+- liancheng_S16｜讲话稿提纲「为什么—是什么—怎么办」实战复盘与融合上级逻辑｜book-liancheng.md
+- liancheng_S18｜深度研究事、人、体、景四个维度｜book-liancheng.md
+- liancheng_S19｜研究领导意图的80/20投入与找到「当领导的感觉」｜book-liancheng.md
+- liancheng_S20｜「七查」把握领导意图与批示分类本｜book-liancheng.md
+- liancheng_S21｜文稿中的「七情」贯通与「两情」补位｜book-liancheng.md
+- liancheng_S24｜「恶补」三要素：方法、关键与目标｜book-liancheng.md
+- liancheng_S25｜「要」「搜」「读」「合」「练」五字积累体系｜book-liancheng.md
+- liancheng_S26｜列提纲前从上、内、下、外四情分层梳理｜book-liancheng.md
+- liancheng_S29｜捕捉灵感的小技巧｜book-liancheng.md
+- xue28_S07｜发散思考的一次完整复盘：损失厌恶／越得不到越想得到／人人心中都有一只好奇的猫｜book-xue28.md
+- xue28_S08｜「无系统，不公文」：什么是系统与系统思维，系统思维为何重要，5 种思考维度｜book-xue28.md
+- xue28_S09｜完整性思考，把观点写全：完整性的 3 层理解与「数量边界／结构关系」两把尺｜book-xue28.md
+- xue28_S10｜逻辑性思考，把观点写顺：写作逻辑与逻辑学的区别＋9 种常用逻辑＋庖丁解牛｜book-xue28.md
+- xue28_S11｜层次性思考，把观点写清：纵向与横向两个维度＋霍拉与坦帕斯的钟表＋5 个实例｜book-xue28.md
+- xue28_S12｜结构性思考，把观点写完：总体结构／文种结构／事理结构＋结构化思维 3 点建议＋5 个实例｜book-xue28.md
+- xue28_S13｜统一性思考，把观点写像：分类即统一性＋维度要多元、标准要统一＋5 个实例｜book-xue28.md
+- xue28_S14｜修炼系统思维的 7 点建议：学理论悟原理／站在写作看系统／站在系统看写作／有框架用框架／没框架造框架／灵活运用／做长期主义者｜book-xue28.md
+- xue28_S15｜公文写作的「5 大变量」：人／文／事／地／时与「柔性化写作」理念｜book-xue28.md
+- xue28_S16｜故事的 8 种讲法：故事／历程／实例／数据／背景／感受／观点／闲谈｜book-xue28.md
+- xue28_S17｜研究的 8 大招式：记得住数据／说得清细节／分得出条理／形得成总体／找得准位置／厘得清过程／搞得懂逻辑／看得透规律｜book-xue28.md
+- xue28_S18｜论证的 10 种方法：举例子／列数据／说故事／摆事实／推逻辑／讲道理／引名言／打比方／作对比／释内涵｜book-xue28.md
+- xue28_S19｜分析的 7 个维度：分析构成／原因／结果／类型／形势／对错／要素（剥柚子）｜book-xue28.md
+- xue28_S20｜开篇的 12 种方法：设疑发问／阐述背景／驳斥谬误／归纳概括／界定概念／作出评价／阐明目的／呼应主题／询问原因／阐述形势／点明任务／说明意义｜book-xue28.md
+- xue28_S21｜收尾的 10 种方法：归纳概括／呼应主题／强调观点／补充说明／呼吁号召／展望未来／提出期望／明确使命／提出要求／加油鼓劲｜book-xue28.md
+- xue28_S22｜一篇好公文长啥样：像水蜜桃一样的 6 个审美维度（形正·皮薄·肉厚·汁多·味甜·核实）｜book-xue28.md
+- xue28_S23｜公文「调性」为何难改变：不会／不敢／不愿创新 3 因＋一篇改写过的处室年度总结｜book-xue28.md
+- xue28_S24｜心得体会的三个层次与四条改稿建议：就事论事／就事论理／就事论岗｜book-xue28.md
+- xue28_S25｜亮点都是「对比」结的果：什么是亮点＋亮点从哪来＋对比角度＋5 点注意｜book-xue28.md
+- xue28_S26｜像产品经理一样读懂领导：用「耳／手／心／嘴／眼／脚」六路读懂领导意图｜book-xue28.md
+- xue28_S27｜跨界类比构思法：用「植树 7 环节」构思企业文化落地发言｜book-xue28.md
+- xue28_S28｜意图是构思的「原点」：新员工入职座谈会领导讲话的 7 点解构｜book-xue28.md
+- bangshou_S09｜新闻发现的五条渠道｜book-bangshou.md
+- bangshou_S10｜变换角度找新闻：两篇见报稿的选题复盘｜book-bangshou.md
+- bangshou_S41｜经验材料观点提炼的三条路径：对比、事例、数据｜book-bangshou.md
+- bangshou_S42｜经验材料搜集素材的三点三忌｜book-bangshou.md
+- bangshou_S43｜经验材料用语三要：朴实的话、简短的话、管用的话｜book-bangshou.md
+- bangshou_S44｜经验材料表达方式的选择边界｜book-bangshou.md
+- bangshou_S58｜读书三法：海量泛读、按需精读、挤时间读｜book-bangshou.md
+- bangshou_S59｜积累资料的两大好处、三个库与四有｜book-bangshou.md
+- bangshou_S60｜常写多练：从易到难的三阶梯与投稿的三收益｜book-bangshou.md
+- bangshou_S61｜跟高手学的三个着力点与四勤｜book-bangshou.md
+- bangshou_S62｜善于总结的三种「悟」：及时性、定期性、针对性｜book-bangshou.md
+- bangshou_S63｜提高综合素质的三条：专业要求、时代需要、心理素质｜book-bangshou.md
+- bangshou_S64｜调查研究的四条基本功：端正态度、问题导向、解剖麻雀、讨论研究｜book-bangshou.md
+- bangshou_S65｜决策中的「多脑并用」：内脑加外脑、左脑加右脑、人脑加电脑｜book-bangshou.md
+- bangshou_S66｜向实践学习的三条：群众是最好老师、处处留心皆学问、到一线去锻炼｜book-bangshou.md
+- bangshou_S67｜把握主要矛盾与「学会弹钢琴」：主要不等于唯一｜book-bangshou.md
+- bangshou_S68｜模仿的三大好处与「天下文章一大抄」的正解｜book-bangshou.md
+- bangshou_S69｜模仿对象的四种参照：上级、圈子、下级、模板｜book-bangshou.md
+- bangshou_S70｜搜索引擎的四个指令技巧｜book-bangshou.md
+- bangshou_S71｜在模仿中创新的三条做法：重新排列组合、变换表达方式、结合实际｜book-bangshou.md
+- bangshou_S73｜审题三步：明确主题、明确对象、明确篇幅｜book-bangshou.md
+- bangshou_S78｜填充素材三步：堆砌好、撮合好、捋顺好｜book-bangshou.md
+- bangshou_S79｜概括的四个作用｜book-bangshou.md
+- bangshou_S80｜概括的六种方式：数字式、字词式、谐音式、同类式、对比式、形象式｜book-bangshou.md
+- bangshou_S82｜概括运用的三个着力点：全局、结构、素材｜book-bangshou.md
 
-## 结构方法（93 条）
+## 结构方法（102 条）
 
 - lingyun_132｜《求是》文章两组框架｜lingyun-huishui.md
 - lingyun_145｜"三"的写法（三横三纵/三位一体/三元三链）｜lingyun-huishui.md
@@ -485,8 +552,17 @@
 - dashoubi_S85｜信息结构四种开头与三种内容摆布｜book-dashoubi.md
 - dashoubi_S86｜信息结构紧凑原则与三条咬合标准｜book-dashoubi.md
 - dashoubi_S115｜打破结构的枷锁：三段式可用但不必非用不可｜book-dashoubi.md
+- liancheng_S10｜「先摞上再说」五条实操与「抄」的六条法则｜book-liancheng.md
+- liancheng_S13｜「是什么」「怎么办」归堆公式与「总述」的点睛作用｜book-liancheng.md
+- liancheng_S27｜成效类提纲的三种提炼角度与结构形态｜book-liancheng.md
+- bangshou_S06｜消息主体的三种结构与三条写作原则｜book-bangshou.md
+- bangshou_S40｜经验材料段落的「背景＋做法＋成效」公式｜book-bangshou.md
+- bangshou_S74｜公文结构的三种基本式：并列式、递进式、时序式｜book-bangshou.md
+- bangshou_S75｜时序式最易犯的毛病：记流水账及其三条规避法｜book-bangshou.md
+- bangshou_S76｜拓展思路的四种联想：相似、接近、对比、因果｜book-bangshou.md
+- bangshou_S77｜罗列提纲的三种形式：标题式、提要式、方案式｜book-bangshou.md
 
-## 文种规范（82 条）
+## 文种规范（100 条）
 
 - book2_01｜B1 决议｜book-wenzhong.md
 - book2_02｜B2 决定｜book-wenzhong.md
@@ -570,8 +646,26 @@
 - fanli_renwutongzhi_001｜任务型通知三段式（与印发型对照）｜chengwen-fanli.md
 - zhangshang_S49｜法定公文写作概说：动笔前要定的十件事（上）｜book-zhangshang.md
 - zhangshang_S50｜法定公文写作概说：动笔前要定的十件事（下）｜book-zhangshang.md
+- bangshou_S11｜法定公文的界定与 15 种文种清单｜book-bangshou.md
+- bangshou_S12｜法定公文的五个特点｜book-bangshou.md
+- bangshou_S13｜法定公文的四个作用｜book-bangshou.md
+- bangshou_S14｜决议的结构要素模板｜book-bangshou.md
+- bangshou_S15｜决定的结构要素模板｜book-bangshou.md
+- bangshou_S16｜命令（令）的结构要素模板｜book-bangshou.md
+- bangshou_S17｜公报的结构要素模板｜book-bangshou.md
+- bangshou_S18｜公告的结构要素模板｜book-bangshou.md
+- bangshou_S19｜通告的结构要素模板与范文体例｜book-bangshou.md
+- bangshou_S20｜意见的结构要素模板｜book-bangshou.md
+- bangshou_S21｜通知的结构要素模板与会议通知五项｜book-bangshou.md
+- bangshou_S22｜通报的结构要素模板与表彰性通报体例｜book-bangshou.md
+- bangshou_S23｜报告的结构要素模板与主送一份规则｜book-bangshou.md
+- bangshou_S24｜请示的结构要素模板与三条硬约束｜book-bangshou.md
+- bangshou_S25｜批复的结构要素模板｜book-bangshou.md
+- bangshou_S26｜议案的结构要素模板｜book-bangshou.md
+- bangshou_S27｜函的结构要素模板｜book-bangshou.md
+- bangshou_S28｜纪要的结构要素模板与正文三段｜book-bangshou.md
 
-## 标题技巧（80 条）
+## 标题技巧（83 条）
 
 - lingyun_001｜土味小标题公式｜lingyun-huishui.md
 - lingyun_003｜80 年前的老标题（群众语言）｜lingyun-huishui.md
@@ -653,8 +747,11 @@
 - dashoubi_S26｜题目四美与节奏气势检验｜book-dashoubi.md
 - dashoubi_S84｜信息题目制作的新精巧实四字诀｜book-dashoubi.md
 - dashoubi_S117｜标题为主题与结构双重服务：五步做法与三种通病｜book-dashoubi.md
+- liancheng_S28｜措施类提纲的状语、主干与两组词表｜book-liancheng.md
+- bangshou_S83｜小标题好的四条标准：准确恰当、短小精悍、匀称和谐、讲究艺术｜book-bangshou.md
+- bangshou_S84｜小标题提炼的四步过程｜book-bangshou.md
 
-## 词句升级（72 条）
+## 词句升级（78 条）
 
 - lingyun_101｜"高度重视"十组替换词｜lingyun-huishui.md
 - lingyun_175｜通俗→高级表达 10 组｜lingyun-huishui.md
@@ -728,6 +825,164 @@
 - dashoubi_S35｜口语化四条与批评的软包装｜book-dashoubi.md
 - dashoubi_S169｜令使体语言的五种力度与场合边界｜book-dashoubi.md
 - dashoubi_S173｜群众语言的实操三招：比喻、把大道理换成大白话｜book-dashoubi.md
+- liancheng_S30｜三字词语按「成果／作用／领导／调研」等类别聚拢｜book-liancheng.md
+- liancheng_S31｜五字、六字短语的「动词+新」公式与「字法」聚拢｜book-liancheng.md
+- liancheng_S32｜七字短语「四字理念措施方法+三字动宾」结构｜book-liancheng.md
+- liancheng_S33｜形容词、副词与动词的「凑对」用法｜book-liancheng.md
+- liancheng_S34｜四字词语集锦的三层结构与成果类小标题使用公式｜book-liancheng.md
+- bangshou_S85｜小标题的四类比喻喻体库（两字／三字／四字）｜book-bangshou.md
+
+## 修改方法（74 条）
+
+- huishui_H17｜改材料 20 字秘诀（2024-11-04）｜lingyun-huishui.md
+- book3_CHECKLIST｜核稿十查清单｜book-hegao.md
+- zhuodaoren_16｜Z17 函件找茬改错｜blogger-zhuodaoren.md
+- shouji2_S52｜S52 乾坤挪移（用移位理顺逻辑）｜book-shouji2.md
+- shouji2_S73｜S73 修改十二步（给文章整容）｜book-shouji2.md
+- shu3_C34｜C34 钟山宾馆不是中山饭店（从核稿说开去）｜book-hegao.md
+- shu3_C48｜C48 "批转""转发""印发"性通知有区别｜book-hegao.md
+- gaigaoshi_GC15｜存在一些不足＝差在哪、表现在哪、改哪里｜blogger-gaigaoshi.md
+- gaigaoshi_GC50｜原因分析：低水平贴标签，高水平找入口｜blogger-gaigaoshi.md
+- gaigaoshi_GC52｜领导让你"再拔高"＝顺着一件事往上追两层｜blogger-gaigaoshi.md
+- gaigaoshi_GC53｜领导让你"再聚焦"＝整篇材料只回答一个关键问题｜blogger-gaigaoshi.md
+- gaigaoshi_GC54｜领导让你"打开分析"＝分清原因层次，写清怎样共同作用｜blogger-gaigaoshi.md
+- gaigaoshi_GC55｜领导让你"再有力度"＝把边界划清、权限收紧、退路堵住、源头改掉｜blogger-gaigaoshi.md
+- gaigaoshi_GC57｜领导让你"再提炼一下"＝先提定位，再提主线，再做分类，最后落到结果｜blogger-gaigaoshi.md
+- gaigaoshi_GC58｜领导让你"别把话说太满"＝先写变化，再写边界，最后写进阶｜blogger-gaigaoshi.md
+- gaigaoshi_GC59｜领导说"这几条不在一个层次"＝结果上提、原因并列、细节下沉｜blogger-gaigaoshi.md
+- gaigaoshi_GC60｜领导说"这段太平"＝指标越位→行为带偏→结果失真｜blogger-gaigaoshi.md
+- gaigaoshi_GC61｜领导说"这段全是废话"＝绕开了最需要解释的问题｜blogger-gaigaoshi.md
+- gaigaoshi_GC62｜领导说"先说结论"＝从事实变化关系里提炼判断｜blogger-gaigaoshi.md
+- gaigaoshi_GC63｜领导说"再改得平实一点"＝用事实支撑判断，用分寸控制结论｜blogger-gaigaoshi.md
+- gaigaoshi_GC71｜结论的范围不能超过事实的范围｜blogger-gaigaoshi.md
+- gaigaoshi_GC72｜"有力支撑"＝证据链条完整，每一步写得准｜blogger-gaigaoshi.md
+- gaigaoshi_GC73｜同比看比较，持续看趋势｜blogger-gaigaoshi.md
+- dayu_DY15｜病句体检与"把好四关"示范｜blogger-dayu.md
+- dayu_DY17｜问题类材料：圈词定性+因果补链+规范表述｜blogger-dayu.md
+- dayu_DY37｜空话套话的自检：负全责/务必/狠抓逐个换｜blogger-dayu.md
+- dayu_DY43｜切勿答非所问：措施要对着问题靶心｜blogger-dayu.md
+- wenxiong_WX42｜归纳"现状问题"4 关键字：有/还/较/不（+6 个常用句尾）｜blogger-wenxiong.md
+- wenxiong_WX118｜材料引用"他说"变"我说"3 法（场景融入/对比升华/延伸阐释）｜blogger-wenxiong.md
+- hejianwen_S46｜线性表达「五法」｜book-hejianwen.md
+- hejianwen_S47｜合并精简法实例｜book-hejianwen.md
+- hejianwen_S48｜工笔写实法实例｜book-hejianwen.md
+- hejianwen_S49｜归纳提炼法实例（演绎思维补全要素）｜book-hejianwen.md
+- hejianwen_S50｜凸显个性法实例（完整版删为现场版）｜book-hejianwen.md
+- hejianwen_S51｜「流水账」与「糊涂账」是文字表达的两个极端｜book-hejianwen.md
+- hejianwen_S64｜「评改九篇」总纲｜book-hejianwen.md
+- hejianwen_S65｜评改病例一（非公党建示范点）判定：改错｜book-hejianwen.md
+- hejianwen_S66｜评改病例二（银发人才）判定：改错｜book-hejianwen.md
+- hejianwen_S67｜评改病例三（医患关系活动总结）判定：改错｜book-hejianwen.md
+- hejianwen_S68｜评改病例四（整治水环境）判定：改错｜book-hejianwen.md
+- hejianwen_S69｜评改病例五（乡村振兴四力）判定：改错｜book-hejianwen.md
+- hejianwen_S70｜评改病例六（家事审判改革）判定：改错｜book-hejianwen.md
+- hejianwen_S71｜评改病例七（纳税服务四服务）判定：改错｜book-hejianwen.md
+- hejianwen_S72｜评改病例八（医药养大健康）判定：改错（属「帽子小脑袋大」）｜book-hejianwen.md
+- hejianwen_S73｜评改病例九（蓝天保卫战，全书信息量最大一篇）判定：改错｜book-hejianwen.md
+- xinfa_S02｜从修改稿中悟“不应该那么写”｜book-xinfa.md
+- xinfa_S08｜改稿四层面与“七分想三分写”｜book-xinfa.md
+- xinfa_S25｜第七步：过稿子（五字诀＋修改三层面）｜book-xinfa.md
+- xinfa_S26｜修改三维度：结合·剪裁·锤炼｜book-xinfa.md
+- xinfa_S35｜修改四境界与团队“传帮带”四条｜book-xinfa.md
+- xue36_S01｜修改四层认知：题中之意／关键一招／里面有学问／改章难于造篇｜book-xue36.md
+- xue36_S02｜改稿「八段锦」：修改过程的八个连贯动作｜book-xue36.md
+- xue36_S03｜改稿七重境界：规范·真实·准确·通顺·合情·合理·合用｜book-xue36.md
+- xue36_S04｜审稿「十下子」（一）：背景不清问一下／主题不明想一下／情况不熟翻一下／脉络不通顺一下｜book-xue36.md
+- xue36_S05｜审稿「十下子」（二）：数据不准对一下／内容不实加一下／语言不精删一下｜book-xue36.md
+- xue36_S06｜审稿「十下子」（三）：材料不和并一下／表达不当换一下／语气不顺读一下｜book-xue36.md
+- xue36_S14｜文稿瘦身四个认知不等式：不等于越瘦越好／胖了再减／只减字句／只做减法｜book-xue36.md
+- xue36_S15｜文稿瘦身五阶段系统攻略：主旨像小孩一样单纯／结构像板凳一样简洁／标准像挑刺一样严苛／笔法像打针一样直白／语言像钢铁一样精练｜book-xue36.md
+- xue36_S16｜文稿篇幅四把尺：以人为尺／以事为尺／以文为尺／以时为尺｜book-xue36.md
+- xue36_S42｜一篇文章构思过程的六轮复盘：从「求短十法」到「像小孩一样单纯」｜book-xue36.md
+- xue32_S28｜数据的6种「考据」方法｜book-xue32.md
+- xue32_S38｜破除「知识诅咒」的6种方法（附5种表现与6大原因）｜book-xue32.md
+- dashoubi_S39｜事例引用核实与贴切两条标准｜book-dashoubi.md
+- dashoubi_S99｜从写得苦的具体感觉反查四类症结｜book-dashoubi.md
+- dashoubi_S100｜领导意见不明确时按文稿类型分别改｜book-dashoubi.md
+- dashoubi_S101｜改稿带人的三种帮法与讲评制度｜book-dashoubi.md
+- dashoubi_S102｜统稿八个关照点与风格统一四选法｜book-dashoubi.md
+- dashoubi_S133｜初稿只是初级产品：四条训练与四种心态｜book-dashoubi.md
+- dashoubi_S134｜三种修改技法：换角度统领、集中火力、逐词打磨｜book-dashoubi.md
+- liancheng_S03｜统稿的「删」「换」「写」「顺」四动作｜book-liancheng.md
+- bangshou_S86｜不要只求速度：放一放的三条收益与一条例外｜book-bangshou.md
+- bangshou_S87｜三种高效改法：电脑审阅式、整篇回想式、低声朗读式｜book-bangshou.md
+- bangshou_S88｜不要单独修改的三条借力做法｜book-bangshou.md
+- bangshou_S89｜不要只凭感觉的五查：逻辑、语言、案例数据、固定表达、标点｜book-bangshou.md
+
+## 讲话稿（72 条）
+
+- lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
+- lingyun_098｜讲话开头"捧哏法"｜lingyun-huishui.md
+- lingyun_100｜讲话开头"夸景法"五式｜lingyun-huishui.md
+- lingyun_156｜七一《光明日报》八个好开头｜lingyun-huishui.md
+- lingyun_164｜求是首篇结构"成绩+优秀特质+展望"｜lingyun-huishui.md
+- huishui_H16｜讲话稿开头五招（2024-10-18）｜lingyun-huishui.md
+- gongwenbaidu_09｜G09 领导讲话稿站位的底层逻辑（三级讲话）｜blogger-gongwenbaidu.md
+- gongwenbaidu_10｜G10 写好领导讲话稿的五种思维｜blogger-gongwenbaidu.md
+- shouji2_S43｜S43 代拟文稿体现领导个性四招｜book-shouji2.md
+- shouji2_S61｜S61 开头四式（领导先读开头、瞅提纲、翻结尾，"一读一瞅一翻"形成判断基调）｜book-shouji2.md
+- shouji2_S63｜S63 写实讲话稿正文五法（以习近平哲学社会科学座谈会讲话为标杆）｜book-shouji2.md
+- fanben_F31｜F31 领导讲话稿分型 + 演讲稿（讲话稿增量，演讲稿为 corpus 未覆盖文种）｜book-fuchuan.md
+- gaigaoshi_GC56｜领导让你"写得像领导讲话"＝给所有部门建立同一套判断标准｜blogger-gaigaoshi.md
+- gaigaoshi_GC74｜领导讲话稿＝先判断、再取舍、后行动｜blogger-gaigaoshi.md
+- dayu_DY41｜节奏感：短句对仗、一个主语、领导口吻｜blogger-dayu.md
+- shouji1_S17｜S17 写实五法的新例证：个性/痛处/细节/事实/举措｜book-shouji1.md
+- zhangshang_S06｜开头十法与结尾十法｜book-zhangshang.md
+- zhangshang_S08｜题旨是泉眼：普遍性×特殊性碰撞法｜book-zhangshang.md
+- hejianwen_S41｜开头段「讲故事」的四有（四要素）｜book-hejianwen.md
+- hejianwen_S42｜讲故事的底层机制｜book-hejianwen.md
+- hejianwen_S43｜提升「信噪比」｜book-hejianwen.md
+- hejianwen_S44｜营造「舒适噪声」｜book-hejianwen.md
+- hejianwen_S45｜营造「场景」：三种材料开头因文而异｜book-hejianwen.md
+- xue36_S45｜应景讲话的5个特点与6个诀窍｜book-xue36.md
+- dashoubi_S16｜讲话稿按用途七分法｜book-dashoubi.md
+- dashoubi_S17｜讲话稿三个基本特征｜book-dashoubi.md
+- dashoubi_S18｜起草讲话稿六条共性要求｜book-dashoubi.md
+- dashoubi_S19｜起草前五项准备工作｜book-dashoubi.md
+- dashoubi_S20｜领会领导意图与完善不明意图｜book-dashoubi.md
+- dashoubi_S21｜平时捕捉领导关注点与兴奋点｜book-dashoubi.md
+- dashoubi_S32｜讲话稿开头六法与三病｜book-dashoubi.md
+- dashoubi_S33｜结尾十字标准与六种结尾法｜book-dashoubi.md
+- dashoubi_S40｜陌生领域讲话稿的三种取材法｜book-dashoubi.md
+- dashoubi_S41｜不熟悉领域的四个遮盖技巧｜book-dashoubi.md
+- dashoubi_S43｜工作性讲话找角度的四条路径｜book-dashoubi.md
+- dashoubi_S46｜部门文秘为党政领导写稿的越位思考｜book-dashoubi.md
+- dashoubi_S47｜应急式讲话稿的四步打法｜book-dashoubi.md
+- dashoubi_S120｜语言风格什么山上唱什么歌：五种风格与四条训练｜book-dashoubi.md
+- dashoubi_S128｜找角度让讲话有可听性：五步做法与四类拦路石｜book-dashoubi.md
+- dashoubi_S136｜让一把手的讲话适销对路：会前先做讲话定位比对｜book-dashoubi.md
+- dashoubi_S139｜政坛“好声音”的七力框架｜book-dashoubi.md
+- dashoubi_S144｜庄重典雅：讲话美的第一条基准｜book-dashoubi.md
+- dashoubi_S145｜朴实无华的三味：人情味、泥土气、务实风｜book-dashoubi.md
+- dashoubi_S146｜严谨规范：数字、色彩、逻辑三种美｜book-dashoubi.md
+- dashoubi_S147｜简洁明快：三位一体的短话写法｜book-dashoubi.md
+- dashoubi_S149｜自然流畅：思路、层次、语言三关｜book-dashoubi.md
+- dashoubi_S150｜深入浅出：深邃、独到、入耳三要求｜book-dashoubi.md
+- dashoubi_S151｜新颖独到：观点、素材、语言三条求新路径｜book-dashoubi.md
+- dashoubi_S153｜真实可信：以真实、真情、真招、真话服人｜book-dashoubi.md
+- dashoubi_S154｜部署性讲话：五条语言标准｜book-dashoubi.md
+- dashoubi_S155｜总结表彰性讲话：华彩乐章的四个写法｜book-dashoubi.md
+- dashoubi_S157｜礼仪应景式讲话：小夜曲的四项要求｜book-dashoubi.md
+- dashoubi_S158｜演讲性讲话：主题、简短、雄辩、激情、真我｜book-dashoubi.md
+- dashoubi_S160｜语言的性格从哪来：四个来源与一条规律｜book-dashoubi.md
+- dashoubi_S162｜开创型与谨慎型领导的语言策略｜book-dashoubi.md
+- dashoubi_S163｜粗犷型与细腻型领导的语言策略｜book-dashoubi.md
+- dashoubi_S164｜艺术型领导的语言策略：美、活、新、厚｜book-dashoubi.md
+- dashoubi_S165｜严谨型与急躁型领导的语言策略｜book-dashoubi.md
+- dashoubi_S166｜沉稳型与泼辣型领导的语言策略｜book-dashoubi.md
+- dashoubi_S167｜温和型领导的语言策略与十型使用边界｜book-dashoubi.md
+- dashoubi_S193｜就职演讲怎么讲：一个“实”字的四处落地｜book-dashoubi.md
+- dashoubi_S194｜告别演讲怎么讲：一个“情”字贯串到底｜book-dashoubi.md
+- dashoubi_S195｜推介演讲怎么讲：不比优惠比诚信｜book-dashoubi.md
+- dashoubi_S196｜对象自审三问：这类听众该用什么腔调｜book-dashoubi.md
+- dashoubi_S202｜演讲比赛文稿“五个一”｜book-dashoubi.md
+- liancheng_S01｜代拟省长讲话稿全过程实战复盘｜book-liancheng.md
+- liancheng_S23｜致辞与受众互动的六个研究｜book-liancheng.md
+- bangshou_S46｜领导讲话的五种常用结构套路｜book-bangshou.md
+- bangshou_S47｜领导讲话魅力的四个来源｜book-bangshou.md
+- bangshou_S48｜把握领导风格与掌握领导意图的做法｜book-bangshou.md
+- bangshou_S49｜按对象设计讲话口吻的六种情形｜book-bangshou.md
+- bangshou_S50｜领导讲话的「三段论」与六种常用行文逻辑｜book-bangshou.md
 
 ## 金句素材（70 条）
 
@@ -802,145 +1057,68 @@
 - xinfa_S73｜职场原理金句组：首因·凡勃伦·参与·沉没成本·需求·墨菲｜book-xinfa.md
 - dashoubi_S135｜写作十要顺口溜：一段可当收尾的全文自查口诀｜book-dashoubi.md
 
-## 修改方法（69 条）
+## 文种要领（60 条）
 
-- huishui_H17｜改材料 20 字秘诀（2024-11-04）｜lingyun-huishui.md
-- book3_CHECKLIST｜核稿十查清单｜book-hegao.md
-- zhuodaoren_16｜Z17 函件找茬改错｜blogger-zhuodaoren.md
-- shouji2_S52｜S52 乾坤挪移（用移位理顺逻辑）｜book-shouji2.md
-- shouji2_S73｜S73 修改十二步（给文章整容）｜book-shouji2.md
-- shu3_C34｜C34 钟山宾馆不是中山饭店（从核稿说开去）｜book-hegao.md
-- shu3_C48｜C48 "批转""转发""印发"性通知有区别｜book-hegao.md
-- gaigaoshi_GC15｜存在一些不足＝差在哪、表现在哪、改哪里｜blogger-gaigaoshi.md
-- gaigaoshi_GC50｜原因分析：低水平贴标签，高水平找入口｜blogger-gaigaoshi.md
-- gaigaoshi_GC52｜领导让你"再拔高"＝顺着一件事往上追两层｜blogger-gaigaoshi.md
-- gaigaoshi_GC53｜领导让你"再聚焦"＝整篇材料只回答一个关键问题｜blogger-gaigaoshi.md
-- gaigaoshi_GC54｜领导让你"打开分析"＝分清原因层次，写清怎样共同作用｜blogger-gaigaoshi.md
-- gaigaoshi_GC55｜领导让你"再有力度"＝把边界划清、权限收紧、退路堵住、源头改掉｜blogger-gaigaoshi.md
-- gaigaoshi_GC57｜领导让你"再提炼一下"＝先提定位，再提主线，再做分类，最后落到结果｜blogger-gaigaoshi.md
-- gaigaoshi_GC58｜领导让你"别把话说太满"＝先写变化，再写边界，最后写进阶｜blogger-gaigaoshi.md
-- gaigaoshi_GC59｜领导说"这几条不在一个层次"＝结果上提、原因并列、细节下沉｜blogger-gaigaoshi.md
-- gaigaoshi_GC60｜领导说"这段太平"＝指标越位→行为带偏→结果失真｜blogger-gaigaoshi.md
-- gaigaoshi_GC61｜领导说"这段全是废话"＝绕开了最需要解释的问题｜blogger-gaigaoshi.md
-- gaigaoshi_GC62｜领导说"先说结论"＝从事实变化关系里提炼判断｜blogger-gaigaoshi.md
-- gaigaoshi_GC63｜领导说"再改得平实一点"＝用事实支撑判断，用分寸控制结论｜blogger-gaigaoshi.md
-- gaigaoshi_GC71｜结论的范围不能超过事实的范围｜blogger-gaigaoshi.md
-- gaigaoshi_GC72｜"有力支撑"＝证据链条完整，每一步写得准｜blogger-gaigaoshi.md
-- gaigaoshi_GC73｜同比看比较，持续看趋势｜blogger-gaigaoshi.md
-- dayu_DY15｜病句体检与"把好四关"示范｜blogger-dayu.md
-- dayu_DY17｜问题类材料：圈词定性+因果补链+规范表述｜blogger-dayu.md
-- dayu_DY37｜空话套话的自检：负全责/务必/狠抓逐个换｜blogger-dayu.md
-- dayu_DY43｜切勿答非所问：措施要对着问题靶心｜blogger-dayu.md
-- wenxiong_WX42｜归纳"现状问题"4 关键字：有/还/较/不（+6 个常用句尾）｜blogger-wenxiong.md
-- wenxiong_WX118｜材料引用"他说"变"我说"3 法（场景融入/对比升华/延伸阐释）｜blogger-wenxiong.md
-- hejianwen_S46｜线性表达「五法」｜book-hejianwen.md
-- hejianwen_S47｜合并精简法实例｜book-hejianwen.md
-- hejianwen_S48｜工笔写实法实例｜book-hejianwen.md
-- hejianwen_S49｜归纳提炼法实例（演绎思维补全要素）｜book-hejianwen.md
-- hejianwen_S50｜凸显个性法实例（完整版删为现场版）｜book-hejianwen.md
-- hejianwen_S51｜「流水账」与「糊涂账」是文字表达的两个极端｜book-hejianwen.md
-- hejianwen_S64｜「评改九篇」总纲｜book-hejianwen.md
-- hejianwen_S65｜评改病例一（非公党建示范点）判定：改错｜book-hejianwen.md
-- hejianwen_S66｜评改病例二（银发人才）判定：改错｜book-hejianwen.md
-- hejianwen_S67｜评改病例三（医患关系活动总结）判定：改错｜book-hejianwen.md
-- hejianwen_S68｜评改病例四（整治水环境）判定：改错｜book-hejianwen.md
-- hejianwen_S69｜评改病例五（乡村振兴四力）判定：改错｜book-hejianwen.md
-- hejianwen_S70｜评改病例六（家事审判改革）判定：改错｜book-hejianwen.md
-- hejianwen_S71｜评改病例七（纳税服务四服务）判定：改错｜book-hejianwen.md
-- hejianwen_S72｜评改病例八（医药养大健康）判定：改错（属「帽子小脑袋大」）｜book-hejianwen.md
-- hejianwen_S73｜评改病例九（蓝天保卫战，全书信息量最大一篇）判定：改错｜book-hejianwen.md
-- xinfa_S02｜从修改稿中悟“不应该那么写”｜book-xinfa.md
-- xinfa_S08｜改稿四层面与“七分想三分写”｜book-xinfa.md
-- xinfa_S25｜第七步：过稿子（五字诀＋修改三层面）｜book-xinfa.md
-- xinfa_S26｜修改三维度：结合·剪裁·锤炼｜book-xinfa.md
-- xinfa_S35｜修改四境界与团队“传帮带”四条｜book-xinfa.md
-- xue36_S01｜修改四层认知：题中之意／关键一招／里面有学问／改章难于造篇｜book-xue36.md
-- xue36_S02｜改稿「八段锦」：修改过程的八个连贯动作｜book-xue36.md
-- xue36_S03｜改稿七重境界：规范·真实·准确·通顺·合情·合理·合用｜book-xue36.md
-- xue36_S04｜审稿「十下子」（一）：背景不清问一下／主题不明想一下／情况不熟翻一下／脉络不通顺一下｜book-xue36.md
-- xue36_S05｜审稿「十下子」（二）：数据不准对一下／内容不实加一下／语言不精删一下｜book-xue36.md
-- xue36_S06｜审稿「十下子」（三）：材料不和并一下／表达不当换一下／语气不顺读一下｜book-xue36.md
-- xue36_S14｜文稿瘦身四个认知不等式：不等于越瘦越好／胖了再减／只减字句／只做减法｜book-xue36.md
-- xue36_S15｜文稿瘦身五阶段系统攻略：主旨像小孩一样单纯／结构像板凳一样简洁／标准像挑刺一样严苛／笔法像打针一样直白／语言像钢铁一样精练｜book-xue36.md
-- xue36_S16｜文稿篇幅四把尺：以人为尺／以事为尺／以文为尺／以时为尺｜book-xue36.md
-- xue36_S42｜一篇文章构思过程的六轮复盘：从「求短十法」到「像小孩一样单纯」｜book-xue36.md
-- xue32_S28｜数据的6种「考据」方法｜book-xue32.md
-- xue32_S38｜破除「知识诅咒」的6种方法（附5种表现与6大原因）｜book-xue32.md
-- dashoubi_S39｜事例引用核实与贴切两条标准｜book-dashoubi.md
-- dashoubi_S99｜从写得苦的具体感觉反查四类症结｜book-dashoubi.md
-- dashoubi_S100｜领导意见不明确时按文稿类型分别改｜book-dashoubi.md
-- dashoubi_S101｜改稿带人的三种帮法与讲评制度｜book-dashoubi.md
-- dashoubi_S102｜统稿八个关照点与风格统一四选法｜book-dashoubi.md
-- dashoubi_S133｜初稿只是初级产品：四条训练与四种心态｜book-dashoubi.md
-- dashoubi_S134｜三种修改技法：换角度统领、集中火力、逐词打磨｜book-dashoubi.md
-
-## 讲话稿（65 条）
-
-- lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
-- lingyun_098｜讲话开头"捧哏法"｜lingyun-huishui.md
-- lingyun_100｜讲话开头"夸景法"五式｜lingyun-huishui.md
-- lingyun_156｜七一《光明日报》八个好开头｜lingyun-huishui.md
-- lingyun_164｜求是首篇结构"成绩+优秀特质+展望"｜lingyun-huishui.md
-- huishui_H16｜讲话稿开头五招（2024-10-18）｜lingyun-huishui.md
-- gongwenbaidu_09｜G09 领导讲话稿站位的底层逻辑（三级讲话）｜blogger-gongwenbaidu.md
-- gongwenbaidu_10｜G10 写好领导讲话稿的五种思维｜blogger-gongwenbaidu.md
-- shouji2_S43｜S43 代拟文稿体现领导个性四招｜book-shouji2.md
-- shouji2_S61｜S61 开头四式（领导先读开头、瞅提纲、翻结尾，"一读一瞅一翻"形成判断基调）｜book-shouji2.md
-- shouji2_S63｜S63 写实讲话稿正文五法（以习近平哲学社会科学座谈会讲话为标杆）｜book-shouji2.md
-- fanben_F31｜F31 领导讲话稿分型 + 演讲稿（讲话稿增量，演讲稿为 corpus 未覆盖文种）｜book-fuchuan.md
-- gaigaoshi_GC56｜领导让你"写得像领导讲话"＝给所有部门建立同一套判断标准｜blogger-gaigaoshi.md
-- gaigaoshi_GC74｜领导讲话稿＝先判断、再取舍、后行动｜blogger-gaigaoshi.md
-- dayu_DY41｜节奏感：短句对仗、一个主语、领导口吻｜blogger-dayu.md
-- shouji1_S17｜S17 写实五法的新例证：个性/痛处/细节/事实/举措｜book-shouji1.md
-- zhangshang_S06｜开头十法与结尾十法｜book-zhangshang.md
-- zhangshang_S08｜题旨是泉眼：普遍性×特殊性碰撞法｜book-zhangshang.md
-- hejianwen_S41｜开头段「讲故事」的四有（四要素）｜book-hejianwen.md
-- hejianwen_S42｜讲故事的底层机制｜book-hejianwen.md
-- hejianwen_S43｜提升「信噪比」｜book-hejianwen.md
-- hejianwen_S44｜营造「舒适噪声」｜book-hejianwen.md
-- hejianwen_S45｜营造「场景」：三种材料开头因文而异｜book-hejianwen.md
-- xue36_S45｜应景讲话的5个特点与6个诀窍｜book-xue36.md
-- dashoubi_S16｜讲话稿按用途七分法｜book-dashoubi.md
-- dashoubi_S17｜讲话稿三个基本特征｜book-dashoubi.md
-- dashoubi_S18｜起草讲话稿六条共性要求｜book-dashoubi.md
-- dashoubi_S19｜起草前五项准备工作｜book-dashoubi.md
-- dashoubi_S20｜领会领导意图与完善不明意图｜book-dashoubi.md
-- dashoubi_S21｜平时捕捉领导关注点与兴奋点｜book-dashoubi.md
-- dashoubi_S32｜讲话稿开头六法与三病｜book-dashoubi.md
-- dashoubi_S33｜结尾十字标准与六种结尾法｜book-dashoubi.md
-- dashoubi_S40｜陌生领域讲话稿的三种取材法｜book-dashoubi.md
-- dashoubi_S41｜不熟悉领域的四个遮盖技巧｜book-dashoubi.md
-- dashoubi_S43｜工作性讲话找角度的四条路径｜book-dashoubi.md
-- dashoubi_S46｜部门文秘为党政领导写稿的越位思考｜book-dashoubi.md
-- dashoubi_S47｜应急式讲话稿的四步打法｜book-dashoubi.md
-- dashoubi_S120｜语言风格什么山上唱什么歌：五种风格与四条训练｜book-dashoubi.md
-- dashoubi_S128｜找角度让讲话有可听性：五步做法与四类拦路石｜book-dashoubi.md
-- dashoubi_S136｜让一把手的讲话适销对路：会前先做讲话定位比对｜book-dashoubi.md
-- dashoubi_S139｜政坛“好声音”的七力框架｜book-dashoubi.md
-- dashoubi_S144｜庄重典雅：讲话美的第一条基准｜book-dashoubi.md
-- dashoubi_S145｜朴实无华的三味：人情味、泥土气、务实风｜book-dashoubi.md
-- dashoubi_S146｜严谨规范：数字、色彩、逻辑三种美｜book-dashoubi.md
-- dashoubi_S147｜简洁明快：三位一体的短话写法｜book-dashoubi.md
-- dashoubi_S149｜自然流畅：思路、层次、语言三关｜book-dashoubi.md
-- dashoubi_S150｜深入浅出：深邃、独到、入耳三要求｜book-dashoubi.md
-- dashoubi_S151｜新颖独到：观点、素材、语言三条求新路径｜book-dashoubi.md
-- dashoubi_S153｜真实可信：以真实、真情、真招、真话服人｜book-dashoubi.md
-- dashoubi_S154｜部署性讲话：五条语言标准｜book-dashoubi.md
-- dashoubi_S155｜总结表彰性讲话：华彩乐章的四个写法｜book-dashoubi.md
-- dashoubi_S157｜礼仪应景式讲话：小夜曲的四项要求｜book-dashoubi.md
-- dashoubi_S158｜演讲性讲话：主题、简短、雄辩、激情、真我｜book-dashoubi.md
-- dashoubi_S160｜语言的性格从哪来：四个来源与一条规律｜book-dashoubi.md
-- dashoubi_S162｜开创型与谨慎型领导的语言策略｜book-dashoubi.md
-- dashoubi_S163｜粗犷型与细腻型领导的语言策略｜book-dashoubi.md
-- dashoubi_S164｜艺术型领导的语言策略：美、活、新、厚｜book-dashoubi.md
-- dashoubi_S165｜严谨型与急躁型领导的语言策略｜book-dashoubi.md
-- dashoubi_S166｜沉稳型与泼辣型领导的语言策略｜book-dashoubi.md
-- dashoubi_S167｜温和型领导的语言策略与十型使用边界｜book-dashoubi.md
-- dashoubi_S193｜就职演讲怎么讲：一个“实”字的四处落地｜book-dashoubi.md
-- dashoubi_S194｜告别演讲怎么讲：一个“情”字贯串到底｜book-dashoubi.md
-- dashoubi_S195｜推介演讲怎么讲：不比优惠比诚信｜book-dashoubi.md
-- dashoubi_S196｜对象自审三问：这类听众该用什么腔调｜book-dashoubi.md
-- dashoubi_S202｜演讲比赛文稿“五个一”｜book-dashoubi.md
+- fanben_F01｜F01 决议：写法与小结（增量）｜book-fuchuan.md
+- fanben_F02｜F02 决定：六类写法分型（增量）｜book-fuchuan.md
+- fanben_F04｜F04 命令（令）：权限、四类写法与"精/确"语言（增量）｜book-fuchuan.md
+- fanben_F06｜F06 公报：分类写法与公报/公告之辨（增量）｜book-fuchuan.md
+- fanben_F07｜F07 公告：四条硬约束与写法（增量）｜book-fuchuan.md
+- fanben_F08｜F08 通告：一文一事与承启句式（增量）｜book-fuchuan.md
+- fanben_F09｜F09 意见：两类分型、四组文种辨析与用语分向（增量）｜book-fuchuan.md
+- fanben_F10｜F10 通知：四类分型与转文性通知三式（增量）｜book-fuchuan.md
+- fanben_F11｜F11 通报：三类正文公式与情况通报/批评通报之辨（增量）｜book-fuchuan.md
+- fanben_F12｜F12 报告：六类正文公式与"三段式"六变体（增量）｜book-fuchuan.md
+- fanben_F13｜F13 请示：两种适用情形与七条规则（增量）｜book-fuchuan.md
+- fanben_F14｜F14 批复：两型四性 + 答复方式三分（增量）｜book-fuchuan.md
+- fanben_F15｜F15 议案：法定限定与"案据—方案—请审议"（增量）｜book-fuchuan.md
+- fanben_F16｜F16 函：四类写法与文号、标题特规（增量）｜book-fuchuan.md
+- fanben_F17｜F17 纪要：四类体例与第三人称惯用语（增量）｜book-fuchuan.md
+- fanben_F18｜F18 指示：党的机关专用文种的写法（增量）｜book-fuchuan.md
+- fanben_F19｜F19 条例：三类与"总—分—总"条款化（增量）｜book-fuchuan.md
+- fanben_F20｜F20 规定与办法：标题两态 + 条例/规定/办法三文种之辨（增量）｜book-fuchuan.md
+- fanben_F21｜F21 章程与规则：纲领性文件与操作规程之间的两档（增量）｜book-fuchuan.md
+- fanben_F22｜F22 制度与细则（增量）｜book-fuchuan.md
+- fanben_F23｜F23 守则、准则、规程、须知四小种（概览）｜book-fuchuan.md
+- fanben_F24｜F24 公约与通则：约定性与"随令出"（增量）｜book-fuchuan.md
+- fanben_F25｜F25 计划类九种的时间梯度与结构写法（增量）｜book-fuchuan.md
+- fanben_F26｜F26 总结类四种：结构三式与"叙议结合"（增量）｜book-fuchuan.md
+- fanben_F27｜F27 会议须知与大会主持词（corpus 未覆盖文种）｜book-fuchuan.md
+- fanben_F28｜F28 会议祝辞、会议新闻 + 开幕词/贺信/闭幕词增量（corpus 未覆盖文种为主）｜book-fuchuan.md
+- fanben_F29｜F29 会议日程的草案题注与落款特规（增量）｜book-fuchuan.md
+- fanben_F30｜F30 迎送致辞四件套：欢迎词/欢送词/祝酒词/答谢词（祝酒词、答谢词为 corpus 未覆盖文种）｜book-fuchuan.md
+- fanben_F32｜F32 公开信与倡议书（corpus 未覆盖文种）｜book-fuchuan.md
+- fanben_F33｜F33 慰问信/感谢信/请柬增量（corpus 已覆盖，只录差异点）｜book-fuchuan.md
+- fanben_F34｜F34 讣告/唁电/悼词增量（corpus 已覆盖，只录差异点）｜book-fuchuan.md
+- fanben_F35｜F35 先进事迹与任职公示（增量）｜book-fuchuan.md
+- fanben_F36｜F36 处分决定与聘书（增量）｜book-fuchuan.md
+- fanben_F37｜F37 简报与启事（增量）｜book-fuchuan.md
+- fanben_F38｜F38 喜报（增量）｜book-fuchuan.md
+- fanben_F39｜F39 海报（corpus 未覆盖文种）｜book-fuchuan.md
+- fanben_F40｜F40 大事记与声明（增量）｜book-fuchuan.md
+- dashoubi_S63｜重要文件三文种的分野与选用｜book-dashoubi.md
+- dashoubi_S64｜决策性文件的四个共同点｜book-dashoubi.md
+- dashoubi_S65｜决策性文件与讲话稿的四处区别｜book-dashoubi.md
+- dashoubi_S66｜决策性文件的要素与结构两式｜book-dashoubi.md
+- dashoubi_S67｜文件结构三忌兼并层两法｜book-dashoubi.md
+- dashoubi_S68｜文件表达领导决策的三种情形｜book-dashoubi.md
+- dashoubi_S69｜指导思想的四要素与六病｜book-dashoubi.md
+- dashoubi_S70｜工作思路表述的准与自然｜book-dashoubi.md
+- dashoubi_S71｜贯彻性文件要有“干货”与破法｜book-dashoubi.md
+- dashoubi_S72｜重复发文的三种避重写法｜book-dashoubi.md
+- dashoubi_S94｜工作计划写法三条与要点式差异｜book-dashoubi.md
+- dashoubi_S95｜纪要主体三种层次划分与四种不足｜book-dashoubi.md
+- dashoubi_S96｜请示理由说足的三层展开法｜book-dashoubi.md
+- dashoubi_S98｜干部考察材料三类通病与写实改法｜book-dashoubi.md
+- dashoubi_S131｜重要文件写作的四条特有要求｜book-dashoubi.md
+- bangshou_S04｜消息标题的三件构成与主标题的点睛职责｜book-bangshou.md
+- bangshou_S05｜导语的八种写法｜book-bangshou.md
+- bangshou_S07｜新闻背景的三类材料与四种安排位置｜book-bangshou.md
+- bangshou_S08｜消息结尾的六种方式｜book-bangshou.md
+- bangshou_S36｜经验材料的四个特征：真实性、先进性、代表性、实践性｜book-bangshou.md
+- bangshou_S38｜经验材料的总体结构公式：标题＋导语＋主体｜book-bangshou.md
+- bangshou_S39｜经验材料主体分块的三条要求｜book-bangshou.md
+- bangshou_S45｜领导讲话的四个共性特点｜book-bangshou.md
 
 ## 领域素材（54 条）
 
@@ -999,62 +1177,7 @@
 - domain_053｜国企贺词领域表达｜domains.md
 - domain_054｜常见矛调/解纷机制名称清单｜domains.md
 
-## 文种要领（52 条）
-
-- fanben_F01｜F01 决议：写法与小结（增量）｜book-fuchuan.md
-- fanben_F02｜F02 决定：六类写法分型（增量）｜book-fuchuan.md
-- fanben_F04｜F04 命令（令）：权限、四类写法与"精/确"语言（增量）｜book-fuchuan.md
-- fanben_F06｜F06 公报：分类写法与公报/公告之辨（增量）｜book-fuchuan.md
-- fanben_F07｜F07 公告：四条硬约束与写法（增量）｜book-fuchuan.md
-- fanben_F08｜F08 通告：一文一事与承启句式（增量）｜book-fuchuan.md
-- fanben_F09｜F09 意见：两类分型、四组文种辨析与用语分向（增量）｜book-fuchuan.md
-- fanben_F10｜F10 通知：四类分型与转文性通知三式（增量）｜book-fuchuan.md
-- fanben_F11｜F11 通报：三类正文公式与情况通报/批评通报之辨（增量）｜book-fuchuan.md
-- fanben_F12｜F12 报告：六类正文公式与"三段式"六变体（增量）｜book-fuchuan.md
-- fanben_F13｜F13 请示：两种适用情形与七条规则（增量）｜book-fuchuan.md
-- fanben_F14｜F14 批复：两型四性 + 答复方式三分（增量）｜book-fuchuan.md
-- fanben_F15｜F15 议案：法定限定与"案据—方案—请审议"（增量）｜book-fuchuan.md
-- fanben_F16｜F16 函：四类写法与文号、标题特规（增量）｜book-fuchuan.md
-- fanben_F17｜F17 纪要：四类体例与第三人称惯用语（增量）｜book-fuchuan.md
-- fanben_F18｜F18 指示：党的机关专用文种的写法（增量）｜book-fuchuan.md
-- fanben_F19｜F19 条例：三类与"总—分—总"条款化（增量）｜book-fuchuan.md
-- fanben_F20｜F20 规定与办法：标题两态 + 条例/规定/办法三文种之辨（增量）｜book-fuchuan.md
-- fanben_F21｜F21 章程与规则：纲领性文件与操作规程之间的两档（增量）｜book-fuchuan.md
-- fanben_F22｜F22 制度与细则（增量）｜book-fuchuan.md
-- fanben_F23｜F23 守则、准则、规程、须知四小种（概览）｜book-fuchuan.md
-- fanben_F24｜F24 公约与通则：约定性与"随令出"（增量）｜book-fuchuan.md
-- fanben_F25｜F25 计划类九种的时间梯度与结构写法（增量）｜book-fuchuan.md
-- fanben_F26｜F26 总结类四种：结构三式与"叙议结合"（增量）｜book-fuchuan.md
-- fanben_F27｜F27 会议须知与大会主持词（corpus 未覆盖文种）｜book-fuchuan.md
-- fanben_F28｜F28 会议祝辞、会议新闻 + 开幕词/贺信/闭幕词增量（corpus 未覆盖文种为主）｜book-fuchuan.md
-- fanben_F29｜F29 会议日程的草案题注与落款特规（增量）｜book-fuchuan.md
-- fanben_F30｜F30 迎送致辞四件套：欢迎词/欢送词/祝酒词/答谢词（祝酒词、答谢词为 corpus 未覆盖文种）｜book-fuchuan.md
-- fanben_F32｜F32 公开信与倡议书（corpus 未覆盖文种）｜book-fuchuan.md
-- fanben_F33｜F33 慰问信/感谢信/请柬增量（corpus 已覆盖，只录差异点）｜book-fuchuan.md
-- fanben_F34｜F34 讣告/唁电/悼词增量（corpus 已覆盖，只录差异点）｜book-fuchuan.md
-- fanben_F35｜F35 先进事迹与任职公示（增量）｜book-fuchuan.md
-- fanben_F36｜F36 处分决定与聘书（增量）｜book-fuchuan.md
-- fanben_F37｜F37 简报与启事（增量）｜book-fuchuan.md
-- fanben_F38｜F38 喜报（增量）｜book-fuchuan.md
-- fanben_F39｜F39 海报（corpus 未覆盖文种）｜book-fuchuan.md
-- fanben_F40｜F40 大事记与声明（增量）｜book-fuchuan.md
-- dashoubi_S63｜重要文件三文种的分野与选用｜book-dashoubi.md
-- dashoubi_S64｜决策性文件的四个共同点｜book-dashoubi.md
-- dashoubi_S65｜决策性文件与讲话稿的四处区别｜book-dashoubi.md
-- dashoubi_S66｜决策性文件的要素与结构两式｜book-dashoubi.md
-- dashoubi_S67｜文件结构三忌兼并层两法｜book-dashoubi.md
-- dashoubi_S68｜文件表达领导决策的三种情形｜book-dashoubi.md
-- dashoubi_S69｜指导思想的四要素与六病｜book-dashoubi.md
-- dashoubi_S70｜工作思路表述的准与自然｜book-dashoubi.md
-- dashoubi_S71｜贯彻性文件要有“干货”与破法｜book-dashoubi.md
-- dashoubi_S72｜重复发文的三种避重写法｜book-dashoubi.md
-- dashoubi_S94｜工作计划写法三条与要点式差异｜book-dashoubi.md
-- dashoubi_S95｜纪要主体三种层次划分与四种不足｜book-dashoubi.md
-- dashoubi_S96｜请示理由说足的三层展开法｜book-dashoubi.md
-- dashoubi_S98｜干部考察材料三类通病与写实改法｜book-dashoubi.md
-- dashoubi_S131｜重要文件写作的四条特有要求｜book-dashoubi.md
-
-## 写作理念（40 条）
+## 写作理念（46 条）
 
 - lingyun_146｜精品意识六点（权威作者）｜lingyun-huishui.md
 - book3_OV4｜公文的法定效用｜book-hegao.md
@@ -1096,6 +1219,54 @@
 - dashoubi_S108｜写稿时“自我提拔”：时刻想着我就是领导｜book-dashoubi.md
 - dashoubi_S110｜长短高不是缺点是特点：先摸清领导口味再定文风｜book-dashoubi.md
 - dashoubi_S168｜讲话语言十类总览与叙述性语言三要｜book-dashoubi.md
+- xue28_S01｜笔杆子的写作精进「4 个段位」：写得像／顺／是／通｜book-xue28.md
+- xue28_S03｜笔杆子的研究意识：研究真重要吗／什么是研究／为何研究／研究的 3 个维度／当好研究者 4 点建议｜book-xue28.md
+- xue28_S04｜笔杆子的 7 种素养：以东方朔为镜（勤学／博学／技巧／营销／战略／研究／口才）｜book-xue28.md
+- xue28_S05｜笔杆子的精神世界：心中常驻儒家／道家／兵家／法家／杂家｜book-xue28.md
+- bangshou_S01｜新闻的四种权威定义｜book-bangshou.md
+- bangshou_S57｜写是五种修为：阶梯、智慧、武器、欢乐、涵养｜book-bangshou.md
+
+## 要点细分（39 条）
+
+- zhuodaoren_Z03·拟制（起草到签发）+办理（发文复核登记印制核发/收文签收登记初审承办传阅催办答复）+管理（全生命周期：复制汇编撤销废止销毁）｜拟制（起草到签发）+办理（发文复核登记印制核发/收文签收登记初审承办传阅催办答复）+管理（全生命周期：复制汇编撤销废止销毁）｜blogger-zhuodaoren.md
+- zhuodaoren_Z03·专人｜专人｜blogger-zhuodaoren.md
+- zhuodaoren_Z03·对下级机关｜对下级机关｜blogger-zhuodaoren.md
+- zhuodaoren_Z04·一句话判据：这件事你单位一把手能不能定？｜一句话判据：这件事你单位一把手能不能定？｜blogger-zhuodaoren.md
+- zhuodaoren_Z04·拆开｜拆开｜blogger-zhuodaoren.md
+- zhuodaoren_Z08·报道之报（新闻属性）｜报道之报（新闻属性）｜blogger-zhuodaoren.md
+- zhuodaoren_Z08·教育（说教有主观色彩）+告知（真实客观）｜教育（说教有主观色彩）+告知（真实客观）｜blogger-zhuodaoren.md
+- zhuodaoren_Z08·通报重在知晓，不产生人事任免立功嘉奖行政处分｜通报重在知晓，不产生人事任免立功嘉奖行政处分｜blogger-zhuodaoren.md
+- zhuodaoren_Z09·两个纯种上行文之一｜两个纯种上行文之一｜blogger-zhuodaoren.md
+- zhuodaoren_Z09·单向性｜单向性｜blogger-zhuodaoren.md
+- zhuodaoren_Z09·时效性第一｜时效性第一｜blogger-zhuodaoren.md
+- zhuodaoren_Z09·报告里"问题"部分不能省｜报告里"问题"部分不能省｜blogger-zhuodaoren.md
+- zhuodaoren_Z12·一般用三号仿宋体字，特定情况可适当调整｜一般用三号仿宋体字，特定情况可适当调整｜blogger-zhuodaoren.md
+- zhuodaoren_Z12·小标宋｜小标宋｜blogger-zhuodaoren.md
+- zhuodaoren_Z12·黑体｜黑体｜blogger-zhuodaoren.md
+- zhuodaoren_Z14·唯一｜唯一｜blogger-zhuodaoren.md
+- zhuodaoren_Z14·发文机关代字｜发文机关代字｜blogger-zhuodaoren.md
+- zhuodaoren_Z15·条例+格式国标｜条例+格式国标｜blogger-zhuodaoren.md
+- zhuodaoren_Z15·本机关公文处理规范｜本机关公文处理规范｜blogger-zhuodaoren.md
+- zhuodaoren_Z15·本单位近五年年终总结+次年工作要点｜本单位近五年年终总结+次年工作要点｜blogger-zhuodaoren.md
+- zhuodaoren_Z15·一把手年终总结部署会讲话｜一把手年终总结部署会讲话｜blogger-zhuodaoren.md
+- zhuodaoren_Z16·数据实｜数据实｜blogger-zhuodaoren.md
+- zhuodaoren_Z16·动作实｜动作实｜blogger-zhuodaoren.md
+- zhuodaoren_Z16·成果实｜成果实｜blogger-zhuodaoren.md
+- zhuodaoren_Z16·结构变化、机制创新、流程细节｜结构变化、机制创新、流程细节｜blogger-zhuodaoren.md
+- gongwenbaidu_G03·蒸汽路与先行者｜蒸汽路与先行者｜blogger-gongwenbaidu.md
+- gongwenbaidu_G03·上下游与左右邻｜上下游与左右邻｜blogger-gongwenbaidu.md
+- gongwenbaidu_G03·XX热火爆与XX风劲吹｜XX热火爆与XX风劲吹｜blogger-gongwenbaidu.md
+- gongwenbaidu_G04·一个+修饰语的+对象+始终是+主体+行动目标的+名词+所在｜一个+修饰语的+对象+始终是+主体+行动目标的+名词+所在｜blogger-gongwenbaidu.md
+- gongwenbaidu_G04·修饰语成对｜修饰语成对｜blogger-gongwenbaidu.md
+- gongwenbaidu_G04·对象分层｜对象分层｜blogger-gongwenbaidu.md
+- gongwenbaidu_G10·代入式｜代入式｜blogger-gongwenbaidu.md
+- gongwenbaidu_G10·沉浸式｜沉浸式｜blogger-gongwenbaidu.md
+- gongwenbaidu_G10·延伸式｜延伸式｜blogger-gongwenbaidu.md
+- gongwenbaidu_G11·宏观层面=系统输入/内外部环境/内部结构特征/运行机制｜宏观层面=系统输入/内外部环境/内部结构特征/运行机制｜blogger-gongwenbaidu.md
+- gongwenbaidu_G11·微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜blogger-gongwenbaidu.md
+- gongwenbaidu_G11·下级机关倾向微观表达，上级机关倾向宏观表达｜下级机关倾向微观表达，上级机关倾向宏观表达｜blogger-gongwenbaidu.md
+- bangshou_S72｜模仿的五条禁忌：站位、抓手、素材、篇幅、语言｜book-bangshou.md
+- bangshou_S81｜概括的三条要求：真实准确、具体生动、详略得当｜book-bangshou.md
 
 ## 即兴发言（37 条）
 
@@ -1136,46 +1307,6 @@
 - dashoubi_S185｜全脱稿讲话三步准备：训练、记忆、不露背稿痕｜book-dashoubi.md
 - dashoubi_S186｜全脱稿讲话的适用边界与掌声三种类型｜book-dashoubi.md
 - dashoubi_S197｜在线答问四条纪律：放松、记点、快想、表情配合｜book-dashoubi.md
-
-## 要点细分（37 条）
-
-- zhuodaoren_Z03·拟制（起草到签发）+办理（发文复核登记印制核发/收文签收登记初审承办传阅催办答复）+管理（全生命周期：复制汇编撤销废止销毁）｜拟制（起草到签发）+办理（发文复核登记印制核发/收文签收登记初审承办传阅催办答复）+管理（全生命周期：复制汇编撤销废止销毁）｜blogger-zhuodaoren.md
-- zhuodaoren_Z03·专人｜专人｜blogger-zhuodaoren.md
-- zhuodaoren_Z03·对下级机关｜对下级机关｜blogger-zhuodaoren.md
-- zhuodaoren_Z04·一句话判据：这件事你单位一把手能不能定？｜一句话判据：这件事你单位一把手能不能定？｜blogger-zhuodaoren.md
-- zhuodaoren_Z04·拆开｜拆开｜blogger-zhuodaoren.md
-- zhuodaoren_Z08·报道之报（新闻属性）｜报道之报（新闻属性）｜blogger-zhuodaoren.md
-- zhuodaoren_Z08·教育（说教有主观色彩）+告知（真实客观）｜教育（说教有主观色彩）+告知（真实客观）｜blogger-zhuodaoren.md
-- zhuodaoren_Z08·通报重在知晓，不产生人事任免立功嘉奖行政处分｜通报重在知晓，不产生人事任免立功嘉奖行政处分｜blogger-zhuodaoren.md
-- zhuodaoren_Z09·两个纯种上行文之一｜两个纯种上行文之一｜blogger-zhuodaoren.md
-- zhuodaoren_Z09·单向性｜单向性｜blogger-zhuodaoren.md
-- zhuodaoren_Z09·时效性第一｜时效性第一｜blogger-zhuodaoren.md
-- zhuodaoren_Z09·报告里"问题"部分不能省｜报告里"问题"部分不能省｜blogger-zhuodaoren.md
-- zhuodaoren_Z12·一般用三号仿宋体字，特定情况可适当调整｜一般用三号仿宋体字，特定情况可适当调整｜blogger-zhuodaoren.md
-- zhuodaoren_Z12·小标宋｜小标宋｜blogger-zhuodaoren.md
-- zhuodaoren_Z12·黑体｜黑体｜blogger-zhuodaoren.md
-- zhuodaoren_Z14·唯一｜唯一｜blogger-zhuodaoren.md
-- zhuodaoren_Z14·发文机关代字｜发文机关代字｜blogger-zhuodaoren.md
-- zhuodaoren_Z15·条例+格式国标｜条例+格式国标｜blogger-zhuodaoren.md
-- zhuodaoren_Z15·本机关公文处理规范｜本机关公文处理规范｜blogger-zhuodaoren.md
-- zhuodaoren_Z15·本单位近五年年终总结+次年工作要点｜本单位近五年年终总结+次年工作要点｜blogger-zhuodaoren.md
-- zhuodaoren_Z15·一把手年终总结部署会讲话｜一把手年终总结部署会讲话｜blogger-zhuodaoren.md
-- zhuodaoren_Z16·数据实｜数据实｜blogger-zhuodaoren.md
-- zhuodaoren_Z16·动作实｜动作实｜blogger-zhuodaoren.md
-- zhuodaoren_Z16·成果实｜成果实｜blogger-zhuodaoren.md
-- zhuodaoren_Z16·结构变化、机制创新、流程细节｜结构变化、机制创新、流程细节｜blogger-zhuodaoren.md
-- gongwenbaidu_G03·蒸汽路与先行者｜蒸汽路与先行者｜blogger-gongwenbaidu.md
-- gongwenbaidu_G03·上下游与左右邻｜上下游与左右邻｜blogger-gongwenbaidu.md
-- gongwenbaidu_G03·XX热火爆与XX风劲吹｜XX热火爆与XX风劲吹｜blogger-gongwenbaidu.md
-- gongwenbaidu_G04·一个+修饰语的+对象+始终是+主体+行动目标的+名词+所在｜一个+修饰语的+对象+始终是+主体+行动目标的+名词+所在｜blogger-gongwenbaidu.md
-- gongwenbaidu_G04·修饰语成对｜修饰语成对｜blogger-gongwenbaidu.md
-- gongwenbaidu_G04·对象分层｜对象分层｜blogger-gongwenbaidu.md
-- gongwenbaidu_G10·代入式｜代入式｜blogger-gongwenbaidu.md
-- gongwenbaidu_G10·沉浸式｜沉浸式｜blogger-gongwenbaidu.md
-- gongwenbaidu_G10·延伸式｜延伸式｜blogger-gongwenbaidu.md
-- gongwenbaidu_G11·宏观层面=系统输入/内外部环境/内部结构特征/运行机制｜宏观层面=系统输入/内外部环境/内部结构特征/运行机制｜blogger-gongwenbaidu.md
-- gongwenbaidu_G11·微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜微观层面=系统输出的基础/重要特征/经济回报/附加价值/安全条件｜blogger-gongwenbaidu.md
-- gongwenbaidu_G11·下级机关倾向微观表达，上级机关倾向宏观表达｜下级机关倾向微观表达，上级机关倾向宏观表达｜blogger-gongwenbaidu.md
 
 ## 核稿病例（34 条）
 
@@ -1287,7 +1418,7 @@
 - sgzbg_055｜2019 部署段对仗小标题｜gongzuobaogao.md
 - dashoubi_S118｜八种标题形态实录：设问、比喻与结论式｜book-dashoubi.md
 
-## 文种辨析（24 条）
+## 文种辨析（28 条）
 
 - huishui_H06｜"妥否，请批示" vs "妥否，请批复"（2023-08-21）｜lingyun-huishui.md
 - huishui_H14｜请示与报告三大区别（2024-09-13）｜lingyun-huishui.md
@@ -1313,8 +1444,65 @@
 - dashoubi_S132｜文件写不好常因与讲话稿相混：四种走样表现｜book-dashoubi.md
 - dashoubi_S142｜讲话与公文的五种“表情”之别｜book-dashoubi.md
 - dashoubi_S143｜讲话稿与调研报告、政论、署名文章的语体边界｜book-dashoubi.md
+- bangshou_S03｜新闻五种体裁的判别：消息、通讯、特写、专访、评论｜book-bangshou.md
+- bangshou_S35｜经验材料与工作总结的两处不同｜book-bangshou.md
+- bangshou_S37｜经验材料的三种分类坐标｜book-bangshou.md
+- bangshou_S52｜调研报告的六种分类与六套主体结构｜book-bangshou.md
 
-## 汇报方法（19 条）
+## 格式规范（25 条）
+
+- lingyun_010｜公文排版顺口溜｜lingyun-huishui.md
+- lingyun_058｜Word 插图不跑位｜lingyun-huishui.md
+- lingyun_083｜标点符号四句口诀｜lingyun-huishui.md
+- lingyun_108｜文稿排版十句口诀（速查版）｜lingyun-huishui.md
+- huishui_H02｜仿宋 vs 仿宋GB2312（2023-05-05）｜lingyun-huishui.md
+- huishui_H03｜公文易错标点六条（2023-05-29/06-13）｜lingyun-huishui.md
+- huishui_H10｜公文数字用法差错（2024-08-06）｜lingyun-huishui.md
+- huishui_H11｜公文字体字号与页面设置（2024-08-07）｜lingyun-huishui.md
+- huishui_H12｜"以上/以下"是否含本数（2024-08-09）｜lingyun-huishui.md
+- book3_OV6｜行文规则红线｜book-hegao.md
+- shouji2_S74｜S74 格式是脸面：5 分钟格式五要点｜book-shouji2.md
+- shouji2_S75｜S75 讲话稿的格式小心思（防领导念错字事故）｜book-shouji2.md
+- shu1_B19｜B19 名称、时间、数字用法（附件三）｜book-wenzhong.md
+- shu3_C35｜C35 别拿"疮疤"当花赏（展示性公文也要把关）｜book-hegao.md
+- shu3_C37｜C37 "正文"标注要正确｜book-hegao.md
+- shu3_C38｜C38 "印发机关和印发日期"标注要认真｜book-hegao.md
+- shu3_C39｜C39 "版记"部分的"应当"与"不当"｜book-hegao.md
+- shouji1_S15｜S15 格式是脸面：先调格式再改稿｜book-shouji1.md
+- bangshou_S29｜公文拟制：起草的七做到与签发的审核重点｜book-bangshou.md
+- bangshou_S30｜公文的 18 个格式要素清单｜book-bangshou.md
+- bangshou_S31｜数字序号的四个层级与三条禁忌｜book-bangshou.md
+- bangshou_S32｜密级标注的依据与校对要点｜book-bangshou.md
+- bangshou_S33｜版头与发文字号的对应关系（以湖北省委文件为例）｜book-bangshou.md
+- bangshou_S34｜公文格式国家标准的强制适用｜book-bangshou.md
+- bangshou_S90｜不要只看内容：法定公文的三项专项校对｜book-bangshou.md
+
+## 调研报告（22 条）
+
+- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
+- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
+- wenxiong_WX59｜调研报告保姆级教程：5 板块 10 句式（标题/开头/做法/问题/对策）｜blogger-wenxiong.md
+- lingyun_177｜调研实施三法：问卷/访谈/蹲点（承"解剖麻雀"）｜lingyun-huishui.md
+- dashoubi_S50｜调研文章四类型与各自作用｜book-dashoubi.md
+- dashoubi_S51｜调研文章选题的四个要点｜book-dashoubi.md
+- dashoubi_S52｜调研文章选材的三条标准｜book-dashoubi.md
+- dashoubi_S54｜调研文章主体结构的三种方法｜book-dashoubi.md
+- dashoubi_S55｜调研文章立观点的三条判据与改造法｜book-dashoubi.md
+- dashoubi_S56｜叙议结合的七条把握规则｜book-dashoubi.md
+- dashoubi_S57｜调研文章说真话的方法要害｜book-dashoubi.md
+- dashoubi_S58｜调研文章说真话的四种分寸｜book-dashoubi.md
+- dashoubi_S59｜决策建议“对路”的六条要求｜book-dashoubi.md
+- dashoubi_S60｜“点子”式调研文章的写法｜book-dashoubi.md
+- dashoubi_S61｜“大块头”调研文章的三防｜book-dashoubi.md
+- dashoubi_S62｜调研文章防“做”的五种表现｜book-dashoubi.md
+- dashoubi_S93｜考察报告经验的针对性与意见三要点｜book-dashoubi.md
+- bangshou_S51｜调研报告的四个特点｜book-bangshou.md
+- bangshou_S53｜调研报告标题的三类形式｜book-bangshou.md
+- bangshou_S54｜科学确立选题的五条标准｜book-bangshou.md
+- bangshou_S55｜调研方法：防止被机关「笔杆子」与发言「专业户」蒙蔽｜book-bangshou.md
+- bangshou_S56｜调研报告成文的五条硬要求｜book-bangshou.md
+
+## 汇报方法（21 条）
 
 - lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
 - lingyun_047｜即兴汇报"果源三建"口诀｜lingyun-huishui.md
@@ -1335,47 +1523,8 @@
 - dashoubi_S130｜汇报怎样让人记住：四个“平”的诊断｜book-dashoubi.md
 - dashoubi_S137｜汇报材料的结构训练：先找亮点，再破套路｜book-dashoubi.md
 - dashoubi_S199｜向领导正式汇报：识别汇报分量与随机应变｜book-dashoubi.md
-
-## 格式规范（18 条）
-
-- lingyun_010｜公文排版顺口溜｜lingyun-huishui.md
-- lingyun_058｜Word 插图不跑位｜lingyun-huishui.md
-- lingyun_083｜标点符号四句口诀｜lingyun-huishui.md
-- lingyun_108｜文稿排版十句口诀（速查版）｜lingyun-huishui.md
-- huishui_H02｜仿宋 vs 仿宋GB2312（2023-05-05）｜lingyun-huishui.md
-- huishui_H03｜公文易错标点六条（2023-05-29/06-13）｜lingyun-huishui.md
-- huishui_H10｜公文数字用法差错（2024-08-06）｜lingyun-huishui.md
-- huishui_H11｜公文字体字号与页面设置（2024-08-07）｜lingyun-huishui.md
-- huishui_H12｜"以上/以下"是否含本数（2024-08-09）｜lingyun-huishui.md
-- book3_OV6｜行文规则红线｜book-hegao.md
-- shouji2_S74｜S74 格式是脸面：5 分钟格式五要点｜book-shouji2.md
-- shouji2_S75｜S75 讲话稿的格式小心思（防领导念错字事故）｜book-shouji2.md
-- shu1_B19｜B19 名称、时间、数字用法（附件三）｜book-wenzhong.md
-- shu3_C35｜C35 别拿"疮疤"当花赏（展示性公文也要把关）｜book-hegao.md
-- shu3_C37｜C37 "正文"标注要正确｜book-hegao.md
-- shu3_C38｜C38 "印发机关和印发日期"标注要认真｜book-hegao.md
-- shu3_C39｜C39 "版记"部分的"应当"与"不当"｜book-hegao.md
-- shouji1_S15｜S15 格式是脸面：先调格式再改稿｜book-shouji1.md
-
-## 调研报告（17 条）
-
-- lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
-- gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
-- wenxiong_WX59｜调研报告保姆级教程：5 板块 10 句式（标题/开头/做法/问题/对策）｜blogger-wenxiong.md
-- lingyun_177｜调研实施三法：问卷/访谈/蹲点（承"解剖麻雀"）｜lingyun-huishui.md
-- dashoubi_S50｜调研文章四类型与各自作用｜book-dashoubi.md
-- dashoubi_S51｜调研文章选题的四个要点｜book-dashoubi.md
-- dashoubi_S52｜调研文章选材的三条标准｜book-dashoubi.md
-- dashoubi_S54｜调研文章主体结构的三种方法｜book-dashoubi.md
-- dashoubi_S55｜调研文章立观点的三条判据与改造法｜book-dashoubi.md
-- dashoubi_S56｜叙议结合的七条把握规则｜book-dashoubi.md
-- dashoubi_S57｜调研文章说真话的方法要害｜book-dashoubi.md
-- dashoubi_S58｜调研文章说真话的四种分寸｜book-dashoubi.md
-- dashoubi_S59｜决策建议“对路”的六条要求｜book-dashoubi.md
-- dashoubi_S60｜“点子”式调研文章的写法｜book-dashoubi.md
-- dashoubi_S61｜“大块头”调研文章的三防｜book-dashoubi.md
-- dashoubi_S62｜调研文章防“做”的五种表现｜book-dashoubi.md
-- dashoubi_S93｜考察报告经验的针对性与意见三要点｜book-dashoubi.md
+- liancheng_S17｜一个月拟20篇汇报的实战复盘：五种情形与四条打法｜book-liancheng.md
+- liancheng_S22｜汇报稿有两个「东家」与「傻瓜式」大白话｜book-liancheng.md
 
 ## 理论学习（16 条）
 
@@ -1395,6 +1544,23 @@
 - dashoubi_S36｜讲大道理四种毛病与自检｜book-dashoubi.md
 - dashoubi_S37｜讲道理的四个技巧｜book-dashoubi.md
 - dashoubi_S121｜理论未必都是灰色的：让理论带着微笑走进人心｜book-dashoubi.md
+
+## 职场心态（14 条）
+
+- lingyun_067｜反内耗五句古文｜lingyun-huishui.md
+- lingyun_141｜面对大领导不紧张的秘诀｜lingyun-huishui.md
+- hejianwen_S81｜写材料恶性循环四症状（冰点、泪点、痛点、盲点）｜book-hejianwen.md
+- hejianwen_S82｜「伞兵思维」｜book-hejianwen.md
+- hejianwen_S83｜修改之苦的三个深层原因与三个突围方向｜book-hejianwen.md
+- hejianwen_S84｜写材料的「三放下」｜book-hejianwen.md
+- hejianwen_S89｜学习四层次与「知道自己不知道」｜book-hejianwen.md
+- hejianwen_S90｜写材料的「三特三度」自检尺与「让认真成为天赋」｜book-hejianwen.md
+- xinfa_S66｜切莫成为“文字匠”：写作只是基础，不要把自己工具化｜book-xinfa.md
+- xinfa_S68｜克服职业倦怠的四对关系｜book-xinfa.md
+- xue36_S39｜笔杆子的「亮剑精神」：剑要亮出情怀／勇气／水平／意志｜book-xue36.md
+- dashoubi_S109｜模仿不等于盲从：会拾遗补缺才算尽责｜book-dashoubi.md
+- xue28_S02｜笔杆子的「扪心 10 问」：用认知失调理论给自己做心态体检｜book-xue28.md
+- xue28_S06｜笔杆子如何治愈精神内耗：4 个自问与「二舅故事」的 4 味药｜book-xue28.md
 
 ## 修辞方法（13 条）
 
@@ -1459,6 +1625,21 @@
 - gaigaoshi_GC25｜低水平写问题是下评语，高水平写问题是找病灶｜blogger-gaigaoshi.md
 - gaigaoshi_GC26｜第一次写具体，第二次才配写"相关"｜blogger-gaigaoshi.md
 
+## 信息写作（12 条）
+
+- lingyun_165｜《秘书工作》信息选题"123"｜lingyun-huishui.md
+- gongwenbaidu_27｜G27 政务信息六类高采用选题｜blogger-gongwenbaidu.md
+- dayu_DY21｜素材到信息：主题提炼+成效具象｜blogger-dayu.md
+- dayu_DY22｜口述变材料：口语素材规范化改写｜blogger-dayu.md
+- dashoubi_S81｜信息选题的八类筛选对象清单｜book-dashoubi.md
+- dashoubi_S82｜拓宽信息源与明察暗访取证法｜book-dashoubi.md
+- dashoubi_S83｜信息刊物没人看的三大类反面稿｜book-dashoubi.md
+- dashoubi_S87｜党委、政府、部门信息选材分工｜book-dashoubi.md
+- dashoubi_S88｜三类信息协调一致的三个机制｜book-dashoubi.md
+- dashoubi_S89｜上稿率：吃准需求与联系沟通｜book-dashoubi.md
+- dashoubi_S90｜忧信息收集编写上报四条纪律｜book-dashoubi.md
+- bangshou_S02｜新闻的四个特征：真实性、时效性、新奇性、思想性｜book-bangshou.md
+
 ## 经验材料（12 条）
 
 - lingyun_163｜把"成绩"写成"经验"两套路｜lingyun-huishui.md
@@ -1473,35 +1654,6 @@
 - xue36_S46｜发现工作亮点的「四只眼睛」：有无论／多少论／快慢论／优劣论｜book-xue36.md
 - dashoubi_S92｜经验介绍材料的十二字标准｜book-dashoubi.md
 - dashoubi_S159｜经验介绍类讲话：概括、角度、语言三招｜book-dashoubi.md
-
-## 职场心态（12 条）
-
-- lingyun_067｜反内耗五句古文｜lingyun-huishui.md
-- lingyun_141｜面对大领导不紧张的秘诀｜lingyun-huishui.md
-- hejianwen_S81｜写材料恶性循环四症状（冰点、泪点、痛点、盲点）｜book-hejianwen.md
-- hejianwen_S82｜「伞兵思维」｜book-hejianwen.md
-- hejianwen_S83｜修改之苦的三个深层原因与三个突围方向｜book-hejianwen.md
-- hejianwen_S84｜写材料的「三放下」｜book-hejianwen.md
-- hejianwen_S89｜学习四层次与「知道自己不知道」｜book-hejianwen.md
-- hejianwen_S90｜写材料的「三特三度」自检尺与「让认真成为天赋」｜book-hejianwen.md
-- xinfa_S66｜切莫成为“文字匠”：写作只是基础，不要把自己工具化｜book-xinfa.md
-- xinfa_S68｜克服职业倦怠的四对关系｜book-xinfa.md
-- xue36_S39｜笔杆子的「亮剑精神」：剑要亮出情怀／勇气／水平／意志｜book-xue36.md
-- dashoubi_S109｜模仿不等于盲从：会拾遗补缺才算尽责｜book-dashoubi.md
-
-## 信息写作（11 条）
-
-- lingyun_165｜《秘书工作》信息选题"123"｜lingyun-huishui.md
-- gongwenbaidu_27｜G27 政务信息六类高采用选题｜blogger-gongwenbaidu.md
-- dayu_DY21｜素材到信息：主题提炼+成效具象｜blogger-dayu.md
-- dayu_DY22｜口述变材料：口语素材规范化改写｜blogger-dayu.md
-- dashoubi_S81｜信息选题的八类筛选对象清单｜book-dashoubi.md
-- dashoubi_S82｜拓宽信息源与明察暗访取证法｜book-dashoubi.md
-- dashoubi_S83｜信息刊物没人看的三大类反面稿｜book-dashoubi.md
-- dashoubi_S87｜党委、政府、部门信息选材分工｜book-dashoubi.md
-- dashoubi_S88｜三类信息协调一致的三个机制｜book-dashoubi.md
-- dashoubi_S89｜上稿率：吃准需求与联系沟通｜book-dashoubi.md
-- dashoubi_S90｜忧信息收集编写上报四条纪律｜book-dashoubi.md
 
 ## 文字规范（11 条）
 
