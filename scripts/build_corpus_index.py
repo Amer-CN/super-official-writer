@@ -111,6 +111,7 @@ PREFIX_TO_FILE = {
     'xue32': 'book-xue32.md',
     'dashoubi': 'book-dashoubi.md',
     'liancheng': 'book-liancheng.md',
+    'liancheng2': 'book-liancheng2.md',
     'xue28': 'book-xue28.md',
     'bangshou': 'book-bangshou.md',
     'sucheng1': 'book-sucheng1.md',

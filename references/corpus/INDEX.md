@@ -1,10 +1,10 @@
 # 蒸馏知识库·知识分类索引（自动生成）
 
 > 自动生成，勿手改；重建命令：`python scripts/build_corpus_index.py`
-> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（1895 条，48 类）；条目正文位于 references/corpus/ 分层文件。
+> 数据源：lingyun/dataset/gongwen_writing_dataset.jsonl（1919 条，48 类）；条目正文位于 references/corpus/ 分层文件。
 > 检索用法（两级）：先在本索引按分类定位条目与层文件 → 再 grep 对应层文件取条目全文。
 
-## 写作方法论（494 条）
+## 写作方法论（496 条）
 
 - lingyun_005｜"12321"方片牌写作框架｜lingyun-huishui.md
 - lingyun_019-020｜速成四回眸口诀｜lingyun-huishui.md
@@ -500,8 +500,10 @@
 - sucheng4_S101｜立意能力：挖掘本质·新角度·集中突出｜book-sucheng4.md
 - sucheng4_S103｜用材能力：死材料与活材料·鉴材四原则·用材三注意｜book-sucheng4.md
 - sucheng4_S106｜读书杂谈：好书的标准·博览与专读·活读书｜book-sucheng4.md
+- liancheng2_S02｜政策部署类意见／通知的三个问题与责任分解表述｜book-liancheng2.md
+- liancheng2_S23｜新闻时评的十个切入点｜book-liancheng2.md
 
-## 文种规范（121 条）
+## 文种规范（131 条）
 
 - book2_01｜B1 决议｜book-wenzhong.md
 - book2_02｜B2 决定｜book-wenzhong.md
@@ -624,6 +626,16 @@
 - sucheng2_S54｜细则的三种类型与「上有所依，下有所系」｜book-sucheng2.md
 - sucheng4_S39｜行文对象专指性：公文不是宣传教育材料｜book-sucheng4.md
 - sucheng4_S107｜日本公文印象之一：公文的「统」与「不统」·文种·标题｜book-sucheng4.md
+- liancheng2_S01｜会议类通知的实战准备与六处写法处理｜book-liancheng2.md
+- liancheng2_S03｜函与复函的老秘三则与「收悉」用法｜book-liancheng2.md
+- liancheng2_S04｜邀请函的三条老秘心得｜book-liancheng2.md
+- liancheng2_S05｜会议纪要的实战准备与出席列席两种写法｜book-liancheng2.md
+- liancheng2_S11｜传达提纲的「留、删、变」三则｜book-liancheng2.md
+- liancheng2_S13｜起草说明的定位与内容取舍｜book-liancheng2.md
+- liancheng2_S17｜任职表态发言的七类表态框架｜book-liancheng2.md
+- liancheng2_S20｜简报「简亮实新」四特点与转发式编者按｜book-liancheng2.md
+- liancheng2_S22｜工作要点的「要××」句式与印发通知｜book-liancheng2.md
+- liancheng2_S24｜贺电（贺信）的三段与对象分级｜book-liancheng2.md
 
 ## 结构方法（120 条）
 
@@ -941,7 +953,7 @@
 - sucheng4_S53｜邓小平语言的魅力：简洁·平实·新颖·活泼·修辞｜book-sucheng4.md
 - sucheng4_S104｜择词能力：得体·端庄·准确｜book-sucheng4.md
 
-## 讲话稿（84 条）
+## 讲话稿（86 条）
 
 - lingyun_087｜讲话稿"五碗面"｜lingyun-huishui.md
 - lingyun_098｜讲话开头"捧哏法"｜lingyun-huishui.md
@@ -1027,6 +1039,8 @@
 - sucheng4_S65｜讲话稿的标题与开头五法｜book-sucheng4.md
 - sucheng4_S66｜讲话稿主体四性：鲜明性·生动性·鼓动性·通俗性｜book-sucheng4.md
 - sucheng4_S67｜讲话稿结尾五法：总括全篇·首尾呼应·发出号召·戛然而止·征询意见｜book-sucheng4.md
+- liancheng2_S08｜部署动员讲话的素材三条与三部分内容分工｜book-liancheng2.md
+- liancheng2_S16｜活动致辞的「五子」步骤与三种框架思路｜book-liancheng2.md
 
 ## 修改方法（82 条）
 
@@ -1186,7 +1200,7 @@
 - xinfa_S73｜职场原理金句组：首因·凡勃伦·参与·沉没成本·需求·墨菲｜book-xinfa.md
 - dashoubi_S135｜写作十要顺口溜：一段可当收尾的全文自查口诀｜book-dashoubi.md
 
-## 文种要领（67 条）
+## 文种要领（68 条）
 
 - fanben_F01｜F01 决议：写法与小结（增量）｜book-fuchuan.md
 - fanben_F02｜F02 决定：六类写法分型（增量）｜book-fuchuan.md
@@ -1255,6 +1269,7 @@
 - sucheng4_S56｜「意见」的写作要点：标题·成文日期·正文三段｜book-sucheng4.md
 - sucheng4_S57｜「请示」的适用对象：两类越界行文及其合理性｜book-sucheng4.md
 - sucheng4_S58｜「请示」的用法与主送机关写法的变通建议｜book-sucheng4.md
+- liancheng2_S10｜主持词的「简约但不简单」与三个作用｜book-liancheng2.md
 
 ## 写作理念（56 条）
 
@@ -1535,6 +1550,44 @@
 - sucheng4_S47｜标题与标点：书名号·括号引号连接号破折号·三种不用标点的情况｜book-sucheng4.md
 - sucheng4_S108｜日本公文印象之二：主送机关·成文日期·发文机关三处差异｜book-sucheng4.md
 
+## 文种辨析（35 条）
+
+- huishui_H06｜"妥否，请批示" vs "妥否，请批复"（2023-08-21）｜lingyun-huishui.md
+- huishui_H14｜请示与报告三大区别（2024-09-13）｜lingyun-huishui.md
+- huishui_H15｜通知与通告五大区别（2024-09-18）｜lingyun-huishui.md
+- book3_OV5｜文种误用三大高危区｜book-hegao.md
+- zhuodaoren_04｜Z04 请示与报告的终极区分法｜blogger-zhuodaoren.md
+- zhuodaoren_06｜Z06 意见文种精讲｜blogger-zhuodaoren.md
+- fanben_F03｜F03 决定与决议辨析 + 决定/通知/意见三文种选用｜book-fuchuan.md
+- fanben_F05｜F05 嘉奖令/表彰性决定/表扬性通报三文种选用 + 命令与通知边界｜book-fuchuan.md
+- shu3_C36｜C36 "意见"不是"过不去"｜book-hegao.md
+- shu3_C40｜C40 "请示"要按规矩行文｜book-hegao.md
+- shu3_C41｜C41 "请示"应当一文一事｜book-hegao.md
+- shu3_C42｜C42 "请示"的主送对象来不得移花接木｜book-hegao.md
+- shu3_C43｜C43 "请示"与"函"应当准确使用｜book-hegao.md
+- shu3_C46｜C46 受双重领导的机关行上行文应当正确选用主送对象｜book-hegao.md
+- wenxiong_WX07｜会议纪要"认为/指出/强调/要求"四用语辨析｜blogger-wenxiong.md
+- hejianwen_S14｜小数据公文与大数据公文｜book-hejianwen.md
+- hejianwen_S59｜申论写「五子棋」与写材料「五子棋」的差别｜book-hejianwen.md
+- hejianwen_S86｜基层常用公文分「点、线、面」三类与「15∶6∶1」比例｜book-hejianwen.md
+- xinfa_S40｜公文分类体系与请示报告的分野｜book-xinfa.md
+- xinfa_S41｜公文“五定”特征与五项功能｜book-xinfa.md
+- dashoubi_S97｜决议与纪要五点区别及两类写法｜book-dashoubi.md
+- dashoubi_S132｜文件写不好常因与讲话稿相混：四种走样表现｜book-dashoubi.md
+- dashoubi_S142｜讲话与公文的五种“表情”之别｜book-dashoubi.md
+- dashoubi_S143｜讲话稿与调研报告、政论、署名文章的语体边界｜book-dashoubi.md
+- bangshou_S03｜新闻五种体裁的判别：消息、通讯、特写、专访、评论｜book-bangshou.md
+- bangshou_S35｜经验材料与工作总结的两处不同｜book-bangshou.md
+- bangshou_S37｜经验材料的三种分类坐标｜book-bangshou.md
+- bangshou_S52｜调研报告的六种分类与六套主体结构｜book-bangshou.md
+- sucheng1_S08｜法定公文误区（一）：文种分不清与标题稀里糊涂｜book-sucheng1.md
+- sucheng2_S37｜通告、布告、公告三者的形式与内容辨及效用二分｜book-sucheng2.md
+- sucheng2_S41｜议案「提请审议」的立场含义与附件本位｜book-sucheng2.md
+- sucheng2_S42｜函的便函与公函之分及正文三段写法分寸｜book-sucheng2.md
+- liancheng2_S06｜通告／公告／公报／议案四文种的老秘辨析｜book-liancheng2.md
+- liancheng2_S07｜命令／决定／通报嘉奖的阶位与内容两维辨析｜book-liancheng2.md
+- liancheng2_S18｜离任感言与任职表态的对照｜book-liancheng2.md
+
 ## 职场表达（34 条）
 
 - lingyun_011｜朋友圈跨年文案"你要写体"｜lingyun-huishui.md
@@ -1608,42 +1661,7 @@
 - sgzbg_055｜2019 部署段对仗小标题｜gongzuobaogao.md
 - dashoubi_S118｜八种标题形态实录：设问、比喻与结论式｜book-dashoubi.md
 
-## 文种辨析（32 条）
-
-- huishui_H06｜"妥否，请批示" vs "妥否，请批复"（2023-08-21）｜lingyun-huishui.md
-- huishui_H14｜请示与报告三大区别（2024-09-13）｜lingyun-huishui.md
-- huishui_H15｜通知与通告五大区别（2024-09-18）｜lingyun-huishui.md
-- book3_OV5｜文种误用三大高危区｜book-hegao.md
-- zhuodaoren_04｜Z04 请示与报告的终极区分法｜blogger-zhuodaoren.md
-- zhuodaoren_06｜Z06 意见文种精讲｜blogger-zhuodaoren.md
-- fanben_F03｜F03 决定与决议辨析 + 决定/通知/意见三文种选用｜book-fuchuan.md
-- fanben_F05｜F05 嘉奖令/表彰性决定/表扬性通报三文种选用 + 命令与通知边界｜book-fuchuan.md
-- shu3_C36｜C36 "意见"不是"过不去"｜book-hegao.md
-- shu3_C40｜C40 "请示"要按规矩行文｜book-hegao.md
-- shu3_C41｜C41 "请示"应当一文一事｜book-hegao.md
-- shu3_C42｜C42 "请示"的主送对象来不得移花接木｜book-hegao.md
-- shu3_C43｜C43 "请示"与"函"应当准确使用｜book-hegao.md
-- shu3_C46｜C46 受双重领导的机关行上行文应当正确选用主送对象｜book-hegao.md
-- wenxiong_WX07｜会议纪要"认为/指出/强调/要求"四用语辨析｜blogger-wenxiong.md
-- hejianwen_S14｜小数据公文与大数据公文｜book-hejianwen.md
-- hejianwen_S59｜申论写「五子棋」与写材料「五子棋」的差别｜book-hejianwen.md
-- hejianwen_S86｜基层常用公文分「点、线、面」三类与「15∶6∶1」比例｜book-hejianwen.md
-- xinfa_S40｜公文分类体系与请示报告的分野｜book-xinfa.md
-- xinfa_S41｜公文“五定”特征与五项功能｜book-xinfa.md
-- dashoubi_S97｜决议与纪要五点区别及两类写法｜book-dashoubi.md
-- dashoubi_S132｜文件写不好常因与讲话稿相混：四种走样表现｜book-dashoubi.md
-- dashoubi_S142｜讲话与公文的五种“表情”之别｜book-dashoubi.md
-- dashoubi_S143｜讲话稿与调研报告、政论、署名文章的语体边界｜book-dashoubi.md
-- bangshou_S03｜新闻五种体裁的判别：消息、通讯、特写、专访、评论｜book-bangshou.md
-- bangshou_S35｜经验材料与工作总结的两处不同｜book-bangshou.md
-- bangshou_S37｜经验材料的三种分类坐标｜book-bangshou.md
-- bangshou_S52｜调研报告的六种分类与六套主体结构｜book-bangshou.md
-- sucheng1_S08｜法定公文误区（一）：文种分不清与标题稀里糊涂｜book-sucheng1.md
-- sucheng2_S37｜通告、布告、公告三者的形式与内容辨及效用二分｜book-sucheng2.md
-- sucheng2_S41｜议案「提请审议」的立场含义与附件本位｜book-sucheng2.md
-- sucheng2_S42｜函的便函与公函之分及正文三段写法分寸｜book-sucheng2.md
-
-## 调研报告（32 条）
+## 调研报告（33 条）
 
 - lingyun_171｜跟教员学调研 + 调研报告"八个要"｜lingyun-huishui.md
 - gaigaoshi_GC78｜调研报告＝带着问题去找答案，不是带着答案找证明｜blogger-gaigaoshi.md
@@ -1677,6 +1695,7 @@
 - sucheng4_S88｜办公室调研报告的写作要领：标题·开头·正文·结尾｜book-sucheng4.md
 - sucheng4_S89｜调研报告的写作要求四条：有新意·用事实说话·定性定量分析·篇幅短小精悍｜book-sucheng4.md
 - sucheng4_S90｜调研报告成果的应用：四个注意｜book-sucheng4.md
+- liancheng2_S19｜调研报告的四步工序与调研方式方法清单｜book-liancheng2.md
 
 ## 文字规范（28 条）
 
@@ -1709,6 +1728,31 @@
 - sucheng4_S36｜「有关」的五种用法与四种慎用｜book-sucheng4.md
 - sucheng4_S105｜熟知未必真知：四类成语本意辨析｜book-sucheng4.md
 
+## 汇报方法（22 条）
+
+- lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
+- lingyun_047｜即兴汇报"果源三建"口诀｜lingyun-huishui.md
+- lingyun_071｜汇报工作五字诀"成正困重问"｜lingyun-huishui.md
+- lingyun_085｜PPT 封面四步法｜lingyun-huishui.md
+- lingyun_114｜汇报"土衔鼠"三字诀｜lingyun-huishui.md
+- lingyun_122｜汇报"5 先 5 后"公式｜lingyun-huishui.md
+- huishui_H04｜向领导汇报工作四要点（2023-06-14）｜lingyun-huishui.md
+- gaigaoshi_GC06｜汇报进展＝让领导能判断，不是表态"我在干"｜blogger-gaigaoshi.md
+- gaigaoshi_GC28｜低水平开头写客套，高水平开头说正事｜blogger-gaigaoshi.md
+- shouji1_S01｜S01 交办必有回音：件件有着落、事事有回信｜book-shouji1.md
+- shouji1_S02｜S02 汇报频次定律：你的次数永远少于领导期望｜book-shouji1.md
+- shouji1_S03｜S03 好汇报五条：先结果、有书面、详略当、列一二三、带方案｜book-shouji1.md
+- shouji1_S05｜S05 吃准指示四步：原话落实/观点发散/参与酝酿/个性发散｜book-shouji1.md
+- shouji1_S06｜S06 没听清必须当场问：先备方案再开口｜book-shouji1.md
+- shouji1_S07｜S07 指示先记下来：笔记本绑在腋窝下｜book-shouji1.md
+- dashoubi_S91｜工作汇报材料三个少讲多讲｜book-dashoubi.md
+- dashoubi_S130｜汇报怎样让人记住：四个“平”的诊断｜book-dashoubi.md
+- dashoubi_S137｜汇报材料的结构训练：先找亮点，再破套路｜book-dashoubi.md
+- dashoubi_S199｜向领导正式汇报：识别汇报分量与随机应变｜book-dashoubi.md
+- liancheng_S17｜一个月拟20篇汇报的实战复盘：五种情形与四条打法｜book-liancheng.md
+- liancheng_S22｜汇报稿有两个「东家」与「傻瓜式」大白话｜book-liancheng.md
+- liancheng2_S12｜工作汇报的「按需汇报」与口头汇报模板｜book-liancheng2.md
+
 ## 信息写作（21 条）
 
 - lingyun_165｜《秘书工作》信息选题"123"｜lingyun-huishui.md
@@ -1733,29 +1777,24 @@
 - sucheng4_S80｜开发深层次信息的五种信息调研法｜book-sucheng4.md
 - sucheng4_S81｜深层次信息的编写四要求与信息六要素｜book-sucheng4.md
 
-## 汇报方法（21 条）
+## 总结与报告（16 条）
 
-- lingyun_021｜汇报四字公式（喂饭版）｜lingyun-huishui.md
-- lingyun_047｜即兴汇报"果源三建"口诀｜lingyun-huishui.md
-- lingyun_071｜汇报工作五字诀"成正困重问"｜lingyun-huishui.md
-- lingyun_085｜PPT 封面四步法｜lingyun-huishui.md
-- lingyun_114｜汇报"土衔鼠"三字诀｜lingyun-huishui.md
-- lingyun_122｜汇报"5 先 5 后"公式｜lingyun-huishui.md
-- huishui_H04｜向领导汇报工作四要点（2023-06-14）｜lingyun-huishui.md
-- gaigaoshi_GC06｜汇报进展＝让领导能判断，不是表态"我在干"｜blogger-gaigaoshi.md
-- gaigaoshi_GC28｜低水平开头写客套，高水平开头说正事｜blogger-gaigaoshi.md
-- shouji1_S01｜S01 交办必有回音：件件有着落、事事有回信｜book-shouji1.md
-- shouji1_S02｜S02 汇报频次定律：你的次数永远少于领导期望｜book-shouji1.md
-- shouji1_S03｜S03 好汇报五条：先结果、有书面、详略当、列一二三、带方案｜book-shouji1.md
-- shouji1_S05｜S05 吃准指示四步：原话落实/观点发散/参与酝酿/个性发散｜book-shouji1.md
-- shouji1_S06｜S06 没听清必须当场问：先备方案再开口｜book-shouji1.md
-- shouji1_S07｜S07 指示先记下来：笔记本绑在腋窝下｜book-shouji1.md
-- dashoubi_S91｜工作汇报材料三个少讲多讲｜book-dashoubi.md
-- dashoubi_S130｜汇报怎样让人记住：四个“平”的诊断｜book-dashoubi.md
-- dashoubi_S137｜汇报材料的结构训练：先找亮点，再破套路｜book-dashoubi.md
-- dashoubi_S199｜向领导正式汇报：识别汇报分量与随机应变｜book-dashoubi.md
-- liancheng_S17｜一个月拟20篇汇报的实战复盘：五种情形与四条打法｜book-liancheng.md
-- liancheng_S22｜汇报稿有两个「东家」与「傻瓜式」大白话｜book-liancheng.md
+- lingyun_000｜年终总结"四个看一看"｜lingyun-huishui.md
+- lingyun_002｜述职报告三大框架（武侠风）｜lingyun-huishui.md
+- lingyun_008｜工作计划"眼保健操"四步｜lingyun-huishui.md
+- lingyun_026｜竞聘演讲五字诀｜lingyun-huishui.md
+- lingyun_133｜半年总结金句库｜lingyun-huishui.md
+- lingyun_147｜大报"三新"框架（把干活写成文章）｜lingyun-huishui.md
+- lingyun_149｜总结"三招出彩法"｜lingyun-huishui.md
+- lingyun_172｜总结小标题六方面 + "启示"段｜lingyun-huishui.md
+- gaigaoshi_GC76｜述职报告＝行程单换成绩单，忙不是变｜blogger-gaigaoshi.md
+- dayu_DY16｜个人剖析材料：正反两方面写一个问题｜blogger-dayu.md
+- dayu_DY20｜单位总结：把罗列升级为"举措+成果"｜blogger-dayu.md
+- dashoubi_S74｜工作总结三种结构法与三条原则｜book-dashoubi.md
+- dashoubi_S75｜成效反映的数据定性与内容一致｜book-dashoubi.md
+- sucheng1_S40｜述职述廉：五块结构与按职级分层的要素差异｜book-sucheng1.md
+- sucheng4_S78｜总结莫成「豆腐账」：五个问题与「三有」判据｜book-sucheng4.md
+- liancheng2_S15｜述职报告的「我」「责」「缺」三处分寸｜book-liancheng2.md
 
 ## 文风方法论（16 条）
 
@@ -1795,24 +1834,6 @@
 - dashoubi_S37｜讲道理的四个技巧｜book-dashoubi.md
 - dashoubi_S121｜理论未必都是灰色的：让理论带着微笑走进人心｜book-dashoubi.md
 
-## 总结与报告（15 条）
-
-- lingyun_000｜年终总结"四个看一看"｜lingyun-huishui.md
-- lingyun_002｜述职报告三大框架（武侠风）｜lingyun-huishui.md
-- lingyun_008｜工作计划"眼保健操"四步｜lingyun-huishui.md
-- lingyun_026｜竞聘演讲五字诀｜lingyun-huishui.md
-- lingyun_133｜半年总结金句库｜lingyun-huishui.md
-- lingyun_147｜大报"三新"框架（把干活写成文章）｜lingyun-huishui.md
-- lingyun_149｜总结"三招出彩法"｜lingyun-huishui.md
-- lingyun_172｜总结小标题六方面 + "启示"段｜lingyun-huishui.md
-- gaigaoshi_GC76｜述职报告＝行程单换成绩单，忙不是变｜blogger-gaigaoshi.md
-- dayu_DY16｜个人剖析材料：正反两方面写一个问题｜blogger-dayu.md
-- dayu_DY20｜单位总结：把罗列升级为"举措+成果"｜blogger-dayu.md
-- dashoubi_S74｜工作总结三种结构法与三条原则｜book-dashoubi.md
-- dashoubi_S75｜成效反映的数据定性与内容一致｜book-dashoubi.md
-- sucheng1_S40｜述职述廉：五块结构与按职级分层的要素差异｜book-sucheng1.md
-- sucheng4_S78｜总结莫成「豆腐账」：五个问题与「三有」判据｜book-sucheng4.md
-
 ## 职场心态（15 条）
 
 - lingyun_067｜反内耗五句古文｜lingyun-huishui.md
@@ -1847,6 +1868,22 @@
 - dashoubi_S177｜号召式语言：三个落点与两类词句｜book-dashoubi.md
 - dashoubi_S178｜幽默语言的适用场合与三条分寸｜book-dashoubi.md
 - sucheng2_S28｜模糊语言的七类词表与两条注意｜book-sucheng2.md
+
+## 总结技巧（13 条）
+
+- gongwenbaidu_15｜G15 工作总结两大布局：并列式→递进式｜blogger-gongwenbaidu.md
+- gongwenbaidu_16｜G16 工作总结框架：焦点前置与焦点后置｜blogger-gongwenbaidu.md
+- gongwenbaidu_35｜G35 年中总结的"框与情"｜blogger-gongwenbaidu.md
+- dayu_DY18｜总结的三段严密逻辑：是什么→怎么做→靠什么｜blogger-dayu.md
+- dayu_DY19｜总结把握重点：目标/项目/成效三个重点｜blogger-dayu.md
+- wenxiong_WX12｜计划秒变总结三步法：移→顺→换（动宾改主谓）｜blogger-wenxiong.md
+- dashoubi_S76｜总结点面结合的详写与略写｜book-dashoubi.md
+- dashoubi_S77｜总结写问题的四种病灶｜book-dashoubi.md
+- dashoubi_S78｜经验教训的材料分工与观点提炼｜book-dashoubi.md
+- sucheng1_S38｜工作总结汇报的四块与开头四注意｜book-sucheng1.md
+- sucheng1_S45｜个人总结：三部分的拓展部位与结尾分寸｜book-sucheng1.md
+- sucheng2_S48｜综合总结与专题总结的结构分型及「因果倒置」说明｜book-sucheng2.md
+- liancheng2_S21｜工作总结的格式两条与「突出亮点」｜book-liancheng2.md
 
 ## 成稿范例（13 条）
 
@@ -1894,21 +1931,6 @@
 - sucheng2_S23｜公文签发的三层意义与五类常见问题｜book-sucheng2.md
 - sucheng2_S24｜公文封发与归档的规矩｜book-sucheng2.md
 
-## 总结技巧（12 条）
-
-- gongwenbaidu_15｜G15 工作总结两大布局：并列式→递进式｜blogger-gongwenbaidu.md
-- gongwenbaidu_16｜G16 工作总结框架：焦点前置与焦点后置｜blogger-gongwenbaidu.md
-- gongwenbaidu_35｜G35 年中总结的"框与情"｜blogger-gongwenbaidu.md
-- dayu_DY18｜总结的三段严密逻辑：是什么→怎么做→靠什么｜blogger-dayu.md
-- dayu_DY19｜总结把握重点：目标/项目/成效三个重点｜blogger-dayu.md
-- wenxiong_WX12｜计划秒变总结三步法：移→顺→换（动宾改主谓）｜blogger-wenxiong.md
-- dashoubi_S76｜总结点面结合的详写与略写｜book-dashoubi.md
-- dashoubi_S77｜总结写问题的四种病灶｜book-dashoubi.md
-- dashoubi_S78｜经验教训的材料分工与观点提炼｜book-dashoubi.md
-- sucheng1_S38｜工作总结汇报的四块与开头四注意｜book-sucheng1.md
-- sucheng1_S45｜个人总结：三部分的拓展部位与结尾分寸｜book-sucheng1.md
-- sucheng2_S48｜综合总结与专题总结的结构分型及「因果倒置」说明｜book-sucheng2.md
-
 ## 经验材料（12 条）
 
 - lingyun_163｜把"成绩"写成"经验"两套路｜lingyun-huishui.md
@@ -1924,6 +1946,18 @@
 - dashoubi_S92｜经验介绍材料的十二字标准｜book-dashoubi.md
 - dashoubi_S159｜经验介绍类讲话：概括、角度、语言三招｜book-dashoubi.md
 
+## 会议发言（9 条）
+
+- lingyun_077｜自我批评"五个能"拿捏分寸｜lingyun-huishui.md
+- lingyun_125｜会议纪要四用语辨析｜lingyun-huishui.md
+- zhuodaoren_17｜Z18 会议纪要三类表述｜blogger-zhuodaoren.md
+- gaigaoshi_GC75｜表态发言＝接题、破题、答题三次转换｜blogger-gaigaoshi.md
+- dashoubi_S24｜同会多篇讲话的分工与会议总结｜book-dashoubi.md
+- dashoubi_S48｜整理领导讲话逐项核查四件事｜book-dashoubi.md
+- dashoubi_S49｜整理即席讲话要保住原有亮点｜book-dashoubi.md
+- sucheng1_S48｜各类场合发言：三特点与三类型写法｜book-sucheng1.md
+- liancheng2_S14｜党校培训交流发言的三要素｜book-liancheng2.md
+
 ## 办公室事务（9 条）
 
 - lingyun_066｜文化墙"十个上墙"+一个避坑｜lingyun-huishui.md
@@ -1935,17 +1969,6 @@
 - shouji1_S25｜S25 点菜全链：先点后报+四问+冷热位主食酒水打包埋单｜book-shouji1.md
 - shouji1_S26｜S26 选餐厅四库+点菜经理：隐居/著名/菜系/特色｜book-shouji1.md
 - shouji1_S30｜S30 文件命名3W+办公桌断舍离+电脑三区+邮件六原则｜book-shouji1.md
-
-## 会议发言（8 条）
-
-- lingyun_077｜自我批评"五个能"拿捏分寸｜lingyun-huishui.md
-- lingyun_125｜会议纪要四用语辨析｜lingyun-huishui.md
-- zhuodaoren_17｜Z18 会议纪要三类表述｜blogger-zhuodaoren.md
-- gaigaoshi_GC75｜表态发言＝接题、破题、答题三次转换｜blogger-gaigaoshi.md
-- dashoubi_S24｜同会多篇讲话的分工与会议总结｜book-dashoubi.md
-- dashoubi_S48｜整理领导讲话逐项核查四件事｜book-dashoubi.md
-- dashoubi_S49｜整理即席讲话要保住原有亮点｜book-dashoubi.md
-- sucheng1_S48｜各类场合发言：三特点与三类型写法｜book-sucheng1.md
 
 ## 党建材料（8 条）
 
@@ -2035,10 +2058,11 @@
 - huishui_H08｜干部人事档案十类材料（2024-04-26，依据《干部人事档案工作条例》）｜lingyun-huishui.md
 - huishui_H19｜干部信息中心职责（2024-04-01，组工业务）｜lingyun-huishui.md
 
+## 表态发言（2 条）
+
+- gongwenbaidu_43｜G43 表态发言：一个思维+四类框架｜blogger-gongwenbaidu.md
+- liancheng2_S09｜表态发言的受众、内容与结构三条｜book-liancheng2.md
+
 ## 文种写法（1 条）
 
 - huishui_H07｜思想汇报写法（2023-08-28）｜lingyun-huishui.md
-
-## 表态发言（1 条）
-
-- gongwenbaidu_43｜G43 表态发言：一个思维+四类框架｜blogger-gongwenbaidu.md
