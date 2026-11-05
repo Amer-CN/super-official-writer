@@ -8,7 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;1855%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.23-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.24-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
 [![知识库](https://img.shields.io/badge/知识库-1855条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
@@ -27,6 +27,7 @@
 | 🧬 **文本算法** | 六层技能矩阵（V+N 句式基因→四大金刚→段落逻辑→框架算法→高观点层） | SKILL.md |
 | 📐 **文体模板** | 21 种文体框架（周报/月度总结/汇报/讲话稿/总结/通知/方案/调研报告…） | references/templates.md |
 | 📚 **实战知识库** | 1855 条蒸馏知识单元（48 分类 + 领域素材层 + 法定公文成稿范例层 + 报告蒸馏层 + 十七书蒸馏层 + 七博主层（v0.3 凌云+惠水 → v0.5 摆渡+捉刀人 → v0.8 改稿室 → v0.9 大雨 → v0.11 文兄 → v0.18 掌上课堂+何剑文+心法 → v0.19 36堂课+32讲+大手笔 → v0.20 炼成+28锦囊+好帮手 → v0.21 速成套装四书 → v0.22 炼成2））：标题公式、即兴发言框架、汇报口诀、金句素材、词句升级、改稿对照、思路框架、数字框架库、领域素材、法定公文成稿范例 | references/corpus-lingyun.md |
+| 🔎 **排序检索** | corpus 全条目 TF-IDF 排序（层过滤 / JSON 输出 / 零依赖），写前定位方法、卡壳查句式 | scripts/search_corpus.py |
 | 📜 **文种规范** | 15 法定文种 + 60 事务文种定义/结构/写法/辨析（请示vs报告、函vs请示、批复规矩…） | references/corpus-lingyun.md |
 | 🔍 **核稿病例** | 57 个真实公文改错案例 + 核稿十查清单（写完自查） | references/corpus-lingyun.md |
 | 📏 **风格量化验收** | 7 文种句长/顿号/力度词等 13 项参数与自检脚本（只判硬冲突与同向偏离） | references/style-params.md + scripts/check_params.py |
@@ -129,13 +130,21 @@ node scripts/render_docx.js --demo   # 生成 word/demo.docx
 
 Agent 按核稿十查清单逐项检查：文种是否在 15 法定文种内、行文关系是否匹配、标题三要素、首页显示正文、份号密级、联合行文署名、成文日期与印章……
 
+**查方法**（写前定位 / 卡壳时）：
+
+```bash
+python scripts/search_corpus.py "述职报告 问题" --top 8
+```
+
+按相关度输出「层文件:行号 / 标题 / 命中词 / 上下文片段」，再按 `references/corpus/INDEX.md` 取条目全文；`--layer hegao` 可按层收窄。
+
 ## ⚙️ 工作原理（五步流程 × 知识检索）
 
 ```
 Step 1 接收需求 ── 确认文体/受众/风格，锁定 Protected Spans
-Step 2 磨刀子 ──── 查 corpus 文种规范层（选文种）
+Step 2 磨刀子 ──── search_corpus 检索 + 查 corpus 文种规范层（选文种）
 Step 3 定盘子+搭架子 ─ 查 templates.md（文体框架）
-Step 4 敲键子 ──── 六层矩阵逐句生成；卡壳查 corpus 实战方法层
+Step 4 敲键子 ──── 六层矩阵逐句生成；卡壳用 search_corpus 排序检索实战方法层
 Step 4.5 交付 ──── 需要时调 render_docx.js 出国标 Word
 Step 5 收果子 ──── 八项算法校验 + 核稿十查（corpus 病例层）
 ```
@@ -150,6 +159,7 @@ super-official-writer/
 ├── SKILL.md                # 技能主文件：YAML frontmatter（name/description）+ 流程+算法+规则（~21KB）
 ├── README.md               # 本文件
 ├── .github/workflows/mirror-main.yml # master→main 镜像（兼容只认 main 的安装器）
+├── .github/workflows/integrity.yml   # push/PR 结构门禁（frontmatter/版本/计数/检索自测）
 ├── docs/
 │   ├── distillation-sop.md # 抖音博主蒸馏流水线 SOP（供其他窗口/项目复用）
 │   └── integration-contract.md # 集成契约（下游按编号解析本仓时的稳定性承诺；普通用户可忽略）
@@ -165,10 +175,12 @@ super-official-writer/
 │   ├── check_params.py     # 风格自检（7 文种参数对照，只判硬冲突）
 │   ├── version_check.py    # 版本自检（Step 0 检查远端更新）
 │   ├── build_corpus_index.py  # 知识分类索引生成（dataset category → corpus/INDEX.md）
+│   ├── search_corpus.py    # 知识库排序检索（TF-IDF，层过滤/JSON，零依赖）
 │   ├── package.json        # docx-js 依赖
 │   └── package-lock.json
 └── tests/
-    └── test-cases.md       # 评测基线（15 用例 × 两轮真实运行：run1 问题清单 → v0.12 修复 → run2 实效验证）
+    ├── test-cases.md       # 评测基线（15 用例 × 两轮真实运行：run1 问题清单 → v0.12 修复 → run2 实效验证）
+    └── test_search_corpus.py # 检索回归自测（8 项断言，CI 跑）
 ```
 
 </details>
@@ -176,10 +188,11 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.23</b>（2026-11-05）· v0.1 → v0.23 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.24</b>（2026-11-05）· v0.1 → v0.24 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
+| v0.24（2026-11-05） | 新增知识库排序检索 `scripts/search_corpus.py`（TF-IDF、零依赖；`--layer` 层过滤、`--json`、`--stats`）+ 结构 CI（`.github/workflows/integrity.yml`，`check_integrity.py --structural`）+ 检索回归自测；SKILL 七·二与 Step 4 接入检索入口；无知识增量（dataset 1919 条/48 类不变） |
 | v0.23（2026-11-05） | 修复（breaking）：补齐 Agent Skills 规范要求的 YAML frontmatter（`name`/`description`，修复 Cherry Studio / Claude Code 将技能登记为空描述、无法触发的问题，issue #1）；版本锚点由第 3 行下移到 H1 之后第一条非空行（格式不变，下游改用正则解析）；`check_integrity.py` 新增第 14/15 项断言（frontmatter 合规 / 锚点紧跟 H1）；新增 `.github/workflows/mirror-main.yml`（master→main 自动镜像，兼容只认 main 的安装器）；知识库与 dataset 未改动（1919 条/48 类） |
 | v0.22（2026-09-18） | + 《笔杆子是怎样炼成的2：公文写作模板》去重蒸馏 24 条（corpus 新层 book-liancheng2.md 24 条，dataset 扩至 1919 条/48 类）：逐文种工具书层——各章「老秘心得」节方法条（会议通知六处写法／责任分解表述／函与复函「收悉」／会议纪要出席列席／传达提纲留删变／简报编者按／新闻时评十切入点／贺电三段等）＋稀有文种骨架与辨析（通告公告公报议案、命令决定通报嘉奖两维、邀请函、起草说明、任职表态七类框架）；与《炼成》（liancheng 层）同作者不同书，全部共性模板本体一字不收，47 个 H1 逐节交代去向、未收录主题 19 个 H1＋4 类章节内块见底稿；实收 24 条＝23 条 P0＋S17 系 P1 套件差值特收（第二十八章无心得节／步骤节）；SKILL 计数同步（书籍 1131→1155／合计 1831→1855／分层文件 27→28） |
 | v0.21（2026-09-17） | + 《公文写作速成法》套装四册去重蒸馏 223 条（corpus 新层 book-sucheng1.md 49 条／book-sucheng2.md 54 条／book-sucheng3.md 11 条／book-sucheng4.md 109 条，dataset 扩至 1895 条/48 类）：《公文高手的25项写作技巧》遴选实战层（逐句改错型病例实录＋遴选答题路径）＋《实用公文写作一本通》逐文种起草格式层（用字规范与办文流程纪律＋法定公文独有分型＋常用公文 13 体裁施工图）＋《品味公文：关键技巧及范文精选》附录方法层（动笔前三问＋六类文稿结构清单＋三副骨架）＋《品味公文：大手笔练就之道》立意与语言美学层（物—意—文三段论＋三番来者＋详略虚实＋层段四原则＋文字校勘＋域外参照）；撞题只收增量，四卷互称归一化仅限 CHANGELOG 条目、content 内嵌套装标注 38 处落盘前剥离、层内标注 93 处保留供仲裁；SKILL 计数同步（书籍 908→1131／合计 1608→1831／分层文件 23→27） |

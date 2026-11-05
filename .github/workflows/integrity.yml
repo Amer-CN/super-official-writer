@@ -1,0 +1,44 @@
+name: integrity
+
+# 结构性门禁：只跑仓内可验证的断言，不依赖仓外 dataset / 评测稿 / 博主注册表
+# （那些资源不进公开仓，完整门禁由维护者在本地 `python scripts/check_integrity.py` 跑）。
+#
+# 覆盖范围：
+#   - SKILL.md YAML frontmatter 与版本锚点位置
+#   - 版本三处一致（SKILL 锚点 / CHANGELOG / README 徽章）
+#   - SKILL 知识计数行自洽、索引页计数抽查
+#   - Python / Node 脚本语法
+#   - 检索脚本回归自测（tests/test_search_corpus.py）
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python 语法检查
+        run: python -m py_compile scripts/*.py tests/*.py
+
+      - name: 结构完整性门禁
+        run: python scripts/check_integrity.py --structural
+
+      - name: 检索脚本自测
+        run: python tests/test_search_corpus.py
+
+      - name: Node 语法检查
+        run: node --check scripts/render_docx.js

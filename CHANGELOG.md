@@ -2,6 +2,17 @@
 
 > 用户感知每次升级的新知识。安装后跑 `python scripts/version_check.py` 检查是否有新版本；behind 时建议 `git pull` 更新。
 
+## v0.24（2026-11-05）
+
+**新增：知识库排序检索 + 结构 CI（非 breaking，无知识增量）**
+
+- `scripts/search_corpus.py`：corpus 28 个层文件的条目级 TF-IDF 排序检索，零第三方依赖。中文不切词——查询按空白/标点切片段、子串计数算 TF、跨层统计 DF 得 IDF、标题命中加权；长片段整词零命中时自动拆二元组回退。输出「相关度 / 层文件:行号 / 标题 / 命中词 / 上下文片段」，支持 `--layer` 层过滤、`--top`、`--json`、`--stats`。实测「述职报告 问题」首位命中 `book-liancheng2.md` 的「我责缺三处分寸」，「请示 一文一事」首位命中 `book-hegao.md` C41；4 次查询合计 < 0.1s。
+- SKILL.md 七·二检索规则与第八章 Step 4 接入排序检索（原 INDEX + grep 保留为取全文的后备路径）；只改检索入口，不动知识内容。
+- `.github/workflows/integrity.yml`：push/PR 跑结构性门禁（`check_integrity.py --structural`），覆盖 frontmatter/锚点、版本三处、计数自洽、索引页抽查、Python/Node 语法、检索自测；仓外 dataset/评测稿相关断言仍只在维护者本地跑。
+- `scripts/check_integrity.py` 新增 `--structural`（跳过 6 项仓外依赖）与真正生效的 `--quiet`（此前文档写了但未实现）。
+- `tests/test_search_corpus.py`：8 项断言（语料可解析、领域查询命中预期层、排序确定、层过滤、性能预算、无命中不产噪）。
+- 本版本无知识增量：dataset 不变（1919 条/48 类），corpus 条目与计数未动。
+
 ## v0.23（2026-11-05）
 
 **修复（breaking）：补齐 Agent Skills 规范要求的 YAML frontmatter**——修复 Cherry Studio / Claude Code 等按 frontmatter 识别技能的客户端把本 skill 登记为“content、描述为空”、无法触发的问题（[issue #1](https://github.com/Amer-CN/super-official-writer/issues/1)）。
