@@ -9,7 +9,7 @@
     python scripts/check_integrity.py            # 逐条输出 PASS/FAIL
     python scripts/check_integrity.py --quiet    # 只看 exit code（0=全过，1=有 FAIL）
 
-断言清单（13 项；第 13 项对 2 个层文件各抽查一次，故全过时输出 14 行 PASS）：
+断言清单（15 项；第 13 项对 2 个层文件各抽查一次，故全过时输出 16 行 PASS）：
   1. 版本三处一致（SKILL 锚点 / CHANGELOG 最新条 / README 徽章）
   2. dataset jsonl：id 唯一
   3. dataset 条数 == dataset/README.md 合计行
@@ -23,6 +23,8 @@
   11. render_docx.js creator 去版本化
   12. SKILL 正文无裸现役版本标注
   13. corpus-lingyun.md 索引页计数抽查 == 层文件实数（lingyun-huishui / 文兄两处）
+  14. SKILL.md YAML frontmatter 合规（name=super-official-writer / description 非空且 ≤1024）
+  15. 版本锚点紧跟 H1（frontmatter 之后第一条非空行，integration-contract 稳定面）
 """
 import json
 import re
@@ -166,6 +168,30 @@ def main():
         m = re.search(pat, idx)
         ok = bool(m) and int(m.group(1)) == actual
         check(f"索引页计数 == {fname} 实数", ok, f"声明 {m.group(1) if m else '?'} vs 实数 {actual}")
+
+    # 14-15. SKILL.md frontmatter 与锚点位置（v0.23 事故回归门禁）
+    # Cherry Studio / Claude Code 等按 frontmatter 的 name/description 识别技能，缺失即登记失败；
+    # 锚点位置是 docs/integration-contract.md 第三节的稳定面，变动须走 breaking 版本。
+    fm = re.match(r"^---\r?\n([\s\S]*?)\r?\n---\r?\n", skill)
+    fm_name = fm_desc = None
+    if fm:
+        m_name = re.search(r"^name:\s*(\S+)\s*$", fm.group(1), re.M)
+        m_desc = re.search(r"^description:\s*(\S.*)$", fm.group(1), re.M)
+        fm_name = m_name.group(1) if m_name else None
+        fm_desc = m_desc.group(1).strip() if m_desc else None
+    ok = fm_name == "super-official-writer" and bool(fm_desc) and 0 < len(fm_desc) <= 1024
+    check("SKILL.md frontmatter 合规（name/description）", ok,
+          "" if ok else f"name={fm_name!r} desc_len={len(fm_desc) if fm_desc else 0}")
+
+    lines = skill.splitlines()
+    h1 = "# 超级公文写作 Skill"
+    anchor_next = ""
+    if h1 in lines:
+        rest = [l.strip() for l in lines[lines.index(h1) + 1:] if l.strip()]
+        anchor_next = rest[0] if rest else ""
+    check("版本锚点紧跟 H1（frontmatter 之后第一条非空行）",
+          bool(re.fullmatch(r"<!--\s*skill-version:\s*v[\d.]+\s*-->", anchor_next)),
+          f"实际首行={anchor_next[:40]!r}")
 
     print()
     if FAILS:

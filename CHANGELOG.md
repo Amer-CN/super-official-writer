@@ -2,6 +2,17 @@
 
 > 用户感知每次升级的新知识。安装后跑 `python scripts/version_check.py` 检查是否有新版本；behind 时建议 `git pull` 更新。
 
+## v0.23（2026-11-05）
+
+**修复（breaking）：补齐 Agent Skills 规范要求的 YAML frontmatter**——修复 Cherry Studio / Claude Code 等按 frontmatter 识别技能的客户端把本 skill 登记为“content、描述为空”、无法触发的问题（[issue #1](https://github.com/Amer-CN/super-official-writer/issues/1)）。
+
+- **breaking 面：版本锚点位置**。frontmatter 必须位于文件首部，`<!-- skill-version: vX.Y -->` 随之从“第 3 行”下移到“H1 之后第一条非空行”（当前第 8 行）。**锚点格式不变**；按行号读取的下游改为正则匹配，迁移示例见 `docs/integration-contract.md` 第三节。`scripts/version_check.py` 与 `scripts/check_integrity.py` 原本即按正则定位，代码无需改动。
+- 新增 frontmatter：`name: super-official-writer`（与技能目录名一致，规范硬要求）、`description`（触发场景，≤1024 字符）。**不写 `version` 字段**——版本仍以锚点为唯一真源，避免第二版本源漂移。
+- `scripts/check_integrity.py` 新增第 14、15 项断言（frontmatter 合规 / 锚点紧跟 H1），全过输出 16 行 PASS；本次事故由此变成确定性门禁。
+- 新增 `.github/workflows/mirror-main.yml`：推送到 `master` 时自动把 `main` 强制镜像到同一提交，兼容只认 `main` 分支的安装器；`master` 仍是默认分支与唯一真源，旧 clone 无需迁移。
+- 安装文档补充分支说明、“技能目录名须与 frontmatter name 一致”提示；README 徽章/版本历史、AGENTS.md 版本锚点约定同步。
+- 知识库正文与 dataset 未改动（1919 条/48 类不变），本版本无知识增量。
+
 ## v0.22（2026-09-18）
 
 **新增：《笔杆子是怎样炼成的2：公文写作模板》（朱立东、李永新）去重蒸馏入库（24 条，非 breaking）**：

@@ -1,0 +1,26 @@
+name: mirror-main
+
+# master 是默认分支与唯一真源；本工作流在每次推送到 master 后，
+# 把 main 强制镜像到同一提交，兼容只认 main 分支的安装器。
+#
+# 设计说明：
+# - 只在 push 到 master 时触发，镜像操作推 main 不会回触发（无循环）。
+# - main 视作只读镜像，不要直接在 main 上提交；需要改 master 再推。
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Force-update main to this commit
+        run: git push origin "HEAD:main" --force

@@ -8,7 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=C0392B&center=true&vCenter=true&width=620&lines=%E4%B8%80%E5%8F%A5%E8%AF%9D%E4%B8%8B%E9%9C%80%E6%B1%82%EF%BC%8C%E5%9B%BD%E6%A0%87%20Word%20%E4%BA%A4%E4%BB%98;%E7%A3%A8%E5%88%80%E5%AD%90%C2%B7%E5%AE%9A%E7%9B%98%E5%AD%90%C2%B7%E6%90%AD%E6%9E%B6%E5%AD%90%C2%B7%E6%95%B2%E9%94%AE%E5%AD%90%C2%B7%E6%94%B6%E6%9E%9C%E5%AD%90;1855%20%E6%9D%A1%E8%92%B8%E9%A6%8F%E7%9F%A5%E8%AF%86%20%C3%97%2021%20%E7%A7%8D%E6%96%87%E4%BD%93%E6%A1%86%E6%9E%B6;%E6%A0%B8%E7%A8%BF%E5%8D%81%E6%9F%A5%20%C2%B7%20%E4%BA%8B%E5%AE%9E%E9%9B%B6%E7%AF%A1%E6%94%B9)](https://git.io/typing-svg)
 
-[![Version](https://img.shields.io/badge/Version-v0.22-C0392B?style=for-the-badge)](#-版本历史)
+[![Version](https://img.shields.io/badge/Version-v0.23-C0392B?style=for-the-badge)](#-版本历史)
 [![文体框架](https://img.shields.io/badge/文体框架-21种-3B82F6?style=for-the-badge)](#-能力矩阵)
 [![知识库](https://img.shields.io/badge/知识库-1855条-10B981?style=for-the-badge)](#-知识来源)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-8B5CF6?style=for-the-badge)](https://agentskills.io)
@@ -75,7 +75,7 @@
 
 ## 📦 安装
 
-### 方式一：Claude Code / ZCode（Agent Skills）
+### 方式一：Claude Code / Cherry Studio / ZCode（Agent Skills）
 
 ```bash
 git clone https://github.com/Amer-CN/super-official-writer.git
@@ -85,6 +85,8 @@ cp -r super-official-writer/ ~/.agents/skills/super-official-writer/
 ```
 
 新开对话即自动识别，触发场景：写/改/审任何公文、材料、汇报、总结、讲话稿。
+
+> **分支与目录名**：仓库默认分支是 `master`（另有 `main` 镜像分支，供只认 `main` 的安装器使用）。技能目录名必须保持 `super-official-writer`，与 SKILL.md frontmatter 里的 `name` 一致——Cherry Studio / Claude Code 按 frontmatter 识别技能，目录名或 frontmatter 缺失都会被登记异常（v0.23 已补齐 frontmatter，见 [CHANGELOG](CHANGELOG.md)）。
 
 ### 自动更新（v0.5+）
 
@@ -145,8 +147,9 @@ Step 5 收果子 ──── 八项算法校验 + 核稿十查（corpus 病例�
 
 ```
 super-official-writer/
-├── SKILL.md                # 技能主文件：流程+算法+规则（~21KB）
+├── SKILL.md                # 技能主文件：YAML frontmatter（name/description）+ 流程+算法+规则（~21KB）
 ├── README.md               # 本文件
+├── .github/workflows/mirror-main.yml # master→main 镜像（兼容只认 main 的安装器）
 ├── docs/
 │   ├── distillation-sop.md # 抖音博主蒸馏流水线 SOP（供其他窗口/项目复用）
 │   └── integration-contract.md # 集成契约（下游按编号解析本仓时的稳定性承诺；普通用户可忽略）
@@ -173,10 +176,11 @@ super-official-writer/
 ## 📜 版本历史
 
 <details>
-<summary><b>当前 v0.22</b>（2026-09-18）· v0.1 → v0.22 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
+<summary><b>当前 v0.23</b>（2026-11-05）· v0.1 → v0.23 完整明细点击展开 · 逐版本知识增量见 <a href="CHANGELOG.md">CHANGELOG.md</a></summary>
 
 | 版本 | 内容 |
 |------|------|
+| v0.23（2026-11-05） | 修复（breaking）：补齐 Agent Skills 规范要求的 YAML frontmatter（`name`/`description`，修复 Cherry Studio / Claude Code 将技能登记为空描述、无法触发的问题，issue #1）；版本锚点由第 3 行下移到 H1 之后第一条非空行（格式不变，下游改用正则解析）；`check_integrity.py` 新增第 14/15 项断言（frontmatter 合规 / 锚点紧跟 H1）；新增 `.github/workflows/mirror-main.yml`（master→main 自动镜像，兼容只认 main 的安装器）；知识库与 dataset 未改动（1919 条/48 类） |
 | v0.22（2026-09-18） | + 《笔杆子是怎样炼成的2：公文写作模板》去重蒸馏 24 条（corpus 新层 book-liancheng2.md 24 条，dataset 扩至 1919 条/48 类）：逐文种工具书层——各章「老秘心得」节方法条（会议通知六处写法／责任分解表述／函与复函「收悉」／会议纪要出席列席／传达提纲留删变／简报编者按／新闻时评十切入点／贺电三段等）＋稀有文种骨架与辨析（通告公告公报议案、命令决定通报嘉奖两维、邀请函、起草说明、任职表态七类框架）；与《炼成》（liancheng 层）同作者不同书，全部共性模板本体一字不收，47 个 H1 逐节交代去向、未收录主题 19 个 H1＋4 类章节内块见底稿；实收 24 条＝23 条 P0＋S17 系 P1 套件差值特收（第二十八章无心得节／步骤节）；SKILL 计数同步（书籍 1131→1155／合计 1831→1855／分层文件 27→28） |
 | v0.21（2026-09-17） | + 《公文写作速成法》套装四册去重蒸馏 223 条（corpus 新层 book-sucheng1.md 49 条／book-sucheng2.md 54 条／book-sucheng3.md 11 条／book-sucheng4.md 109 条，dataset 扩至 1895 条/48 类）：《公文高手的25项写作技巧》遴选实战层（逐句改错型病例实录＋遴选答题路径）＋《实用公文写作一本通》逐文种起草格式层（用字规范与办文流程纪律＋法定公文独有分型＋常用公文 13 体裁施工图）＋《品味公文：关键技巧及范文精选》附录方法层（动笔前三问＋六类文稿结构清单＋三副骨架）＋《品味公文：大手笔练就之道》立意与语言美学层（物—意—文三段论＋三番来者＋详略虚实＋层段四原则＋文字校勘＋域外参照）；撞题只收增量，四卷互称归一化仅限 CHANGELOG 条目、content 内嵌套装标注 38 处落盘前剥离、层内标注 93 处保留供仲裁；SKILL 计数同步（书籍 908→1131／合计 1608→1831／分层文件 23→27） |
 | v0.20（2026-09-17） | + 三本书籍去重蒸馏 152 条（corpus 新层 book-liancheng.md 34 条／book-xue28.md 28 条／book-bangshou.md 90 条，dataset 扩至 1672 条/48 类）：《笔杆子是怎样炼成的》写作方法论层（一线写手全过程复盘＋平时积累法＋公文常用词语集锦，五步框架同源不收）＋《公文写作精进：笔杆子的28个锦囊》思维与素养层（四篇 28 专题各 1 条，与 36堂课/32讲同作者 P0 差值逐专题书面化）＋《笔杆子的好帮手》新闻与法定公文层（新闻稿件章全套＋经验材料＋15 文种结构要素模板）；撞题只收增量，未收录主题见三份底稿清单；好帮手原 S09/S10 经核源书无依据删除并自 S11 起重排连续；SKILL 计数同步（书籍 756→908／合计 1456→1608／分层文件 20→23） |
